@@ -14,14 +14,30 @@ namespace StarterAssets
 		[Header("Player")]
 		[Tooltip("Move speed of the character in m/s")]
 		public float MoveSpeed = 4.0f;
-		[Tooltip("Sprint speed of the character in m/s")]
+		[Tooltip("Crouch speed of the character in m/s")]
+		public float CrouchSpeed = 2.0f;
+        [Tooltip("Slow walk speed of the character in m/s")]
+		public float SlowWalkSpeed = 2.0f;
+        [Tooltip("Sprint speed of the character in m/s")]
 		public float SprintSpeed = 6.0f;
 		[Tooltip("Rotation speed of the character")]
 		public float RotationSpeed = 1.0f;
 		[Tooltip("Acceleration and deceleration")]
 		public float SpeedChangeRate = 10.0f;
 
-		[Space(10)]
+		[Header("Crouch Settings")]
+        [Tooltip("Height of the CharacterController when standing")]
+        public float StandHeight = 2.0f;
+        [Tooltip("Height of the CharacterController when crouching")]
+        public float CrouchHeight = 1.0f;
+        [Tooltip("Speed of height interpolation")]
+        public float CrouchTransitionSpeed = 10f;
+        [Tooltip("Local Y position of the camera target when standing")]
+        public float CameraStandY = 1.6f;
+        [Tooltip("Local Y position of the camera target when crouching")]
+        public float CameraCrouchY = 0.8f;
+
+        [Space(10)]
 		[Tooltip("The height the player can jump")]
 		public float JumpHeight = 1.2f;
 		[Tooltip("The character uses its own gravity value. The engine default is -9.81f")]
@@ -59,6 +75,9 @@ namespace StarterAssets
 		private float _rotationVelocity;
 		private float _verticalVelocity;
 		private float _terminalVelocity = 53.0f;
+
+		private bool _isCrouching = false;
+		private bool _isWalking = false;
 
 		// timeout deltatime
 		private float _jumpTimeoutDelta;
@@ -114,7 +133,12 @@ namespace StarterAssets
 		{
 			JumpAndGravity();
 			GroundedCheck();
-			Move();
+			
+			_isCrouching = _input.crouch;
+			_isWalking = _input.walk;
+
+			HandleCrouch();
+            Move();
 		}
 
 		private void LateUpdate()
@@ -154,13 +178,37 @@ namespace StarterAssets
 		private void Move()
 		{
 			// set target speed based on move speed, sprint speed and if sprint is pressed
-			float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
+			//float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
 
-			// a simplistic acceleration and deceleration designed to be easy to remove, replace, or iterate upon
+			float targetSpeed;
 
-			// note: Vector2's == operator uses approximation so is not floating point error prone, and is cheaper than magnitude
-			// if there is no input, set the target speed to 0
-			if (_input.move == Vector2.zero) targetSpeed = 0.0f;
+
+            if (_isCrouching && _isWalking)
+            {
+                targetSpeed = SlowWalkSpeed;
+            }
+            else if (_isCrouching)
+            {
+                targetSpeed = CrouchSpeed;
+            }
+            else if (_isWalking)
+            {
+                targetSpeed = SlowWalkSpeed;
+            }
+            else if (_input.sprint)
+            {
+                targetSpeed = SprintSpeed;
+            }
+            else
+            {
+                targetSpeed = MoveSpeed;
+            }
+
+            // a simplistic acceleration and deceleration designed to be easy to remove, replace, or iterate upon
+
+            // note: Vector2's == operator uses approximation so is not floating point error prone, and is cheaper than magnitude
+            // if there is no input, set the target speed to 0
+            if (_input.move == Vector2.zero) targetSpeed = 0.0f;
 
 			// a reference to the players current horizontal velocity
 			float currentHorizontalSpeed = new Vector3(_controller.velocity.x, 0.0f, _controller.velocity.z).magnitude;
@@ -197,6 +245,22 @@ namespace StarterAssets
 			// move the player
 			_controller.Move(inputDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
 		}
+
+		private void HandleCrouch()
+		{
+			float targetHeight = _isCrouching ? CrouchHeight : StandHeight;
+			float targetCameraY = _isCrouching ? CameraCrouchY : CameraStandY;
+
+			_controller.height = Mathf.Lerp(_controller.height, targetHeight, Time.deltaTime * CrouchTransitionSpeed);
+
+			Vector3 newCenter = _controller.center;
+			newCenter.y = _controller.height / 2f;
+			_controller.center = newCenter;
+
+            Vector3 camLocal = CinemachineCameraTarget.transform.localPosition;
+            camLocal.y = Mathf.Lerp(camLocal.y, targetCameraY, Time.deltaTime * CrouchTransitionSpeed);
+            CinemachineCameraTarget.transform.localPosition = camLocal;
+        }
 
 		private void JumpAndGravity()
 		{
