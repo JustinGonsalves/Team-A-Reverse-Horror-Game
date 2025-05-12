@@ -1613,18 +1613,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 249233288731728570, guid: 1f35a212f58efbf4caa6441c36aae609, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.189628
-      objectReference: {fileID: 0}
-    - target: {fileID: 249233288731728570, guid: 1f35a212f58efbf4caa6441c36aae609, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.8257779
-      objectReference: {fileID: 0}
-    - target: {fileID: 249233288731728570, guid: 1f35a212f58efbf4caa6441c36aae609, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.04938329
-      objectReference: {fileID: 0}
     - target: {fileID: 1729145570840349422, guid: 1f35a212f58efbf4caa6441c36aae609, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.59327686
@@ -1665,37 +1653,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2007386778333312076, guid: 1f35a212f58efbf4caa6441c36aae609, type: 3}
-      propertyPath: MoveSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2007386778333312076, guid: 1f35a212f58efbf4caa6441c36aae609, type: 3}
-      propertyPath: CrouchSpeed
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2007386778333312076, guid: 1f35a212f58efbf4caa6441c36aae609, type: 3}
-      propertyPath: SprintSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2007386778333312076, guid: 1f35a212f58efbf4caa6441c36aae609, type: 3}
-      propertyPath: SlowWalkSpeed
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3178477783295960443, guid: 1f35a212f58efbf4caa6441c36aae609, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 7200749680307504992, guid: 1f35a212f58efbf4caa6441c36aae609, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.1896284
-      objectReference: {fileID: 0}
-    - target: {fileID: 7200749680307504992, guid: 1f35a212f58efbf4caa6441c36aae609, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.04938321
-      objectReference: {fileID: 0}
-    - target: {fileID: 7579038783186183411, guid: 1f35a212f58efbf4caa6441c36aae609, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
