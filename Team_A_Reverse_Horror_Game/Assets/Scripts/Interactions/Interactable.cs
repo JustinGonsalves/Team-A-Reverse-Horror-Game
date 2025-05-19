@@ -20,6 +20,7 @@ public class Interactable : MonoBehaviour
     public virtual void Interact()
     {
         if (hasBeenInteracted) return;
+        Debug.Log("No Interact function");
         hasBeenInteracted = true;        
     }
 
