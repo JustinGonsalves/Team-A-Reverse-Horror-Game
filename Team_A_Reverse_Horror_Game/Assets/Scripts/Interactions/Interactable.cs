@@ -4,8 +4,9 @@ public class Interactable : MonoBehaviour
 {
     public enum KarmaType { None, Good, Bad}
 
-    protected bool hasBeenInteracted = false;
-    public bool HasBeenInteracted => hasBeenInteracted;
+    //protected bool hasBeenInteracted = false;
+    //public bool HasBeenInteracted => hasBeenInteracted;
+    public bool hasBeenInteracted = false;
 
     public virtual KarmaType GetKarmaType()
     {
@@ -17,11 +18,19 @@ public class Interactable : MonoBehaviour
         return 0;
     }
 
-    public virtual void Interact()
+    public virtual void PositiveInteract()
     {
-        if (hasBeenInteracted) return;
+        //if (hasBeenInteracted) return;
+        //hasBeenInteracted = true;
         Debug.Log("No Interact function");
-        hasBeenInteracted = true;        
+     
+    }
+
+    public virtual void NegativeInteract()
+    {
+        //if (hasBeenInteracted) return;
+        //hasBeenInteracted = true;
+        Debug.Log("No Interact function");
     }
 
     public virtual void OnHoverStart() { }

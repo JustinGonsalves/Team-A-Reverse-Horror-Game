@@ -18,7 +18,7 @@ public class BedroomLight : Interactable
         return KarmaValue;
     }
 
-    public override void Interact()
+    public override void PositiveInteract()
     {
         if (hasBeenInteracted) return;
 
@@ -30,7 +30,7 @@ public class BedroomLight : Interactable
 
     public override void OnHoverStart()
     {
-        if (!HasBeenInteracted)
+        if (!hasBeenInteracted)
         {
             SetAuraActive(true);
         }
