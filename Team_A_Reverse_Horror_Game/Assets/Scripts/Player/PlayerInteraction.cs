@@ -69,4 +69,9 @@ public class PlayerInteraction : MonoBehaviour
             currentHovered.NegativeInteract();
         }
     }
+
+    public void ClearHoveredReference()
+    {
+        currentHovered = null;
+    }
 }

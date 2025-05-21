@@ -24,7 +24,9 @@ public class TestLight : Interactable
 
     public override void NegativeInteract()
     {
+        Object.FindFirstObjectByType<PlayerInteraction>().ClearHoveredReference();
         Destroy(gameObject);
+        hasBeenInteracted = true;
     }
 
     public override void OnHoverStart()
