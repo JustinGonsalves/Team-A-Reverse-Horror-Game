@@ -1,74 +1,207 @@
 fileFormatVersion: 2
 guid: ffa7d96b5d7840a4cbd2dae3c5a06107
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121404
+  packageName: DS Furniture Pack 01
+  packageVersion: 1.0
+  assetPath: Assets/danthaigames/DS Furniture Pack 01/Assets/FBX/TV.fbx
+  uploadId: 252737
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: Channel Buttons
-    100002: Controls Panel
-    100004: Handle Left
-    100006: Handle Right
-    100008: Screen
-    100010: Screen Surround
-    100012: Slider Button
-    100014: Slider Button.001
-    100016: //RootNode
-    100018: TV Back
-    100020: TV Front Panel 01
-    400000: Channel Buttons
-    400002: Controls Panel
-    400004: Handle Left
-    400006: Handle Right
-    400008: Screen
-    400010: Screen Surround
-    400012: Slider Button
-    400014: Slider Button.001
-    400016: //RootNode
-    400018: TV Back
-    400020: TV Front Panel 01
-    2100000: Chrome Frame
-    2100002: TV Texture
-    2100004: TV Feet
-    2100006: Handle Material
-    2100008: Power Button
-    2100010: Slider Button Material
-    2100012: Screen Surround Black
-    2300000: Channel Buttons
-    2300002: Controls Panel
-    2300004: Handle Left
-    2300006: Handle Right
-    2300008: Screen
-    2300010: Screen Surround
-    2300012: Slider Button
-    2300014: Slider Button.001
-    2300016: //RootNode
-    2300018: TV Back
-    2300020: TV Front Panel 01
-    3300000: Channel Buttons
-    3300002: Controls Panel
-    3300004: Handle Left
-    3300006: Handle Right
-    3300008: Screen
-    3300010: Screen Surround
-    3300012: Slider Button
-    3300014: Slider Button.001
-    3300016: //RootNode
-    3300018: TV Back
-    3300020: TV Front Panel 01
-    4300000: Wooden Frame
-    4300002: Handle Right
-    4300004: TV Front Panel 01
-    4300006: Controls Panel
-    4300008: Channel Buttons
-    4300010: Slider Button.001
-    4300012: Slider Button
-    4300014: Screen Surround
-    4300016: Screen
-    4300018: Handle Left
-    4300020: TV Back
-    2186277476908879412: ImportLogs
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Channel Buttons
+  - first:
+      1: 100002
+    second: Controls Panel
+  - first:
+      1: 100004
+    second: Handle Left
+  - first:
+      1: 100006
+    second: Handle Right
+  - first:
+      1: 100008
+    second: Screen
+  - first:
+      1: 100010
+    second: Screen Surround
+  - first:
+      1: 100012
+    second: Slider Button
+  - first:
+      1: 100014
+    second: Slider Button.001
+  - first:
+      1: 100016
+    second: //RootNode
+  - first:
+      1: 100018
+    second: TV Back
+  - first:
+      1: 100020
+    second: TV Front Panel 01
+  - first:
+      4: 400000
+    second: Channel Buttons
+  - first:
+      4: 400002
+    second: Controls Panel
+  - first:
+      4: 400004
+    second: Handle Left
+  - first:
+      4: 400006
+    second: Handle Right
+  - first:
+      4: 400008
+    second: Screen
+  - first:
+      4: 400010
+    second: Screen Surround
+  - first:
+      4: 400012
+    second: Slider Button
+  - first:
+      4: 400014
+    second: Slider Button.001
+  - first:
+      4: 400016
+    second: //RootNode
+  - first:
+      4: 400018
+    second: TV Back
+  - first:
+      4: 400020
+    second: TV Front Panel 01
+  - first:
+      21: 2100000
+    second: Chrome Frame
+  - first:
+      21: 2100002
+    second: TV Texture
+  - first:
+      21: 2100004
+    second: TV Feet
+  - first:
+      21: 2100006
+    second: Handle Material
+  - first:
+      21: 2100008
+    second: Power Button
+  - first:
+      21: 2100010
+    second: Slider Button Material
+  - first:
+      21: 2100012
+    second: Screen Surround Black
+  - first:
+      23: 2300000
+    second: Channel Buttons
+  - first:
+      23: 2300002
+    second: Controls Panel
+  - first:
+      23: 2300004
+    second: Handle Left
+  - first:
+      23: 2300006
+    second: Handle Right
+  - first:
+      23: 2300008
+    second: Screen
+  - first:
+      23: 2300010
+    second: Screen Surround
+  - first:
+      23: 2300012
+    second: Slider Button
+  - first:
+      23: 2300014
+    second: Slider Button.001
+  - first:
+      23: 2300016
+    second: //RootNode
+  - first:
+      23: 2300018
+    second: TV Back
+  - first:
+      23: 2300020
+    second: TV Front Panel 01
+  - first:
+      33: 3300000
+    second: Channel Buttons
+  - first:
+      33: 3300002
+    second: Controls Panel
+  - first:
+      33: 3300004
+    second: Handle Left
+  - first:
+      33: 3300006
+    second: Handle Right
+  - first:
+      33: 3300008
+    second: Screen
+  - first:
+      33: 3300010
+    second: Screen Surround
+  - first:
+      33: 3300012
+    second: Slider Button
+  - first:
+      33: 3300014
+    second: Slider Button.001
+  - first:
+      33: 3300016
+    second: //RootNode
+  - first:
+      33: 3300018
+    second: TV Back
+  - first:
+      33: 3300020
+    second: TV Front Panel 01
+  - first:
+      43: 4300000
+    second: Wooden Frame
+  - first:
+      43: 4300002
+    second: Handle Right
+  - first:
+      43: 4300004
+    second: TV Front Panel 01
+  - first:
+      43: 4300006
+    second: Controls Panel
+  - first:
+      43: 4300008
+    second: Channel Buttons
+  - first:
+      43: 4300010
+    second: Slider Button.001
+  - first:
+      43: 4300012
+    second: Slider Button
+  - first:
+      43: 4300014
+    second: Screen Surround
+  - first:
+      43: 4300016
+    second: Screen
+  - first:
+      43: 4300018
+    second: Handle Left
+  - first:
+      43: 4300020
+    second: TV Back
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -77,9 +210,8 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -100,32 +232,49 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
-    normalSmoothAngle: 60
-    normalImportMode: 0
+    normalSmoothAngle: 90
+    normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -135,22 +284,20 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 121404
-  packageName: DS Furniture Pack 01
-  packageVersion: 1.0
-  assetPath: Assets/danthaigames/DS Furniture Pack 01/Assets/FBX/TV.fbx
-  uploadId: 252737

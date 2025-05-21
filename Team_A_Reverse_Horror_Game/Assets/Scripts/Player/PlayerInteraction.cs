@@ -58,15 +58,21 @@ public class PlayerInteraction : MonoBehaviour
         // If you're looking at an object that hasn't already been interacted with and press E
         if (currentHovered != null && Input.GetKeyDown(KeyCode.E) && !currentHovered.hasBeenInteracted)
         {
-            playerAnimator.Play("interact");
-            currentHovered.PositiveInteract();
+            if (currentHovered.SupportsPositiveInteraction)
+            {
+                playerAnimator.Play("interact");
+                currentHovered.PositiveInteract();
+            }
         }
 
         // If you're looking at an object that hasn't already been interacted with and press E
         if (currentHovered != null && Input.GetKeyDown(KeyCode.Q) && !currentHovered.hasBeenInteracted)
         {
-            playerAnimator.Play("swipe");
-            currentHovered.NegativeInteract();
+           if (currentHovered.SupportsNegativeInteraction)
+            {
+                playerAnimator.Play("swipe");
+                currentHovered.NegativeInteract();
+            }
         }
     }
 

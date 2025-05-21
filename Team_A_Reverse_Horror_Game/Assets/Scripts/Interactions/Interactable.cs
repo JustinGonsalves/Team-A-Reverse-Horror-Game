@@ -3,34 +3,53 @@ using UnityEngine;
 public class Interactable : MonoBehaviour
 {
     public enum KarmaType { None, Good, Bad}
+    
+    protected KarmaType selectedKarmaType = KarmaType.None;
+    protected int karmaValueEffect = 0;
 
-    //protected bool hasBeenInteracted = false;
-    //public bool HasBeenInteracted => hasBeenInteracted;
     public bool hasBeenInteracted = false;
 
+    // By default both positive and negative interaction possible, override either in script if needed
+    public virtual bool SupportsPositiveInteraction => true;
+    public virtual bool SupportsNegativeInteraction => true;
+
+    // In object script, can use ' return base.GetKarmaType(); '
     public virtual KarmaType GetKarmaType()
     {
-        return KarmaType.None;
+        return selectedKarmaType;
     }
 
+    // In object script, can use ' return base.GetKarmaValue(); '
     public virtual int GetKarmaValue()
     {
-        return 0;
+        return karmaValueEffect;
     }
 
+    // Fill this with custom object code
     public virtual void PositiveInteract()
     {
-        //if (hasBeenInteracted) return;
-        //hasBeenInteracted = true;
-        Debug.Log("No Interact function");
+        if (hasBeenInteracted) return;
+        hasBeenInteracted = true;
+
+        selectedKarmaType = KarmaType.Good;
+        //Only add this if good/bad choice presented on chosen object
+        karmaValueEffect = 15;
+
+        Debug.Log("No custom interact function written");
      
     }
 
+    // Fill this with custom object code
     public virtual void NegativeInteract()
     {
-        //if (hasBeenInteracted) return;
-        //hasBeenInteracted = true;
-        Debug.Log("No Interact function");
+        if (hasBeenInteracted) return;
+        hasBeenInteracted = true;
+
+        selectedKarmaType = KarmaType.Good;
+        //Only add this if good/bad choice presented on chosen object
+        karmaValueEffect = -15;
+
+        Debug.Log("No custom interact function written");
     }
 
     public virtual void OnHoverStart() { }

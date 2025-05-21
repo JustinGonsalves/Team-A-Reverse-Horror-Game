@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GoodOutline
+  m_Name: NeutralOutline
   m_Shader: {fileID: -6465566751694194690, guid: e2396643222a8c44095f28169e5d3e7c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -56,6 +56,6 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _OutlineColour: {r: 0.2396226, g: 0.49265474, b: 1, a: 0}
+    - _OutlineColour: {r: 0.2320754, g: 0.8886224, b: 1, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -1,12 +1,11 @@
 using UnityEngine;
-using UnityEngine.Experimental.GlobalIllumination;
 
-public class TestVase : Interactable
+public class TestTV : Interactable
 {
-    public float pushForce = 3f;
+    public Light pointLight;
+    private bool isTurnedOn = false;
 
-    // Specify no positive interaction possible
-    public override bool SupportsPositiveInteraction => false;
+    public float pushForce = 3f;
 
     public override KarmaType GetKarmaType()
     {
@@ -16,6 +15,32 @@ public class TestVase : Interactable
     public override int GetKarmaValue()
     {
         return base.GetKarmaValue();
+    }
+
+    public override void PositiveInteract()
+    {
+        if (hasBeenInteracted) return;
+
+        isTurnedOn = true;
+        hasBeenInteracted = true;
+
+        selectedKarmaType = KarmaType.Good;
+        karmaValueEffect = 15;
+
+        if (pointLight != null)
+        {
+            pointLight.enabled = isTurnedOn;
+            Transform outline = transform.Find("Outline");
+
+            if (outline != null)
+            {
+                outline.gameObject.SetActive(false);
+            }
+        }
+
+        Debug.Log("Positive interaction with TV. Karma Type: " + GetKarmaType());
+        Debug.Log("Karma Change = " + GetKarmaValue());
+
     }
 
     public override void NegativeInteract()
@@ -31,12 +56,12 @@ public class TestVase : Interactable
 
         Transform outline = transform.Find("Outline");
 
-        if (outline != null )
+        if (outline != null)
         {
             outline.gameObject.SetActive(false);
         }
 
-        Debug.Log("Interacted with Vase. Karma Type: " + GetKarmaType());
+        Debug.Log("Negative interaction with TV. Karma Type: " + GetKarmaType());
         Debug.Log("Karma Change = " + GetKarmaValue());
     }
 
