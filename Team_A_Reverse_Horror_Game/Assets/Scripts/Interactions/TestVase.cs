@@ -13,7 +13,7 @@ public class TestVase : Interactable
         return base.GetKarmaType();
     }
 
-    public override int GetKarmaValue()
+    public override float GetKarmaValue()
     {
         return base.GetKarmaValue();
     }
@@ -27,7 +27,7 @@ public class TestVase : Interactable
         Push(pushDirection);
 
         selectedKarmaType = KarmaType.Bad;
-        karmaValueEffect = -15;
+        karmaValueEffect = -16.6f;
 
         Transform outline = transform.Find("Outline");
 

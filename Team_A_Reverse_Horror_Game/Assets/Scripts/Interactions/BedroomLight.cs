@@ -13,7 +13,7 @@ public class BedroomLight : Interactable
         return KarmaType.Good;
     }
 
-    public override int GetKarmaValue()
+    public override float GetKarmaValue()
     {
         return KarmaValue;
     }

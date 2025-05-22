@@ -5,7 +5,7 @@ public class Interactable : MonoBehaviour
     public enum KarmaType { None, Good, Bad}
     
     protected KarmaType selectedKarmaType = KarmaType.None;
-    protected int karmaValueEffect = 0;
+    protected float karmaValueEffect = 0f;
 
     public bool hasBeenInteracted = false;
 
@@ -20,7 +20,7 @@ public class Interactable : MonoBehaviour
     }
 
     // In object script, can use ' return base.GetKarmaValue(); '
-    public virtual int GetKarmaValue()
+    public virtual float GetKarmaValue()
     {
         return karmaValueEffect;
     }

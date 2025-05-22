@@ -12,7 +12,7 @@ public class TestTV : Interactable
         return base.GetKarmaType();
     }
 
-    public override int GetKarmaValue()
+    public override float GetKarmaValue()
     {
         return base.GetKarmaValue();
     }
@@ -25,7 +25,7 @@ public class TestTV : Interactable
         hasBeenInteracted = true;
 
         selectedKarmaType = KarmaType.Good;
-        karmaValueEffect = 15;
+        karmaValueEffect = 16.6f;
 
         if (pointLight != null)
         {
@@ -52,7 +52,7 @@ public class TestTV : Interactable
         Push(pushDirection);
 
         selectedKarmaType = KarmaType.Bad;
-        karmaValueEffect = -15;
+        karmaValueEffect = -16.6f;
 
         Transform outline = transform.Find("Outline");
 

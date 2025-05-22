@@ -13,7 +13,7 @@ public class TestLight : Interactable
         return base.GetKarmaType();
     }
 
-    public override int GetKarmaValue()
+    public override float GetKarmaValue()
     {
         return base.GetKarmaValue();
     }
@@ -26,7 +26,7 @@ public class TestLight : Interactable
         hasBeenInteracted = true;
 
         selectedKarmaType = KarmaType.Good;
-        karmaValueEffect = 15;
+        karmaValueEffect = 16.6f;
 
         if (pointLight != null)
         {

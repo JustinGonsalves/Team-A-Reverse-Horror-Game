@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class KarmaManager : MonoBehaviour
 {
-    public int totalKarma = 50;
+    public float totalKarma = 50;
 
     public int goodActions = 0;
     public int badActions = 0;
 
 
-    public void ApplyKarmaFromInteractable(int karmaValue, Interactable.KarmaType karmaType)
+    public void ApplyKarmaFromInteractable(float karmaValue, Interactable.KarmaType karmaType)
     {
         totalKarma += karmaValue;
 
@@ -25,7 +25,7 @@ public class KarmaManager : MonoBehaviour
         Debug.Log($"Karma changed by {karmaValue}. Total Karma: {totalKarma}. You've performed {goodActions} Good deeds, and {badActions} Bad deeds");
     }
 
-    public void ApplyKarmaFromGurgle(int karmaValue)
+    public void ApplyKarmaFromGurgle(float karmaValue)
     {
         totalKarma += karmaValue;
         badActions++;
