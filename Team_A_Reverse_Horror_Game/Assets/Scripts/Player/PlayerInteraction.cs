@@ -2,14 +2,24 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
+    // Length of player interaction
     public float interactDistance = 3f;
     public Camera playerCamera;
     public Animator playerAnimator;
 
+    // Slot for current interactable looked at
     private Interactable currentHovered;
+    private KarmaManager karmaManager;
+
+    private void Start()
+    {
+        // Find and assign KarmaManager script
+        karmaManager = GetComponent<KarmaManager>();
+    }
 
     private void Update()
     {
+        // Each frame run raycast and interact methods
         HandleInteractionRaycast();
         HandleInteractionInput();
     }
@@ -62,6 +72,7 @@ public class PlayerInteraction : MonoBehaviour
             {
                 playerAnimator.Play("interact");
                 currentHovered.PositiveInteract();
+                karmaManager.ApplyKarmaFromInteractable(currentHovered.GetKarmaValue(), currentHovered.GetKarmaType());
             }
         }
 
@@ -72,6 +83,7 @@ public class PlayerInteraction : MonoBehaviour
             {
                 playerAnimator.Play("swipe");
                 currentHovered.NegativeInteract();
+                karmaManager.ApplyKarmaFromInteractable(currentHovered.GetKarmaValue(), currentHovered.GetKarmaType());
             }
         }
     }
