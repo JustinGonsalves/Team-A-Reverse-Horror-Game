@@ -8,7 +8,8 @@ public class PlayerInteraction : MonoBehaviour
     public Animator playerAnimator;
 
     // Slot for current interactable looked at
-    private Interactable currentHovered;
+    public Interactable currentHovered;
+    public Interactable pendingInteraction;
     private KarmaManager karmaManager;
 
     private void Start()
@@ -70,8 +71,9 @@ public class PlayerInteraction : MonoBehaviour
         {
             if (currentHovered.SupportsPositiveInteraction)
             {
+                pendingInteraction = currentHovered;
                 playerAnimator.Play("interact");
-                currentHovered.PositiveInteract();
+                //currentHovered.PositiveInteract();
                 karmaManager.ApplyKarmaFromInteractable(currentHovered.GetKarmaValue(), currentHovered.GetKarmaType());
             }
         }
@@ -81,8 +83,9 @@ public class PlayerInteraction : MonoBehaviour
         {
            if (currentHovered.SupportsNegativeInteraction)
             {
+                pendingInteraction = currentHovered;
                 playerAnimator.Play("swipe");
-                currentHovered.NegativeInteract();
+                //currentHovered.NegativeInteract();
                 karmaManager.ApplyKarmaFromInteractable(currentHovered.GetKarmaValue(), currentHovered.GetKarmaType());
             }
         }

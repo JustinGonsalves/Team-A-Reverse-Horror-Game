@@ -21,10 +21,10 @@ public class BedroomLight : Interactable
     public override void PositiveInteract()
     {
         if (hasBeenInteracted) return;
+        hasBeenInteracted = true;
 
         isTurnedOn = !isTurnedOn;
         Debug.Log(isTurnedOn ? "Light turned on" : "Light turned off");
-        hasBeenInteracted = true;
         SetAuraActive(false);
     }
 

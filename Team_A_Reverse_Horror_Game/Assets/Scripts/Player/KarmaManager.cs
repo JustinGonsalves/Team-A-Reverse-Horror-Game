@@ -10,8 +10,10 @@ public class KarmaManager : MonoBehaviour
 
     public void ApplyKarmaFromInteractable(float karmaValue, Interactable.KarmaType karmaType)
     {
+        // Add value of interaction
         totalKarma += karmaValue;
 
+        // Log if Interaction is Good or Bad
         if (karmaType == Interactable.KarmaType.Good)
         {
             goodActions++;
@@ -25,6 +27,7 @@ public class KarmaManager : MonoBehaviour
         Debug.Log($"Karma changed by {karmaValue}. Total Karma: {totalKarma}. You've performed {goodActions} Good deeds, and {badActions} Bad deeds");
     }
 
+    // To be called from Gurgle interaction
     public void ApplyKarmaFromGurgle(float karmaValue)
     {
         totalKarma += karmaValue;

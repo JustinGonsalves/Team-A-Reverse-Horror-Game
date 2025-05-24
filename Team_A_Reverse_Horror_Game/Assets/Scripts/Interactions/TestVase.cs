@@ -27,7 +27,7 @@ public class TestVase : Interactable
         Push(pushDirection);
 
         selectedKarmaType = KarmaType.Bad;
-        karmaValueEffect = -16.6f;
+        karmaValueEffect = 16.6f;
 
         Transform outline = transform.Find("Outline");
 

@@ -26,7 +26,7 @@ public class TestLight : Interactable
         hasBeenInteracted = true;
 
         selectedKarmaType = KarmaType.Good;
-        karmaValueEffect = 16.6f;
+        karmaValueEffect = -16.6f;
 
         if (pointLight != null)
         {
