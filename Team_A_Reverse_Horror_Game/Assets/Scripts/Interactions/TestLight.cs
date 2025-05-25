@@ -2,7 +2,10 @@ using UnityEngine;
 
 public class TestLight : Interactable
 {
+    // Reference to light child object, assigned in editor
     public Light pointLight;
+
+    // Light starts off
     private bool isTurnedOn = false;
 
     // Specify no negative interaction possible
@@ -22,6 +25,7 @@ public class TestLight : Interactable
     {
         if (hasBeenInteracted) return;
         
+        // Toggles the light on/off variable
         isTurnedOn = !isTurnedOn;
         hasBeenInteracted = true;
 
@@ -30,6 +34,7 @@ public class TestLight : Interactable
 
         if (pointLight != null)
         {
+            // Turns the light on
             pointLight.enabled = isTurnedOn;
             Transform outline = transform.Find("Outline");
 

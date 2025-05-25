@@ -4,6 +4,8 @@ public class InteractableBottle : Interactable
 {
     // Force applied on push
     public float pushForce = 3f;
+    
+    // Audio clips assigned in editor
     public AudioClip smashAudio;
     public AudioClip pushSound;
 
@@ -25,9 +27,12 @@ public class InteractableBottle : Interactable
         if (hasBeenInteracted) return;
         hasBeenInteracted = true;
 
+        // Local variable stores direction of push relative to gameobject
         Vector3 pushDirection = -transform.forward;
 
+        // Plays the push noise at the objects location
         AudioSource.PlayClipAtPoint(pushSound, transform.position);
+        // Calls the push function
         Push(pushDirection);
 
         selectedKarmaType = KarmaType.Bad;
@@ -79,9 +84,12 @@ public class InteractableBottle : Interactable
 
     public void Push(Vector3 direction)
     {
+        // Reference to Objects rigidbody
         Rigidbody rb = GetComponent<Rigidbody>();
+        // If it is present (prevents crashes)
         if (rb != null)
         {
+            // Adds impulse force to item, knocking it back
             rb.AddForce(direction.normalized * pushForce, ForceMode.Impulse);
         }
     }
