@@ -10764,34 +10764,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: LargeTV
       objectReference: {fileID: 0}
-    - target: {fileID: 2368425000471484281, guid: 193620401d561f24ab714e6517913572, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2368425000471484281, guid: 193620401d561f24ab714e6517913572, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.061
-      objectReference: {fileID: 0}
-    - target: {fileID: 5200540284507550895, guid: 193620401d561f24ab714e6517913572, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5200540284507550895, guid: 193620401d561f24ab714e6517913572, type: 3}
-      propertyPath: m_Shadows.m_NearPlane
-      value: 0.24280979
-      objectReference: {fileID: 0}
-    - target: {fileID: 5230010675538273988, guid: 193620401d561f24ab714e6517913572, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.7793813
-      objectReference: {fileID: 0}
-    - target: {fileID: 5230010675538273988, guid: 193620401d561f24ab714e6517913572, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.7793813
-      objectReference: {fileID: 0}
-    - target: {fileID: 5230010675538273988, guid: 193620401d561f24ab714e6517913572, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.7793813
-      objectReference: {fileID: 0}
     - target: {fileID: 5230010675538273988, guid: 193620401d561f24ab714e6517913572, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.651
@@ -10830,10 +10802,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5230010675538273988, guid: 193620401d561f24ab714e6517913572, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5402492536102109717, guid: 193620401d561f24ab714e6517913572, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
