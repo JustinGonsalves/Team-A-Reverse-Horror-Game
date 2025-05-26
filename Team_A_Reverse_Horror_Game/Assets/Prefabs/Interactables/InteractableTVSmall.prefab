@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 3132711512851770342}
   - component: {fileID: 3154183887600667784}
   m_Layer: 0
-  m_Name: InteractableTV
+  m_Name: InteractableTVSmall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -464,7 +464,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 1.703, y: 0.16018191, z: 18.443}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.4525, y: 1.4525, z: 1.4525}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7494189326555465308}
@@ -486,7 +486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hasBeenInteracted: 0
   pointLight: {fileID: 6969189721524389215}
-  pushForce: 3
+  pushForce: 5
   toggleSwitchNoise: {fileID: 8300000, guid: af94b27cabb9ad6418dc5f42aedbf696, type: 3}
 --- !u!114 &3502102443240873527
 MonoBehaviour:

@@ -33,6 +33,6 @@ public class KarmaManager : MonoBehaviour
         totalKarma += karmaValue;
         badActions++;
 
-        Debug.Log($"Karma changed by {karmaValue}. Total Karma: {totalKarma}");
+        Debug.Log($"Karma changed by {karmaValue}. Total Karma: {totalKarma}. You've performed {goodActions} Good deeds, and {badActions} Bad deeds");
     }
 }
