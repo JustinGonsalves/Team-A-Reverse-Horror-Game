@@ -6,11 +6,16 @@ public class PlayerInteraction : MonoBehaviour
     public float interactDistance = 3f;
     public Camera playerCamera;
     public Animator playerAnimator;
+    public AudioClip gurgleNoise;
 
     // Slot for current interactable looked at
     public Interactable currentHovered;
     public Interactable pendingInteraction;
     private KarmaManager karmaManager;
+    
+    
+    private bool isInGurgleZone = false;
+    private bool hasGurgled = false;
 
     private void Start()
     {
@@ -88,6 +93,33 @@ public class PlayerInteraction : MonoBehaviour
                 //currentHovered.NegativeInteract();
                 karmaManager.ApplyKarmaFromInteractable(currentHovered.GetKarmaValue(), currentHovered.GetKarmaType());
             }
+        }
+
+        if (currentHovered == null && !hasGurgled && isInGurgleZone)
+        {
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                hasGurgled = true;
+                karmaManager.ApplyKarmaFromGurgle(16.6f);
+                AudioSource.PlayClipAtPoint(gurgleNoise,transform.position);
+            }
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Gurgle Zone") && !hasGurgled)
+        {
+            isInGurgleZone = true;
+            Debug.Log("entered gurgle zone");
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Gurgle Zone"))
+        {
+            isInGurgleZone = false;
         }
     }
 
