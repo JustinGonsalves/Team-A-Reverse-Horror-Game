@@ -77,7 +77,7 @@ namespace StarterAssets
 		private float _terminalVelocity = 53.0f;
 
 		private bool _isCrouching = false;
-		private bool _isWalking = false;
+		public bool _isWalking = false;
 
 		// timeout deltatime
 		private float _jumpTimeoutDelta;
