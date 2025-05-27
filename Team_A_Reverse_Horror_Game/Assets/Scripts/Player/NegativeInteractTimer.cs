@@ -6,13 +6,16 @@ public class NegativeInteractTimer : MonoBehaviour
     
     // Reference to player interaction script
     public PlayerInteraction playerInteraction;
+    // Reference to Karma Manager script;
+    public KarmaManager karmaManager;
 
     public void NegativeInteractTiming()
     {
         // If reference not assigned
         if (playerInteraction == null)
         {
-            Debug.Log("Assign a reference to the playerInteraction script");
+            Debug.Log("Assign a reference to the playerInteraction script or KarmaManager");
+            return;
         }
 
         // If reference assigned properly
@@ -20,6 +23,8 @@ public class NegativeInteractTimer : MonoBehaviour
         {
             // Triger the negative interact function of current hovered interactable
             playerInteraction.pendingInteraction.NegativeInteract();
+            //Apply Karma Values
+            karmaManager.ApplyKarmaFromInteractable(playerInteraction.pendingInteraction.GetKarmaValue(),playerInteraction.pendingInteraction.GetKarmaType());
             // Clear reference
             playerInteraction.pendingInteraction = null;
         }
