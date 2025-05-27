@@ -3742,6 +3742,7 @@ MonoBehaviour:
   totalKarma: 50
   goodActions: 0
   badActions: 0
+  karmaBar: {fileID: 0}
 --- !u!4 &511530994 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2131518998595109003, guid: 98ccaac5ef4cded498a86349bc17f210, type: 3}
@@ -11701,6 +11702,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 161832283609430485, guid: 4b4ce2482eba9cd44bfbd994578c43e9, type: 3}
+      propertyPath: karmaBar
+      value: 
+      objectReference: {fileID: 1596406940}
     - target: {fileID: 2642805430185695565, guid: 4b4ce2482eba9cd44bfbd994578c43e9, type: 3}
       propertyPath: m_Name
       value: Player
@@ -11719,15 +11724,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6980464349461019625, guid: 4b4ce2482eba9cd44bfbd994578c43e9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.98
+      value: -10.99
       objectReference: {fileID: 0}
     - target: {fileID: 6980464349461019625, guid: 4b4ce2482eba9cd44bfbd994578c43e9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.84127
+      value: 3.712
       objectReference: {fileID: 0}
     - target: {fileID: 6980464349461019625, guid: 4b4ce2482eba9cd44bfbd994578c43e9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.3
+      value: 19.4
       objectReference: {fileID: 0}
     - target: {fileID: 6980464349461019625, guid: 4b4ce2482eba9cd44bfbd994578c43e9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12050,6 +12055,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxKarma: 100
   karmaManager: {fileID: 1694620340}
+  sliderValue: 0
   slide: {fileID: 1596406938}
 --- !u!1 &1604155839
 GameObject:
@@ -14204,10 +14210,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

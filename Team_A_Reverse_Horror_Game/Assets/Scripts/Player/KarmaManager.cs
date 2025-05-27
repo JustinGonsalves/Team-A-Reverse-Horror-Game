@@ -7,6 +7,8 @@ public class KarmaManager : MonoBehaviour
     public int goodActions = 0;
     public int badActions = 0;
 
+    public KarmaBar karmaBar;
+
 
     public void ApplyKarmaFromInteractable(float karmaValue, Interactable.KarmaType karmaType)
     {
