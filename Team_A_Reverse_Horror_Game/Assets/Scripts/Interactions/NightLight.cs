@@ -49,7 +49,7 @@ public class NightLight : Interactable
         isTurnedOn = !isTurnedOn;
 
         selectedKarmaType = KarmaType.Good;
-        karmaValueEffect = -16.6f;
+        karmaValueEffect = -20f;
 
         if (pointLight != null)
         {
@@ -83,7 +83,7 @@ public class NightLight : Interactable
         Push(pushDirection);
 
         selectedKarmaType = KarmaType.Bad;
-        karmaValueEffect = 16.6f;
+        karmaValueEffect = 20f;
 
         Transform outline = transform.Find("Outline");
 

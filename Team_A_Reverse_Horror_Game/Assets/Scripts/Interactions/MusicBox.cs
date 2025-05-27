@@ -55,7 +55,7 @@ public class MusicBox : Interactable
         StopMusic();
 
         selectedKarmaType = KarmaType.Good;
-        karmaValueEffect = -16.6f;
+        karmaValueEffect = -20f;
 
         // Find Outline child game object
         Transform outline = transform.Find("Outline");

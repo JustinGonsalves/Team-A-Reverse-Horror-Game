@@ -36,7 +36,7 @@ public class InteractableBottle : Interactable
         Push(pushDirection);
 
         selectedKarmaType = KarmaType.Bad;
-        karmaValueEffect = 16.6f;
+        karmaValueEffect = 20f;
 
         Transform outline = transform.Find("Outline");
 

@@ -100,7 +100,7 @@ public class PlayerInteraction : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Q))
             {
                 hasGurgled = true;
-                karmaManager.ApplyKarmaFromGurgle(16.6f);
+                karmaManager.ApplyKarmaFromGurgle(20f);
                 AudioSource.PlayClipAtPoint(gurgleNoise,transform.position);
             }
         }
