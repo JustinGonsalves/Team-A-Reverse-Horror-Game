@@ -68,7 +68,7 @@ public class TV : Interactable
         if (hasBeenInteracted) return;
 
         hasBeenInteracted = true;
-        Vector3 pushDirection = transform.forward;
+        Vector3 pushDirection =  transform.forward;
 
         TurnOffTV();
         Push(pushDirection);

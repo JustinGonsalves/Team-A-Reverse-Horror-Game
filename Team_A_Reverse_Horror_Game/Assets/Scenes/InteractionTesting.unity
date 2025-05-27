@@ -1568,6 +1568,17 @@ Transform:
   - {fileID: 1352346673}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1146503224 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 161832283609430485, guid: 4b4ce2482eba9cd44bfbd994578c43e9, type: 3}
+  m_PrefabInstance: {fileID: 6389640146086417776}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83504d013f4505e4ebdd5b92b1416f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1216040219
 GameObject:
   m_ObjectHideFlags: 0
@@ -3051,6 +3062,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.65055656
       objectReference: {fileID: 0}
+    - target: {fileID: 5058676202052605420, guid: 4b4ce2482eba9cd44bfbd994578c43e9, type: 3}
+      propertyPath: karmaManager
+      value: 
+      objectReference: {fileID: 1146503224}
+    - target: {fileID: 6636211135513202009, guid: 4b4ce2482eba9cd44bfbd994578c43e9, type: 3}
+      propertyPath: karmaManager
+      value: 
+      objectReference: {fileID: 1146503224}
     - target: {fileID: 6980464349461019625, guid: 4b4ce2482eba9cd44bfbd994578c43e9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.85

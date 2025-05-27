@@ -79,7 +79,7 @@ public class PlayerInteraction : MonoBehaviour
                 pendingInteraction = currentHovered;
                 playerAnimator.Play("interact");
                 //currentHovered.PositiveInteract();
-                karmaManager.ApplyKarmaFromInteractable(currentHovered.GetKarmaValue(), currentHovered.GetKarmaType());
+                //karmaManager.ApplyKarmaFromInteractable(currentHovered.GetKarmaValue(), currentHovered.GetKarmaType());
             }
         }
 
@@ -91,7 +91,7 @@ public class PlayerInteraction : MonoBehaviour
                 pendingInteraction = currentHovered;
                 playerAnimator.Play("swipe");
                 //currentHovered.NegativeInteract();
-                karmaManager.ApplyKarmaFromInteractable(currentHovered.GetKarmaValue(), currentHovered.GetKarmaType());
+                //karmaManager.ApplyKarmaFromInteractable(currentHovered.GetKarmaValue(), currentHovered.GetKarmaType());
             }
         }
 
