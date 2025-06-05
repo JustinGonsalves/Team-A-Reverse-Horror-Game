@@ -24,8 +24,9 @@ public class InteractableBottle : Interactable
 
     public override void NegativeInteract()
     {
-        if (hasBeenInteracted) return;
-        hasBeenInteracted = true;
+        if (hasBeenInteracted || !canBeInteracted) return;
+
+        base.NegativeInteract();
 
         // Local variable stores direction of push relative to gameobject
         Vector3 pushDirection = -transform.forward;
@@ -65,20 +66,12 @@ public class InteractableBottle : Interactable
 
     public override void OnHoverStart()
     {
-        Transform outline = transform.Find("Outline");
-        if (outline != null && !hasBeenInteracted)
-        {
-            outline.gameObject.SetActive(true);
-        }
+        base.OnHoverStart();
     }
 
     public override void OnHoverEnd()
     {
-        Transform outline = transform.Find("Outline");
-        if (outline != null)
-        {
-            outline.gameObject.SetActive(false);
-        }
+        base.OnHoverEnd();
     }
 
 

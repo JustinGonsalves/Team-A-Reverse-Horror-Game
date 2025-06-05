@@ -42,8 +42,9 @@ public class TV : Interactable
 
     public override void PositiveInteract()
     {
-        if (hasBeenInteracted) return;
-        hasBeenInteracted = true;
+        if (hasBeenInteracted || !canBeInteracted) return;
+
+        base.PositiveInteract();
 
         AudioSource.PlayClipAtPoint(toggleSwitchNoise, transform.position);
         TurnOffTV();
@@ -65,9 +66,10 @@ public class TV : Interactable
 
     public override void NegativeInteract()
     {
-        if (hasBeenInteracted) return;
+        if (hasBeenInteracted || !canBeInteracted) return;
 
-        hasBeenInteracted = true;
+        base.NegativeInteract();
+
         Vector3 pushDirection =  transform.forward;
 
         TurnOffTV();
@@ -89,20 +91,12 @@ public class TV : Interactable
 
     public override void OnHoverStart()
     {
-        Transform outline = transform.Find("Outline");
-        if (outline != null && !hasBeenInteracted)
-        {
-            outline.gameObject.SetActive(true);
-        }
+        base.OnHoverStart();
     }
 
     public override void OnHoverEnd()
     {
-        Transform outline = transform.Find("Outline");
-        if (outline != null)
-        {
-            outline.gameObject.SetActive(false);
-        }
+        base.OnHoverEnd();
     }
 
     public void Push(Vector3 direction)
@@ -118,7 +112,6 @@ public class TV : Interactable
     {
         if (pointLight != null && videoPlayer != null)
         {
-            AudioSource.PlayClipAtPoint(toggleSwitchNoise, transform.position);
             pointLight.enabled = true;
             GetComponent<TVLightFlicker>().StartFlicker();
             videoPlayer.Play();

@@ -71,28 +71,38 @@ public class PlayerInteraction : MonoBehaviour
 
     void HandleInteractionInput()
     {
-        // If you're looking at an object that hasn't already been interacted with and press E
-        if (currentHovered != null && Input.GetKeyDown(KeyCode.E) && !currentHovered.hasBeenInteracted)
+        // If you're looking at an object that hasn't already been interacted with and is in the current round of objectives
+        if (currentHovered != null && !currentHovered.hasBeenInteracted && currentHovered.canBeInteracted)
         {
-            if (currentHovered.SupportsPositiveInteraction)
+            // And press E
+            if (Input.GetKeyDown(KeyCode.E))
             {
-                pendingInteraction = currentHovered;
-                playerAnimator.Play("interact");
-                //currentHovered.PositiveInteract();
-                //karmaManager.ApplyKarmaFromInteractable(currentHovered.GetKarmaValue(), currentHovered.GetKarmaType());
+                if (currentHovered.SupportsPositiveInteraction)
+                {
+                    pendingInteraction = currentHovered;
+                    playerAnimator.Play("interact");
+                    //currentHovered.PositiveInteract();
+                    //karmaManager.ApplyKarmaFromInteractable(currentHovered.GetKarmaValue(), currentHovered.GetKarmaType());
+                }
             }
+
         }
 
-        // If you're looking at an object that hasn't already been interacted with and press E
-        if (currentHovered != null && Input.GetKeyDown(KeyCode.Q) && !currentHovered.hasBeenInteracted)
+        // If you're looking at an object that hasn't already been interacted with and is in the current round of objectives
+        if (currentHovered != null && !currentHovered.hasBeenInteracted && currentHovered.canBeInteracted)
         {
-           if (currentHovered.SupportsNegativeInteraction)
+            // And press Q
+            if (Input.GetKeyDown(KeyCode.Q))
             {
-                pendingInteraction = currentHovered;
-                playerAnimator.Play("swipe");
-                //currentHovered.NegativeInteract();
-                //karmaManager.ApplyKarmaFromInteractable(currentHovered.GetKarmaValue(), currentHovered.GetKarmaType());
+                if (currentHovered.SupportsNegativeInteraction)
+                {
+                    pendingInteraction = currentHovered;
+                    playerAnimator.Play("swipe");
+                    //currentHovered.NegativeInteract();
+                    //karmaManager.ApplyKarmaFromInteractable(currentHovered.GetKarmaValue(), currentHovered.GetKarmaType());
+                }
             }
+
         }
 
         if (currentHovered == null && !hasGurgled && isInGurgleZone)
