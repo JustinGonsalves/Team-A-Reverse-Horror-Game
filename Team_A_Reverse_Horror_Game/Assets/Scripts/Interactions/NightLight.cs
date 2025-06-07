@@ -3,6 +3,7 @@ using UnityEngine.Experimental.GlobalIllumination;
 
 public class NightLight : Interactable
 {
+
     // Reference to light child object, assigned in editor
     public Light pointLight;
     // Reference to off click sound
@@ -43,9 +44,10 @@ public class NightLight : Interactable
 
     public override void PositiveInteract()
     {
-        if (hasBeenInteracted) return;
+        if (hasBeenInteracted || !canBeInteracted) return;
 
-        hasBeenInteracted = true;
+        base.PositiveInteract();
+
         isTurnedOn = !isTurnedOn;
 
         selectedKarmaType = KarmaType.Good;
@@ -76,9 +78,10 @@ public class NightLight : Interactable
 
     public override void NegativeInteract()
     {
-        if (hasBeenInteracted) return;
+        if (hasBeenInteracted || !canBeInteracted) return;
 
-        hasBeenInteracted = true;
+        base.NegativeInteract();
+
         Vector3 pushDirection = -transform.forward;
         Push(pushDirection);
 
@@ -98,20 +101,12 @@ public class NightLight : Interactable
 
     public override void OnHoverStart()
     {
-        Transform outline = transform.Find("Outline");
-        if (outline != null && !hasBeenInteracted)
-        {
-            outline.gameObject.SetActive(true);
-        }
+        base.OnHoverStart();
     }
 
     public override void OnHoverEnd()
     {
-        Transform outline = transform.Find("Outline");
-        if (outline != null)
-        {
-            outline.gameObject.SetActive(false);
-        }
+        base.OnHoverEnd();
     }
 
     public void Push(Vector3 direction)

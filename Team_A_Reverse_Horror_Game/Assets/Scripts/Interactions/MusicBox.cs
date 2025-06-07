@@ -1,7 +1,7 @@
 using UnityEngine;
 
 public class MusicBox : Interactable
-{
+{    
     // Empty reference to AudioSource component
     private AudioSource audioSource;
     // Empty reference to AnimatorController
@@ -47,10 +47,9 @@ public class MusicBox : Interactable
     public override void PositiveInteract()
     {
         // Disable multiple interactions
-        if (hasBeenInteracted) return;
+        if (hasBeenInteracted || !canBeInteracted) return;
 
-        // Mark as interacted
-        hasBeenInteracted = true;
+        base.PositiveInteract();
 
         StopMusic();
 
@@ -72,20 +71,12 @@ public class MusicBox : Interactable
 
     public override void OnHoverStart()
     {
-        Transform outline = transform.Find("Outline");
-        if (outline != null && !hasBeenInteracted)
-        {
-            outline.gameObject.SetActive(true);
-        }
+        base.OnHoverStart();
     }
 
     public override void OnHoverEnd()
     {
-        Transform outline = transform.Find("Outline");
-        if (outline != null)
-        {
-            outline.gameObject.SetActive(false);
-        }
+        base.OnHoverEnd();
     }
 
     // Call this to start the music box
