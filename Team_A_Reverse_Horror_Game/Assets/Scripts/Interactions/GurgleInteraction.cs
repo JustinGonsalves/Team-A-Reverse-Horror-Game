@@ -1,17 +1,11 @@
 using UnityEngine;
 
-public class Curtain : Interactable
+public class GurgleInteraction : Interactable
 {
-    public override bool SupportsNegativeInteraction => false;
-    public AudioClip openSound;
-    public float karmaValue = -20f;
+    public override bool SupportsPositiveInteraction => false;
 
-    private Animator animator;
-    
-    void Start()
-    {
-        animator = GetComponent<Animator>();
-    }
+    public AudioClip gurgleNoise;
+    public float karmaValue = 20;
 
     public override KarmaType GetKarmaType()
     {
@@ -23,16 +17,15 @@ public class Curtain : Interactable
         return base.GetKarmaValue();
     }
 
-    public override void PositiveInteract()
+    public override void NegativeInteract()
     {
         if (hasBeenInteracted || !canBeInteracted) return;
 
-        base.PositiveInteract();
+        base.NegativeInteract();
 
-        AudioSource.PlayClipAtPoint(openSound, transform.position);
-        animator.Play("open");
+        AudioSource.PlayClipAtPoint(gurgleNoise, transform.position);
 
-        selectedKarmaType = KarmaType.Good;
+        selectedKarmaType = KarmaType.Bad;
         karmaValueEffect = karmaValue;
 
         Transform outline = transform.Find("Outline");
@@ -42,7 +35,7 @@ public class Curtain : Interactable
             outline.gameObject.SetActive(false);
         }
 
-        Debug.Log("Closed the curtains. Karma Type: " + GetKarmaType());
+        Debug.Log("Gurgled at child. Karma Type: " + GetKarmaType());
         Debug.Log("Karma Change = " + GetKarmaValue());
     }
 
@@ -55,4 +48,5 @@ public class Curtain : Interactable
     {
         base.OnHoverEnd();
     }
+
 }

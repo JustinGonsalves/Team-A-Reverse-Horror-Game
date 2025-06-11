@@ -9,6 +9,8 @@ public class InteractableBottle : Interactable
     public AudioClip smashAudio;
     public AudioClip pushSound;
 
+    public float karmaValue = 20f;
+
     //Specify no positive interaction possible
     public override bool SupportsPositiveInteraction => false;
 
@@ -37,7 +39,7 @@ public class InteractableBottle : Interactable
         Push(pushDirection);
 
         selectedKarmaType = KarmaType.Bad;
-        karmaValueEffect = 20f;
+        karmaValueEffect = karmaValue;
 
         Transform outline = transform.Find("Outline");
 

@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1481523630533016809}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 4.258748, y: -0.4115655, z: 12.656202}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -75,6 +75,7 @@ MonoBehaviour:
   hasBeenInteracted: 0
   canBeInteracted: 0
   openSound: {fileID: 8300000, guid: eb6123f1c00d1344292e5c0f1aee0acd, type: 3}
+  karmaValue: -20
 --- !u!65 &3182579554113331515
 BoxCollider:
   m_ObjectHideFlags: 0

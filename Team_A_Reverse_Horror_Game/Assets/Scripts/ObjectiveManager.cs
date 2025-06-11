@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ObjectiveManager : MonoBehaviour
 {
@@ -16,12 +17,24 @@ public class ObjectiveManager : MonoBehaviour
         public string objectiveReminder;
         // Reference to pop-up message on stage progression
         public GameObject messagePopup;
+        // Reference to voiceline at stage start
+        public AudioClip objectiveStartLine;
     }
 
     // A list of all the stages to be set in the inspector
     public List<Stage> stages;
     // Tracks the current stage, starts on 0
     private int currentStage = 0;
+
+    // Karma-based final stages
+    public KarmaManager karmaManager;
+    public Stage goodFinalStage;
+    public Stage badFinalStage;
+    public Stage neutralFinalStage;
+    private Stage currentFinalStage;
+
+    private bool finalStageStarted = false;
+    public AudioSource audioSource;
 
     private void Start()
     {
@@ -45,6 +58,13 @@ public class ObjectiveManager : MonoBehaviour
 
         // Grab the current stage from the list
         Stage current = stages[currentStage];
+
+        // Play the voiceline
+        if (current.objectiveStartLine != null && audioSource != null)
+        {
+            audioSource.clip = current.objectiveStartLine;
+            audioSource.Play();
+        }
 
         // Make the pop-up message visible
         if (current.messagePopup != null)
@@ -87,9 +107,16 @@ public class ObjectiveManager : MonoBehaviour
 
         // Move to next round
         currentStage++;
-        // Begin next set of interactables
-        ShowCurrentStage();
-        
+
+        if (currentStage < stages.Count)
+        {
+            ShowCurrentStage();
+        }
+        else if (!finalStageStarted)
+        {
+            StartFinalStage();
+        }
+
     }
 
     // Use tab to show the current objective
@@ -97,11 +124,97 @@ public class ObjectiveManager : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Tab))
         {
-            objectiveUI.ShowMessage(stages[currentStage].objectiveReminder);
+            if (currentStage < stages.Count)
+            {
+                objectiveUI.ShowMessage(stages[currentStage].objectiveReminder);
+            }
+            else
+            {
+                objectiveUI.ShowMessage("All objectives complete!");
+            }
         }
         else
         {
-            objectiveUI.HideMessage();  
+            objectiveUI.HideMessage();
+        }
+    }
+
+    private void StartFinalStage()
+    {
+        finalStageStarted = true;
+
+        Stage finalStageToUse;
+
+        float karma = karmaManager.totalKarma;
+
+        if (karma < 40)
+        {
+            finalStageToUse = goodFinalStage;
+            Debug.Log("Assigning GOOD final objective.");
+        }
+        else if (karma > 60)
+        {
+            finalStageToUse = badFinalStage;
+            Debug.Log("Assigning BAD final objective.");
+        }
+        else
+        {
+            finalStageToUse = neutralFinalStage;
+            Debug.Log("Assigning NEUTRAL final objective (choice).");
+        }
+
+        currentFinalStage = finalStageToUse;
+        StartCustomStage(finalStageToUse);
+    }
+
+    private void StartCustomStage(Stage stage)
+    {
+        stage.messagePopup?.SetActive(true);
+
+        if (stage.objectiveStartLine != null && audioSource != null)
+        {
+            audioSource.clip = stage.objectiveStartLine;
+            audioSource.Play();
+        }
+
+        foreach (var item in stage.interactables)
+        {
+            item.canBeInteracted = true;
+            item.OnInteracted += OnFinalStageInteracted;
+        }
+
+        objectiveUI.ShowMessage(stage.objectiveReminder);
+    }
+
+    private void OnFinalStageInteracted(Interactable chosen)
+    {
+        foreach (var item in currentFinalStage.interactables)
+        {
+            item.OnInteracted -= OnFinalStageInteracted;
+            item.canBeInteracted = false;
+            if (item != chosen)
+            {
+                item.DisableInteraction();
+            }
+        }
+
+        Debug.Log("Final stage completed. Triggering ending.");
+        TriggerEnding(chosen);
+    }
+
+private void TriggerEnding(Interactable chosen)
+    {
+        if (chosen.CompareTag("GoodEnding"))
+        {
+            SceneManager.LoadScene("GoodEndingScene");
+        }
+        else if (chosen.CompareTag("BadEnding"))
+        {
+            SceneManager.LoadScene("BadEndingScene");
+        }
+        else
+        {
+            Debug.LogWarning("Interactable is not tagged with a valid ending tag.");
         }
     }
 

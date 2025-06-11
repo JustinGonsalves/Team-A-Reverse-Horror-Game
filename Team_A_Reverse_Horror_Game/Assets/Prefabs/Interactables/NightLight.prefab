@@ -225,11 +225,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasBeenInteracted: 0
+  canBeInteracted: 0
   pointLight: {fileID: 3221660507710922928}
+  switchOffSound: {fileID: 8300000, guid: af94b27cabb9ad6418dc5f42aedbf696, type: 3}
   objectRenderer: {fileID: 6961185577005365400}
   intensityMultiplier: 2
-  mat: {fileID: 2100000, guid: 889414d84aee4424bb8fd2bae721b3e2, type: 2}
   pushForce: 3
+  karmaValue: -20
 --- !u!65 &5829695351475728756
 BoxCollider:
   m_ObjectHideFlags: 0

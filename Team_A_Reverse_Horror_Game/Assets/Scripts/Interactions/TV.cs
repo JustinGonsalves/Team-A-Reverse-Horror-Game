@@ -6,6 +6,8 @@ public class TV : Interactable
     public Light pointLight;
     public float pushForce = 3f;
     public AudioClip toggleSwitchNoise;
+    public float positiveKarmaValue = -20f;
+    public float negativeKarmaValue = 20f;
 
     private VideoPlayer videoPlayer;
     private AudioSource audioSource;
@@ -50,7 +52,7 @@ public class TV : Interactable
         TurnOffTV();
 
         selectedKarmaType = KarmaType.Good;
-        karmaValueEffect = -20f;
+        karmaValueEffect = positiveKarmaValue;
 
         Transform outline = transform.Find("Outline");
 
@@ -76,7 +78,7 @@ public class TV : Interactable
         Push(pushDirection);
 
         selectedKarmaType = KarmaType.Bad;
-        karmaValueEffect = 20f;
+        karmaValueEffect = negativeKarmaValue;
 
         Transform outline = transform.Find("Outline");
 

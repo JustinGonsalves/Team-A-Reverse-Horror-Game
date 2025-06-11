@@ -1,7 +1,10 @@
 using UnityEngine;
 
 public class MusicBox : Interactable
-{    
+{
+    public float karmaValue = -20;
+
+
     // Empty reference to AudioSource component
     private AudioSource audioSource;
     // Empty reference to AnimatorController
@@ -54,7 +57,7 @@ public class MusicBox : Interactable
         StopMusic();
 
         selectedKarmaType = KarmaType.Good;
-        karmaValueEffect = -20f;
+        karmaValueEffect = karmaValue;
 
         // Find Outline child game object
         Transform outline = transform.Find("Outline");

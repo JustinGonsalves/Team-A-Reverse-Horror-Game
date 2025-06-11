@@ -13,10 +13,6 @@ public class PlayerInteraction : MonoBehaviour
     public Interactable pendingInteraction;
     private KarmaManager karmaManager;
     
-    
-    private bool isInGurgleZone = false;
-    private bool hasGurgled = false;
-
     private void Start()
     {
         // Find and assign KarmaManager script
@@ -96,40 +92,20 @@ public class PlayerInteraction : MonoBehaviour
             {
                 if (currentHovered.SupportsNegativeInteraction)
                 {
-                    pendingInteraction = currentHovered;
-                    playerAnimator.Play("swipe");
-                    //currentHovered.NegativeInteract();
-                    //karmaManager.ApplyKarmaFromInteractable(currentHovered.GetKarmaValue(), currentHovered.GetKarmaType());
+                    if (currentHovered is GurgleInteraction)
+                    {
+                        pendingInteraction = currentHovered;
+                        currentHovered.NegativeInteract();
+                        karmaManager.ApplyKarmaFromInteractable(currentHovered.GetKarmaValue(), currentHovered.GetKarmaType());
+                    }
+                    else
+                    {
+                        pendingInteraction = currentHovered;
+                        playerAnimator.Play("swipe");
+                    }
                 }
             }
 
-        }
-
-        if (currentHovered == null && !hasGurgled && isInGurgleZone)
-        {
-            if (Input.GetKeyDown(KeyCode.Q))
-            {
-                hasGurgled = true;
-                karmaManager.ApplyKarmaFromGurgle(20f);
-                AudioSource.PlayClipAtPoint(gurgleNoise,transform.position);
-            }
-        }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Gurgle Zone") && !hasGurgled)
-        {
-            isInGurgleZone = true;
-            Debug.Log("entered gurgle zone");
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.CompareTag("Gurgle Zone"))
-        {
-            isInGurgleZone = false;
         }
     }
 

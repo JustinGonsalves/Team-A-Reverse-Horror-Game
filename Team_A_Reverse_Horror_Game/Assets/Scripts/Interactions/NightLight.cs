@@ -14,6 +14,7 @@ public class NightLight : Interactable
     public float intensityMultiplier = 2f;
     // Force of push if negative interaction
     public float pushForce = 3f;
+    public float karmaValue = -20f;
 
     // Tracks light's on/off status
     private bool isTurnedOn = false;
@@ -51,7 +52,7 @@ public class NightLight : Interactable
         isTurnedOn = !isTurnedOn;
 
         selectedKarmaType = KarmaType.Good;
-        karmaValueEffect = -20f;
+        karmaValueEffect = karmaValue;
 
         if (pointLight != null)
         {

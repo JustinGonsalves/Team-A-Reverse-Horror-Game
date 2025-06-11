@@ -28,13 +28,4 @@ public class KarmaManager : MonoBehaviour
 
         Debug.Log($"Karma changed by {karmaValue}. Total Karma: {totalKarma}. You've performed {goodActions} Good deeds, and {badActions} Bad deeds");
     }
-
-    // To be called from Gurgle interaction
-    public void ApplyKarmaFromGurgle(float karmaValue)
-    {
-        totalKarma += karmaValue;
-        badActions++;
-
-        Debug.Log($"Karma changed by {karmaValue}. Total Karma: {totalKarma}. You've performed {goodActions} Good deeds, and {badActions} Bad deeds");
-    }
 }
