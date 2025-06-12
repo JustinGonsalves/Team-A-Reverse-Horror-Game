@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 56f5e2b6b8bfeb342a8a7d3ee6eeffcd
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  preloadAudioData: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 264118
+  packageName: 'Puzzle Game SFX: Buttons, Levers and Switches Sounds'
+  packageVersion: 1.0
+  assetPath: Assets/PuzzleButtonsSFX/Lever Designed (4).wav
+  uploadId: 609808
