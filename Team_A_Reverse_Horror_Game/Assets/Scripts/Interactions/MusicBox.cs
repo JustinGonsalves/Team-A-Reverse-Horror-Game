@@ -21,9 +21,16 @@ public class MusicBox : Interactable
         audioSource = GetComponent<AudioSource>();
         // Assign reference to animator component
         animator = GetComponent<Animator>();
-        // Start disabled by default, will be enabled when music plays
-        animator.enabled = false;
     }
+
+    private void Update()
+    {
+        if (canBeInteracted && !isTurnedOn)
+        {
+            PlayMusic();
+        }
+    }
+
     public override KarmaType GetKarmaType()
     {
         return base.GetKarmaType();
@@ -34,19 +41,6 @@ public class MusicBox : Interactable
         return base.GetKarmaValue();
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        // If the box isn't already playing and hasn't been interacted with already
-        if (!isTurnedOn && !hasBeenInteracted)
-        {
-            // If the collider has the Player tag
-            if (other.gameObject.CompareTag("Player"))
-            {
-                // Play music
-                PlayMusic();
-            }
-        }
-    }
     public override void PositiveInteract()
     {
         // Disable multiple interactions
@@ -92,7 +86,7 @@ public class MusicBox : Interactable
             // Starts playing the music
             audioSource.Play();
             // Enables handle rotation
-            animator.enabled = true;
+            animator.Play("handle_turn");
         }
     }
 
@@ -104,6 +98,6 @@ public class MusicBox : Interactable
         // Stop music
         audioSource.Stop();
         // Disable handle rotation
-        animator.enabled = false;
+        animator.Play("stop");
     }
 }

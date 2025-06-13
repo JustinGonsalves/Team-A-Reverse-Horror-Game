@@ -11,6 +11,7 @@ public class TV : Interactable
 
     private VideoPlayer videoPlayer;
     private AudioSource audioSource;
+    private bool isTurnedOn = false;
 
     public override KarmaType GetKarmaType()
     {
@@ -28,17 +29,11 @@ public class TV : Interactable
         audioSource = GetComponent<AudioSource>();
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void Update()
     {
-        // If the box isn't already playing and hasn't been interacted with already
-        if (!hasBeenInteracted)
+        if (canBeInteracted && !isTurnedOn)
         {
-            // If the collider has the Player tag
-            if (other.gameObject.CompareTag("Player"))
-            {
-                // Turn on TV
-                TurnOnTV();
-            }
+            TurnOnTV();
         }
     }
 
@@ -114,6 +109,7 @@ public class TV : Interactable
     {
         if (pointLight != null && videoPlayer != null)
         {
+            isTurnedOn = true;
             pointLight.enabled = true;
             GetComponent<TVLightFlicker>().StartFlicker();
             videoPlayer.Play();

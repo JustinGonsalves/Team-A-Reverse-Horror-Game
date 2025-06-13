@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -114,9 +115,16 @@ public class ObjectiveManager : MonoBehaviour
         }
         else if (!finalStageStarted)
         {
-            StartFinalStage();
+            StartCoroutine(WaitAndStartFinalStage());
         }
 
+    }
+
+    // Coroutine to adjust match animation trigger for final Karma update
+    private IEnumerator WaitAndStartFinalStage()
+    {
+        yield return new WaitForSeconds(1.1f);
+        StartFinalStage();
     }
 
     // Use tab to show the current objective
