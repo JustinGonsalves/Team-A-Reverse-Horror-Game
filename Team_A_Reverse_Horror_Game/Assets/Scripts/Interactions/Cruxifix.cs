@@ -31,7 +31,7 @@ public class Cruxifix : Interactable
         base.NegativeInteract();
 
         animator.Play("fall");
-        //AudioSource.PlayClipAtPoint(crossFall, transform.position);
+        AudioSource.PlayClipAtPoint(crossFall, transform.position);
 
         selectedKarmaType = KarmaType.Bad;
         karmaValueEffect = karmaValue;

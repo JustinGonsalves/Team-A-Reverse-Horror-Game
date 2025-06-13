@@ -17,7 +17,7 @@ public class ObjectiveManager : MonoBehaviour
         //Custom message to be shown when TAB is held
         public string objectiveReminder;
         // Reference to pop-up message on stage progression
-        public GameObject messagePopup;
+        //public GameObject messagePopup;
         // Reference to voiceline at stage start
         public AudioClip objectiveStartLine;
     }
@@ -68,10 +68,10 @@ public class ObjectiveManager : MonoBehaviour
         }
 
         // Make the pop-up message visible
-        if (current.messagePopup != null)
-        {
-            current.messagePopup.SetActive(true);
-        }
+        //if (current.messagePopup != null)
+        //{
+        //    current.messagePopup.SetActive(true);
+        //}
 
         // Go through each interactable object in the current stage
         foreach (var item in current.interactables)
@@ -136,6 +136,10 @@ public class ObjectiveManager : MonoBehaviour
             {
                 objectiveUI.ShowMessage(stages[currentStage].objectiveReminder);
             }
+            else if (finalStageStarted && currentFinalStage != null)
+            {
+                objectiveUI.ShowMessage(currentFinalStage.objectiveReminder);
+            }
             else
             {
                 objectiveUI.ShowMessage("All objectives complete!");
@@ -177,7 +181,7 @@ public class ObjectiveManager : MonoBehaviour
 
     private void StartCustomStage(Stage stage)
     {
-        stage.messagePopup?.SetActive(true);
+        //stage.messagePopup?.SetActive(true);
 
         if (stage.objectiveStartLine != null && audioSource != null)
         {
