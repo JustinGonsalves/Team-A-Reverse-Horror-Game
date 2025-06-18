@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -16,7 +17,7 @@ public class ObjectiveManager : MonoBehaviour
         //Custom message to be shown when TAB is held
         public string objectiveReminder;
         // Reference to pop-up message on stage progression
-        public GameObject messagePopup;
+        //public GameObject messagePopup;
         // Reference to voiceline at stage start
         public AudioClip objectiveStartLine;
     }
@@ -67,10 +68,10 @@ public class ObjectiveManager : MonoBehaviour
         }
 
         // Make the pop-up message visible
-        if (current.messagePopup != null)
-        {
-            current.messagePopup.SetActive(true);
-        }
+        //if (current.messagePopup != null)
+        //{
+        //    current.messagePopup.SetActive(true);
+        //}
 
         // Go through each interactable object in the current stage
         foreach (var item in current.interactables)
@@ -114,9 +115,16 @@ public class ObjectiveManager : MonoBehaviour
         }
         else if (!finalStageStarted)
         {
-            StartFinalStage();
+            StartCoroutine(WaitAndStartFinalStage());
         }
 
+    }
+
+    // Coroutine to adjust match animation trigger for final Karma update
+    private IEnumerator WaitAndStartFinalStage()
+    {
+        yield return new WaitForSeconds(1.1f);
+        StartFinalStage();
     }
 
     // Use tab to show the current objective
@@ -127,6 +135,10 @@ public class ObjectiveManager : MonoBehaviour
             if (currentStage < stages.Count)
             {
                 objectiveUI.ShowMessage(stages[currentStage].objectiveReminder);
+            }
+            else if (finalStageStarted && currentFinalStage != null)
+            {
+                objectiveUI.ShowMessage(currentFinalStage.objectiveReminder);
             }
             else
             {
@@ -169,7 +181,7 @@ public class ObjectiveManager : MonoBehaviour
 
     private void StartCustomStage(Stage stage)
     {
-        stage.messagePopup?.SetActive(true);
+        //stage.messagePopup?.SetActive(true);
 
         if (stage.objectiveStartLine != null && audioSource != null)
         {
