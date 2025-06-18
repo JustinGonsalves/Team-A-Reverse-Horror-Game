@@ -19336,7 +19336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 995263e63852fb945ade8e667969e087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Modular House
+  sceneToLoad: IntroMindPalace
   cutsceneDelay: 5
 --- !u!1001 &1826590631
 PrefabInstance:
