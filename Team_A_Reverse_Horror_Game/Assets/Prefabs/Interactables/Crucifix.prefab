@@ -269,7 +269,7 @@ MonoBehaviour:
   hasBeenInteracted: 0
   canBeInteracted: 0
   karmaValue: 20
-  crossFall: {fileID: 0}
+  crossFall: {fileID: 8300000, guid: ccfbb2400f33e154e8af85f1f30b7905, type: 3}
 --- !u!65 &2758998277310119332
 BoxCollider:
   m_ObjectHideFlags: 0
