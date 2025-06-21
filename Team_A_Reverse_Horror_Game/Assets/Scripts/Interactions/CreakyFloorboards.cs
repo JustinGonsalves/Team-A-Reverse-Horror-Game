@@ -4,6 +4,8 @@ using UnityEngine;
 public class CreakyFloorboards : MonoBehaviour
 {
     public AudioClip creakSound;
+    public Enemy enemy;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -14,6 +16,7 @@ public class CreakyFloorboards : MonoBehaviour
             {
                 Debug.Log("Stepped on CreakyFloor");
                 AudioSource.PlayClipAtPoint(creakSound, transform.position);
+                enemy.TriggerPatrol();
             }
         }
     }
