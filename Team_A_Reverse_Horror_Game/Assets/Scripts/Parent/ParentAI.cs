@@ -93,14 +93,13 @@ public class Enemy : MonoBehaviour
             atWaypoint = true;
             timeSpentIdling = 0f;
             agent.SetDestination(transform.position); // Stop movement while idling
+            Debug.Log("Idling at waypoint: " + currentWaypoint);
         }
     }
 
 
     private void Idle()
     {
-        Debug.Log("Idling at waypoint: " + currentWaypoint);
-
         agent.SetDestination(transform.position);
         timeSpentIdling += Time.deltaTime;
 
@@ -124,7 +123,7 @@ public class Enemy : MonoBehaviour
             atWaypoint = false;
             timeSpentIdling = 0f;
             currentWaypoint = (currentWaypoint + 1) % waypoints.Count;
-
+            agent.SetDestination(waypoints[currentWaypoint].position);
         }
     }
 
