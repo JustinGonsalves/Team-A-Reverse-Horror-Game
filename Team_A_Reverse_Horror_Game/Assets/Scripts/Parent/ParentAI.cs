@@ -23,14 +23,13 @@ public class Enemy : MonoBehaviour
     public float timeSpentIdling = 0f;
     private bool canSeePlayer;
     private Transform player;
-    private GameObject playerObject;
+    public GameObject playerObject;
 
     private KarmaManager karmaManager;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        playerObject = GameObject.FindGameObjectWithTag("Player");
         if (playerObject != null)
         {
             player = playerObject.transform;

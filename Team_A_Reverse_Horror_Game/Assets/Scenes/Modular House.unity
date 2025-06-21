@@ -18878,6 +18878,10 @@ PrefabInstance:
       value: Parent
       objectReference: {fileID: 0}
     - target: {fileID: 7868243830962521956, guid: 3a70748cd853f1c42910125023a2de8a, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 641750519}
+    - target: {fileID: 7868243830962521956, guid: 3a70748cd853f1c42910125023a2de8a, type: 3}
       propertyPath: stairWaypoint
       value: 
       objectReference: {fileID: 1077102433}
