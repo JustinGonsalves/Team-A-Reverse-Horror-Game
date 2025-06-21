@@ -27,10 +27,6 @@ public class Enemy : MonoBehaviour
 
     private KarmaManager karmaManager;
 
-    public Transform stairWaypoint;
-    private bool standAtStairsTriggered = false;
-    private int previousWaypoint = 0;
-
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -61,18 +57,6 @@ public class Enemy : MonoBehaviour
             case EnemyState.Idle: Idle(); break;
             case EnemyState.Patrol: Patrol(); break;
         }
-
-        if (standAtStairsTriggered && !atWaypoint)
-        {
-            float distToStairs = Vector3.Distance(transform.position, stairWaypoint.position);
-            if (distToStairs < 0.5f)
-            {
-                atWaypoint = true;
-                timeSpentIdling = 0f;
-                agent.SetDestination(transform.position); // stop moving
-            }
-        }
-
     }
 
     private void PlayerInSight()
@@ -116,7 +100,7 @@ public class Enemy : MonoBehaviour
     private void Idle()
     {
         Debug.Log("Idling at waypoint: " + currentWaypoint);
-        
+
         agent.SetDestination(transform.position);
         timeSpentIdling += Time.deltaTime;
 
@@ -125,11 +109,7 @@ public class Enemy : MonoBehaviour
 
         float waitTime = 3f;
 
-        if (standAtStairsTriggered)
-        {
-            waitTime = 15f; // Custom wait time for stairs
-        }
-        else if (currentWaypoint == waypoints.Count - 1)
+        if (atBase)
         {
             float karma = karmaManager != null ? karmaManager.totalKarma : 0f;
             if (karma >= 90f) waitTime = 30f;
@@ -143,19 +123,9 @@ public class Enemy : MonoBehaviour
         {
             atWaypoint = false;
             timeSpentIdling = 0f;
+            currentWaypoint = (currentWaypoint + 1) % waypoints.Count;
 
-            if (standAtStairsTriggered)
-            {
-                standAtStairsTriggered = false;
-                currentWaypoint = previousWaypoint; // resume from where we left off
-                Debug.Log("Finished surveying. Resuming patrol to waypoint " + previousWaypoint);
-            }
-            else
-            {
-                currentWaypoint = (currentWaypoint + 1) % waypoints.Count;
-            }
         }
-
     }
 
 
@@ -167,16 +137,6 @@ public class Enemy : MonoBehaviour
         currentWaypoint = 0;
     }
 
-    public void StandAtStairs()
-    {
-        if (standAtStairsTriggered) return; // Don't double-trigger
-
-        Debug.Log("StandAtStairs triggered");
-
-        standAtStairsTriggered = true;
-        agent.SetDestination(stairWaypoint.position);
-        atWaypoint = false; // force the parent to go to stair point
-    }
 
     private void OnPlayerSpotted()
     {
