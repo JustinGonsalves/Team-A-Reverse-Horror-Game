@@ -51,6 +51,19 @@ public class Interactable : MonoBehaviour
         hasBeenInteracted = true;
         // Tells the listener in the objective manager that this has been used
         OnInteracted?.Invoke(this);
+
+
+        // trigger parent standing at staircase
+        Enemy enemy = UnityEngine.Object.FindFirstObjectByType<Enemy>();
+        if (enemy != null)
+        {
+            enemy.StandAtStairs();
+            Debug.Log("Parent going to stair waypoint.");
+        }
+        else
+        {
+            Debug.Log("No Enemy found in scene to trigger StandAtStairs.");
+        }
     }
 
     public virtual void OnHoverStart()
