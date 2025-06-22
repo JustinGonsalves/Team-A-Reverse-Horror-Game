@@ -8,11 +8,10 @@ using UnityEngine.SceneManagement;
 // Enemy AI that patrols the floor and reacts dynamically based on KarmaManager and player interactions.
 public class Enemy : MonoBehaviour
 {
-    public enum EnemyState { Idle, Patrol }
+    public enum EnemyState { Idle, Patrol, StandAtStairs }
     public EnemyState state;
 
     public List<Transform> waypoints;
-    private float idleTime = 3f;
     private float sightRange = 10f;
     private float fovAngle = 140f;
     // public string gameOverSceneName = "GameOver";
@@ -24,8 +23,11 @@ public class Enemy : MonoBehaviour
     private bool canSeePlayer;
     private Transform player;
     public GameObject playerObject;
-
     private KarmaManager karmaManager;
+
+    public Transform stairWaypoint;
+    public bool standAtStairsTriggered = false;
+    public float timeSpentAtStairs = 0f;
 
     void Start()
     {
@@ -46,7 +48,9 @@ public class Enemy : MonoBehaviour
             return;
         }
 
-        if (atWaypoint)
+        if (standAtStairsTriggered)
+            ChangeState(EnemyState.StandAtStairs);
+        else if (atWaypoint)
             ChangeState(EnemyState.Idle);
         else
             ChangeState(EnemyState.Patrol);
@@ -55,6 +59,7 @@ public class Enemy : MonoBehaviour
         {
             case EnemyState.Idle: Idle(); break;
             case EnemyState.Patrol: Patrol(); break;
+            case EnemyState.StandAtStairs: StandAtStairs(); break;
         }
     }
 
@@ -91,23 +96,18 @@ public class Enemy : MonoBehaviour
         {
             atWaypoint = true;
             timeSpentIdling = 0f;
-            agent.SetDestination(transform.position); // Stop movement while idling
             Debug.Log("Idling at waypoint: " + currentWaypoint);
         }
     }
-
 
     private void Idle()
     {
         agent.SetDestination(transform.position);
         timeSpentIdling += Time.deltaTime;
 
-        // Determine if we're currently at the base
-        bool atBase = currentWaypoint == waypoints.Count - 1;
-
         float waitTime = 3f;
 
-        if (atBase)
+        if (currentWaypoint == waypoints.Count - 1) // determine if we're currently at the base
         {
             float karma = karmaManager != null ? karmaManager.totalKarma : 0f;
             if (karma >= 90f) waitTime = 30f;
@@ -115,7 +115,6 @@ public class Enemy : MonoBehaviour
             else if (karma >= 50f) waitTime = 75f;
             else waitTime = 90f;
         }
-
 
         if (timeSpentIdling >= waitTime)
         {
@@ -126,22 +125,36 @@ public class Enemy : MonoBehaviour
         }
     }
 
-
     public void TriggerPatrol()
     {
         Debug.Log("Patrol triggered. Restarting route.");
         atWaypoint = false;
-        timeSpentIdling = idleTime;
         currentWaypoint = 0;
     }
 
+    public void StandAtStairs()
+    {
+        agent.SetDestination(stairWaypoint.position);
+        atWaypoint = false;
+
+        float distToStairs = Vector3.Distance(transform.position, stairWaypoint.position);
+        if (distToStairs < 1.5f)
+        {
+            timeSpentAtStairs += Time.deltaTime;
+            if (timeSpentAtStairs >= 10f)
+            {
+                standAtStairsTriggered = false;
+                timeSpentAtStairs = 0f;
+            }
+        }
+    }
 
     private void OnPlayerSpotted()
     {
         if (agent != null)
             agent.SetDestination(transform.position); // Stop moving
 
-        Debug.Log("Player spotted!"); // replace or remove later
+        Debug.LogWarning("Player spotted!"); // replace or remove later
 
         // Play animation
         // GetComponent<Animator>().SetTrigger("Gasp");
