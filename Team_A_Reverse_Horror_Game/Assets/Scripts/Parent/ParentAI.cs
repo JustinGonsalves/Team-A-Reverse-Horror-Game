@@ -12,7 +12,6 @@ public class Enemy : MonoBehaviour
     public EnemyState state;
 
     public List<Transform> waypoints;
-    private float idleTime = 3f;
     private float sightRange = 10f;
     private float fovAngle = 140f;
     // public string gameOverSceneName = "GameOver";
@@ -28,7 +27,6 @@ public class Enemy : MonoBehaviour
 
     public Transform stairWaypoint;
     public bool standAtStairsTriggered = false;
-    // private int previousWaypoint = 0;
     public float timeSpentAtStairs = 0f;
 
     void Start()
@@ -98,28 +96,18 @@ public class Enemy : MonoBehaviour
         {
             atWaypoint = true;
             timeSpentIdling = 0f;
-            // agent.SetDestination(transform.position); // Stop movement while idling
             Debug.Log("Idling at waypoint: " + currentWaypoint);
         }
     }
-
 
     private void Idle()
     {
         agent.SetDestination(transform.position);
         timeSpentIdling += Time.deltaTime;
 
-        // Determine if we're currently at the base
-        bool atBase = currentWaypoint == waypoints.Count - 1;
-
         float waitTime = 3f;
 
-        //if (standAtStairsTriggered)
-        //{
-        //    waitTime = 10f; // Custom wait time for stairs
-        //}
-        //else
-        if (atBase)
+        if (currentWaypoint == waypoints.Count - 1) // determine if we're currently at the base
         {
             float karma = karmaManager != null ? karmaManager.totalKarma : 0f;
             if (karma >= 90f) waitTime = 30f;
@@ -132,18 +120,8 @@ public class Enemy : MonoBehaviour
         {
             atWaypoint = false;
             timeSpentIdling = 0f;
-
-            //if (standAtStairsTriggered)
-            //{
-            //    standAtStairsTriggered = false;
-            //    currentWaypoint = previousWaypoint; // resume from where we left off
-            //    Debug.Log("Finished surveying. Resuming patrol to waypoint " + previousWaypoint);
-            //}
-            //else
-            //{
             currentWaypoint = (currentWaypoint + 1) % waypoints.Count;
             agent.SetDestination(waypoints[currentWaypoint].position);
-            //}
         }
     }
 
@@ -151,25 +129,13 @@ public class Enemy : MonoBehaviour
     {
         Debug.Log("Patrol triggered. Restarting route.");
         atWaypoint = false;
-        // timeSpentIdling = idleTime;
         currentWaypoint = 0;
     }
 
     public void StandAtStairs()
     {
-        //if (standAtStairsTriggered) return; // Don't double-trigger
-
-        //Debug.Log("StandAtStairs triggered");
-
-        //standAtStairsTriggered = true;
-        //agent.SetDestination(stairWaypoint.position);
-        //atWaypoint = false; // force the parent to go to stair point
-
-        // with Ellie
         agent.SetDestination(stairWaypoint.position);
         atWaypoint = false;
-        Debug.Log("StandAtStairs triggered.");
-
 
         float distToStairs = Vector3.Distance(transform.position, stairWaypoint.position);
         if (distToStairs < 1.5f)
@@ -188,7 +154,7 @@ public class Enemy : MonoBehaviour
         if (agent != null)
             agent.SetDestination(transform.position); // Stop moving
 
-        Debug.Log("Player spotted!"); // replace or remove later
+        Debug.LogWarning("Player spotted!"); // replace or remove later
 
         // Play animation
         // GetComponent<Animator>().SetTrigger("Gasp");
