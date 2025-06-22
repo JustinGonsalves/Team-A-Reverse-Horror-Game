@@ -8,6 +8,8 @@ public class Interactable : MonoBehaviour
     protected KarmaType selectedKarmaType = KarmaType.None;
     protected float karmaValueEffect = 0f;
 
+    Enemy parentAI;
+
     // Prevents reuse
     public bool hasBeenInteracted = false;
     // Controlled by objective manager
@@ -19,6 +21,13 @@ public class Interactable : MonoBehaviour
     // By default both positive and negative interaction possible, override either in script if needed
     public virtual bool SupportsPositiveInteraction => true;
     public virtual bool SupportsNegativeInteraction => true;
+
+
+    private void Start()
+    {
+        parentAI = FindFirstObjectByType<Enemy>();
+    }
+
 
     // In object script, can use ' return base.GetKarmaType(); '
     public virtual KarmaType GetKarmaType()
@@ -51,6 +60,17 @@ public class Interactable : MonoBehaviour
         hasBeenInteracted = true;
         // Tells the listener in the objective manager that this has been used
         OnInteracted?.Invoke(this);
+
+        if (parentAI != null)
+        {
+            Debug.LogWarning("Calling StandAtStairs from Interactables.cs!");
+            parentAI.standAtStairsTriggered = true;
+        }
+        else
+        {
+            Debug.LogWarning("Parent AI not found!");
+        }
+
     }
 
     public virtual void OnHoverStart()
