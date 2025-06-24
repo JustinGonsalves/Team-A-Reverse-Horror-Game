@@ -567,6 +567,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1067773149}
     m_Modifications:
+    - target: {fileID: 1511217700893364203, guid: 0d6c13da130049241a8a0febc27a7135, type: 3}
+      propertyPath: karmaValue
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8742686056386794817, guid: 0d6c13da130049241a8a0febc27a7135, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.31
@@ -647,6 +651,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1067773149}
     m_Modifications:
+    - target: {fileID: 6728288136593809778, guid: 15ff726c9f095c74595327d43b8dac66, type: 3}
+      propertyPath: karmaValue
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8862014196605291607, guid: 15ff726c9f095c74595327d43b8dac66, type: 3}
       propertyPath: m_Name
       value: Crucifix
@@ -6086,6 +6094,10 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8024049059560315707, guid: b7701c7c949e9b6428f05b0f4c2ff9ce, type: 3}
+      propertyPath: karmaValue
+      value: -14
+      objectReference: {fileID: 0}
     - target: {fileID: 8561562332132365975, guid: b7701c7c949e9b6428f05b0f4c2ff9ce, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -6298,6 +6310,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1067773149}
     m_Modifications:
+    - target: {fileID: 2623638707234106368, guid: 1844a90db1eeb7e45b712d09b122de61, type: 3}
+      propertyPath: karmaValue
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3628819674395038896, guid: 1844a90db1eeb7e45b712d09b122de61, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.42678282
@@ -8685,6 +8701,10 @@ PrefabInstance:
     - target: {fileID: 1761363660418403694, guid: 95848d5631f3ded41b70b7738017ac9f, type: 3}
       propertyPath: m_Name
       value: Curtain
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498846544559842767, guid: 95848d5631f3ded41b70b7738017ac9f, type: 3}
+      propertyPath: karmaValue
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 6623695465969094324, guid: 95848d5631f3ded41b70b7738017ac9f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18628,6 +18648,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LargeTV
       objectReference: {fileID: 0}
+    - target: {fileID: 2125206478072067974, guid: 193620401d561f24ab714e6517913572, type: 3}
+      propertyPath: negativeKarmaValue
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2125206478072067974, guid: 193620401d561f24ab714e6517913572, type: 3}
+      propertyPath: positiveKarmaValue
+      value: -14
+      objectReference: {fileID: 0}
     - target: {fileID: 4976992335957174830, guid: 193620401d561f24ab714e6517913572, type: 3}
       propertyPath: m_Radius
       value: 0.38
@@ -18709,6 +18737,10 @@ PrefabInstance:
       propertyPath: karmaBar
       value: 
       objectReference: {fileID: 1596406940}
+    - target: {fileID: 161832283609430485, guid: 4b4ce2482eba9cd44bfbd994578c43e9, type: 3}
+      propertyPath: totalKarma
+      value: 70
+      objectReference: {fileID: 0}
     - target: {fileID: 2642805430185695565, guid: 4b4ce2482eba9cd44bfbd994578c43e9, type: 3}
       propertyPath: m_Name
       value: Player
@@ -24666,6 +24698,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1067773149}
     m_Modifications:
     - target: {fileID: 1389406588976974166, guid: d53eda25ff3bc994393c194df99b0098, type: 3}
+      propertyPath: karmaValue
+      value: -14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1389406588976974166, guid: d53eda25ff3bc994393c194df99b0098, type: 3}
       propertyPath: switchOffSound
       value: 
       objectReference: {fileID: 8300000, guid: af94b27cabb9ad6418dc5f42aedbf696, type: 3}
@@ -26596,6 +26632,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1067773149}
     m_Modifications:
+    - target: {fileID: 4804821041118705360, guid: 44de6c1be5141ad4b94e6491ca49a6f9, type: 3}
+      propertyPath: karmaValue
+      value: -14
+      objectReference: {fileID: 0}
     - target: {fileID: 6068928847676729935, guid: 44de6c1be5141ad4b94e6491ca49a6f9, type: 3}
       propertyPath: m_Name
       value: Sink

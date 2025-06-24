@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class KarmaManager : MonoBehaviour
 {
-    public float totalKarma = 50;
+    public float totalKarma = 70;
 
     public int goodActions = 0;
     public int badActions = 0;
