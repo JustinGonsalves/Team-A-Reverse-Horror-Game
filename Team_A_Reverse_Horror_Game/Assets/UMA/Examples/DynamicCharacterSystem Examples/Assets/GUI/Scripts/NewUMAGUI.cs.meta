@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5bd7d8bbf89d1ae41994fb0770fca430
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/GUI/Scripts/NewUMAGUI.cs
+  uploadId: 744093

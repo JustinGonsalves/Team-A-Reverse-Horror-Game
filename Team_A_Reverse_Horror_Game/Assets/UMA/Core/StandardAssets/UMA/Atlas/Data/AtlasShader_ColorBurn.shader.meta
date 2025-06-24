@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 59c382ffc8bc32f4d92e53948d3431e0
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Atlas/Data/AtlasShader_ColorBurn.shader
+  uploadId: 744093

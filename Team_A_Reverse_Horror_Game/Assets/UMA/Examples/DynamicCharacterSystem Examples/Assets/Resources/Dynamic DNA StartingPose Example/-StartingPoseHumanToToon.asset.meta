@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4d73f7e1fb4f9ce4f8289bf65042e27e
+timeCreated: 1467683405
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Resources/Dynamic
+    DNA StartingPose Example/-StartingPoseHumanToToon.asset
+  uploadId: 744093

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a1faf3bdf09bda3498d5b539ccb1623c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Physics Examples/RagdollExample/LightingData.asset
+  uploadId: 744093

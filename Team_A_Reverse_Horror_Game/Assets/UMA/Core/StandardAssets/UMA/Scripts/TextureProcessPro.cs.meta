@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5143493fde001e94195806cf05651695
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Scripts/TextureProcessPro.cs
+  uploadId: 744093

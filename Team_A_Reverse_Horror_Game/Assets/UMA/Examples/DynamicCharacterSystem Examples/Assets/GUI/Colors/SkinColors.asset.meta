@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1142620b746698b42a5bb3392ee7c732
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/GUI/Colors/SkinColors.asset
+  uploadId: 744093

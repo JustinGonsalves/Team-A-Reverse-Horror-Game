@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 65a87eed6bdb9f442ba91879a3afb996
+timeCreated: 1458081930
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Extensions/DynamicCharacterSystem/WardrobeRecipeListPropertyDrawer.cs
+  uploadId: 744093

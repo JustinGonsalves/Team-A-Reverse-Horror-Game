@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7b1313d2a41cc8349a3ba420fced882e
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Toon/Wardrobe2/Slots/Clothes/UMA_Toon_Shoes-ANKLES_Slot.asset
+  uploadId: 744093

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c4c6f18ac02008c438382f7a2ba6ded1
+timeCreated: 1446485473
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/ToonShared/RaceBase/Expressions/ToonPoses/LowerLipDown-L.asset
+  uploadId: 744093

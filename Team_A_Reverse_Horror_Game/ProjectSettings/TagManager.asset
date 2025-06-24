@@ -4,11 +4,13 @@
 TagManager:
   serializedVersion: 3
   tags:
+  - UMAKeepChain
   - CinemachineTarget
   - Floor
   - Gurgle Zone
   - GoodEnding
   - BadEnding
+  - UMAIgnore
   layers:
   - Default
   - TransparentFX

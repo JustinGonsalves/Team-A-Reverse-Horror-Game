@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ab6375f3ded439747a69f711c3d469e2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DNAConverterController Examples/Assets/BonePoses/TrollFace.asset
+  uploadId: 744093

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a2b1f4c9b2ad40f4b8a68144700342f8
+labels:
+- UMA_Text Recipe
+- UMA_Wardrobe Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleBeard1.asset
+  uploadId: 744093

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d262af4b07475c448abbc6ec5e59b135
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/DynamicDNA/Resources/Slots/UMA_Human_Female_Face_SlotGuide.asset
+  uploadId: 744093

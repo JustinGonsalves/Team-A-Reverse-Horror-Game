@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d2057943a68754cd2960911a7b53b1f9
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/DNARangeInspector.cs
+  uploadId: 744093

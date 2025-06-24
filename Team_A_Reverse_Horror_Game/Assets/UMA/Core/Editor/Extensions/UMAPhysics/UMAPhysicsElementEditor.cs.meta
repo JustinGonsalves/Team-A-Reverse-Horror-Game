@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 83ef0212f7090be43a5b670e28cc4aac
+timeCreated: 1489809717
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Extensions/UMAPhysics/UMAPhysicsElementEditor.cs
+  uploadId: 744093

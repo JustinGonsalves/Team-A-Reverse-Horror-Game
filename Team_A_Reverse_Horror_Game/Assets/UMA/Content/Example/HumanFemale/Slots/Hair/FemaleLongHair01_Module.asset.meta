@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ce2cca2d60a3a964e96c77683b6263db
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/HumanFemale/Slots/Hair/FemaleLongHair01_Module.asset
+  uploadId: 744093

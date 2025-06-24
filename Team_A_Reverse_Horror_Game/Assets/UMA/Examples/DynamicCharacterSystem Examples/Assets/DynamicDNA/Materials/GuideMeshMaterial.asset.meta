@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 15142949cffc71f46ac81f33f29faab4
+timeCreated: 1466641490
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/DynamicDNA/Materials/GuideMeshMaterial.asset
+  uploadId: 744093

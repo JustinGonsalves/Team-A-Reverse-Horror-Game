@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 30e281266b43fb3488fed1067f6e21f8
+labels:
+- UMA_Text Recipe
+- UMA_Wardrobe Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/HumanFemale/Recipes/WardrobeRecipes/HumanFemale/FemalePants2.asset
+  uploadId: 744093

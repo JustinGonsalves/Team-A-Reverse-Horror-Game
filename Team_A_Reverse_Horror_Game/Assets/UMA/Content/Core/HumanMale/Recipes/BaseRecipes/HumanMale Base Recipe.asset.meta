@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e9c4ce3b586a9884f83db0fb2581ddfe
+labels:
+- UMA_Text Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanMale/Recipes/BaseRecipes/HumanMale Base
+    Recipe.asset
+  uploadId: 744093

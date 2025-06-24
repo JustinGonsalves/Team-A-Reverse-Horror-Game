@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1e7c7a1596c5a8c4489c60b6c928b92a
+timeCreated: 1489808297
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Extensions/UMAPhysics/PhysicsDefinitions/HumanMaleHD/Spine1HD.asset
+  uploadId: 744093

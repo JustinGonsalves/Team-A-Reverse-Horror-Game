@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ec9e8c91180569641a5a9b9882768b05
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/TextureCombiner.cs
+  uploadId: 744093

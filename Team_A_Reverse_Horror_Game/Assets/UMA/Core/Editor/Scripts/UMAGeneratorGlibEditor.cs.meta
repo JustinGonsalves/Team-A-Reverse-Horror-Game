@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: bc67840f0e438e74dbf81eccf2b7c75b
+timeCreated: 1536290353
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/UMAGeneratorGlibEditor.cs
+  uploadId: 744093

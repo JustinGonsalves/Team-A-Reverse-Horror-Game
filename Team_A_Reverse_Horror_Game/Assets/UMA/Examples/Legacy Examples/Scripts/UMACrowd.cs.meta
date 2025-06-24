@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bde407db6d587ca4096a04837fd051dd
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 100
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Legacy Examples/Scripts/UMACrowd.cs
+  uploadId: 744093

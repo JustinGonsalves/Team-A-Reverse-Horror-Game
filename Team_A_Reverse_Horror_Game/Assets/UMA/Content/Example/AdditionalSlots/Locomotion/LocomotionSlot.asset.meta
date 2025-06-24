@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0fbc0a0bbfb29084bbeafb0876b6e28b
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/AdditionalSlots/Locomotion/LocomotionSlot.asset
+  uploadId: 744093

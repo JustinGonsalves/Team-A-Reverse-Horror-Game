@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 2da9e24d51c40624abf019a2f4799bb4
+TextScriptImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/Templates/UmaDnaChild_SetValue_Fragment.cs.txt
+  uploadId: 744093

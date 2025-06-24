@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 883cb758cd4e0f84e98d048d0ab89731
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Scripts/MirrorCam.cs
+  uploadId: 744093

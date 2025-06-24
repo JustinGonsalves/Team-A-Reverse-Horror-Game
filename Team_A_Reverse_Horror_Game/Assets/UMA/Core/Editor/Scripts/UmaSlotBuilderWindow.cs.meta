@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 586c88eecc7e2b74aafd3359fa05ad47
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/UmaSlotBuilderWindow.cs
+  uploadId: 744093

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: aa1f77c0da75e9e46aaeec647e7c270f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/UVAttachments/UVAttachedItemSampleItem.prefab
+  uploadId: 744093

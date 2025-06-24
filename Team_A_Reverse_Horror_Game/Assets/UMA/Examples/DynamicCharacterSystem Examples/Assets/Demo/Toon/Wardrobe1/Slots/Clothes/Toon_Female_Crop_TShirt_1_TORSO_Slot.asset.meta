@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 27cecc42eea01ba4080fa8703b35100f
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Toon/Wardrobe1/Slots/Clothes/Toon_Female_Crop_TShirt_1_TORSO_Slot.asset
+  uploadId: 744093

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: eb280940c811fab4a9e3ddf09381c343
+labels:
+- UMA_Animator Controller
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/Animators/Locomotion.controller
+  uploadId: 744093

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cefd0c20c262a4d2fa73e0f127b41431
+timeCreated: 1488756695
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Legacy Examples/Assets/ColorLists/ClothingUnderwear.asset
+  uploadId: 744093

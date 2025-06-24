@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bd0fb88425212424bb2f8e3d0563f05b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Legacy Examples/Assets/Prefabs/UMADynamicCharacterAvatar.prefab
+  uploadId: 744093

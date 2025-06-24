@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 88bf8fe8cf5932247b402d8a5ddc74b0
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/UMADNAHelperTools.cs
+  uploadId: 744093

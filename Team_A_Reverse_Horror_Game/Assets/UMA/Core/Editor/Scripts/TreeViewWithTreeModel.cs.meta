@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 65e907f546d467d4aa1eaa34982dc3cc
+timeCreated: 1472481611
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/TreeViewWithTreeModel.cs
+  uploadId: 744093

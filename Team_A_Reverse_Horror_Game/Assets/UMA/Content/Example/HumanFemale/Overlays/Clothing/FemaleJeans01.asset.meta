@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b6b6f8e091fafc644b63f4064102382a
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/HumanFemale/Overlays/Clothing/FemaleJeans01.asset
+  uploadId: 744093

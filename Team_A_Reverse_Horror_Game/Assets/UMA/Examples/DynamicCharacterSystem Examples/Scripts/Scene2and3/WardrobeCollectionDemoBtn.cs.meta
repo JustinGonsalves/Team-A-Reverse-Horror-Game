@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d7536169c2ee87a47b23fe28a996b30c
+timeCreated: 1484273627
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Scripts/Scene2and3/WardrobeCollectionDemoBtn.cs
+  uploadId: 744093

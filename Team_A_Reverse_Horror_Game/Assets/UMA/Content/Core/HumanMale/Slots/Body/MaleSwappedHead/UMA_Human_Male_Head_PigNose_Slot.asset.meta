@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: df6f8a2e1b457bf4498d758c9c77f004
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanMale/Slots/Body/MaleSwappedHead/UMA_Human_Male_Head_PigNose_Slot.asset
+  uploadId: 744093

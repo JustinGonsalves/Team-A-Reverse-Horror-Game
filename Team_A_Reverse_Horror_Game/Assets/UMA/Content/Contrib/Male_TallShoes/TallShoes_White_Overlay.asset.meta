@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ad54ecc72b1634b42a6b2ef9c5dbcdfa
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Contrib/Male_TallShoes/TallShoes_White_Overlay.asset
+  uploadId: 744093

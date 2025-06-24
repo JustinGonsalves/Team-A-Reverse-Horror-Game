@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: da31722262eeee64f936b9ee3e310d37
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Atlas/Data/AtlasShader_HardLight.shader
+  uploadId: 744093

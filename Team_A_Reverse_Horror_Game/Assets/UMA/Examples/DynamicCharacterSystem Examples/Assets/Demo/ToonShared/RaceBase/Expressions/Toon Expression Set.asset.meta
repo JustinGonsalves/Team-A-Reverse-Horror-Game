@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 42ef5a61b54e53a4a8cec7410e1e8d3c
+timeCreated: 1457757543
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/ToonShared/RaceBase/Expressions/Toon
+    Expression Set.asset
+  uploadId: 744093

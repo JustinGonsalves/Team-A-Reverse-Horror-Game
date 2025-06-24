@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8387810dc95766f4f95ce0ef5e1ca7fe
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Physics Examples/UMA_JiggleMaster/UMA_JiggleBoneDiagnostic.cs
+  uploadId: 744093

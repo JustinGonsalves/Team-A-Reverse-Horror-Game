@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2db8991bb8fd75f4eb02f3ee57a55f37
+timeCreated: 1426616726
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanShared/Materials/Standard/UMA_Mat_Diffuse_Normal_Metallic.mat
+  uploadId: 744093

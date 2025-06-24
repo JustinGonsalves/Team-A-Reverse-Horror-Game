@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 514ed115d0caa20418ac1b8f95240f40
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Physics Examples/UMA_JiggleMaster/UMA_JiggleElement.cs
+  uploadId: 744093

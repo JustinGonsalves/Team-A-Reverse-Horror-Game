@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b19a6b26dd4b48845b0237118b8cfb36
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Scripts/FPSCounter.cs
+  uploadId: 744093

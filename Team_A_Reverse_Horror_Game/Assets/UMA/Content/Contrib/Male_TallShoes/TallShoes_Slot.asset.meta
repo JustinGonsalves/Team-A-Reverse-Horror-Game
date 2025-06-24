@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f552f5dd25919084fa1077b6df706c9d
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Contrib/Male_TallShoes/TallShoes_Slot.asset
+  uploadId: 744093

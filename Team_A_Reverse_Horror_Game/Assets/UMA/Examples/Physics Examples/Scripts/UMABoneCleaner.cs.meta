@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f2811717b3f31444b9d2b855a6006837
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Physics Examples/Scripts/UMABoneCleaner.cs
+  uploadId: 744093

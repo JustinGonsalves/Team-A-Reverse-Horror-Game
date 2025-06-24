@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 14edfbef7f8b42847ab33770dc8f29f3
+labels:
+- UMA_Race
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Werewolf/RaceBase/Werewolf.asset
+  uploadId: 744093

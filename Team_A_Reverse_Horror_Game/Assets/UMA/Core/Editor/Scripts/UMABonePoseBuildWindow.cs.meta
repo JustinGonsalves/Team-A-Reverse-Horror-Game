@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 567e9bad5de4e4caf826d0b2202e22a9
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/UMABonePoseBuildWindow.cs
+  uploadId: 744093

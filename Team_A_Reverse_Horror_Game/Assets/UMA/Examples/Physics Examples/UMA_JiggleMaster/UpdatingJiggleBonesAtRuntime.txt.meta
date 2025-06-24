@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a4190ceb34dc5a24d963bddb7f781e6f
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Physics Examples/UMA_JiggleMaster/UpdatingJiggleBonesAtRuntime.txt
+  uploadId: 744093

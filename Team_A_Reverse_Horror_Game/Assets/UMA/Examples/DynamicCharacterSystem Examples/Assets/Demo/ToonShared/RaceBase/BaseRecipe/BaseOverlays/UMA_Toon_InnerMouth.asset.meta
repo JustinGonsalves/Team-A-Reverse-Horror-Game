@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: aac8da086dd8f7748ae3dc6b43ce490d
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/ToonShared/RaceBase/BaseRecipe/BaseOverlays/UMA_Toon_InnerMouth.asset
+  uploadId: 744093

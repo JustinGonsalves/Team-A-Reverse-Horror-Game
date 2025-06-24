@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 59b2ea4fb624d594ca0b363db59b1b15
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Decals/Scripts/DecalIndicator.cs
+  uploadId: 744093

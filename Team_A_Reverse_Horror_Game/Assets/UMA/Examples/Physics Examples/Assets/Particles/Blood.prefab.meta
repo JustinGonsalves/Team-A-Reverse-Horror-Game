@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9b8ecad3ccc80d84f97f64ac4784164a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Physics Examples/Assets/Particles/Blood.prefab
+  uploadId: 744093

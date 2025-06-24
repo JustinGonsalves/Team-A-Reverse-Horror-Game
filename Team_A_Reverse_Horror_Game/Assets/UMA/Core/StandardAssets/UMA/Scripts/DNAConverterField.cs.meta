@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: d975e4ff6ffe28a41bd003ff1bea1e72
+timeCreated: 1547313181
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Scripts/DNAConverterField.cs
+  uploadId: 744093

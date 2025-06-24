@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: f7cf4f6fc39293d4ca907620ae84f2c6
+timeCreated: 1537470577
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Scripts/DynamicDNAPlugin.cs
+  uploadId: 744093

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3d4a9b682ff9ab04e90c9b3c91e3e093
+labels:
+- UMA_Race
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanFemale/RaceData/Elf/Elf Female.asset
+  uploadId: 744093

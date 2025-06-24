@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1d96acc78b4466945b4866ca39e8418d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Extensions/DynamicCharacterSystem/Scripts/AvatarDefinition.cs
+  uploadId: 744093

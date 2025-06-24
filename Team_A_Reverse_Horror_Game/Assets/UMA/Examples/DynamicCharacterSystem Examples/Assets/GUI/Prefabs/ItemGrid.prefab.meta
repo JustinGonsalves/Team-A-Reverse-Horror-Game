@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cbae07ea713eef54fb787641a542954c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/GUI/Prefabs/ItemGrid.prefab
+  uploadId: 744093

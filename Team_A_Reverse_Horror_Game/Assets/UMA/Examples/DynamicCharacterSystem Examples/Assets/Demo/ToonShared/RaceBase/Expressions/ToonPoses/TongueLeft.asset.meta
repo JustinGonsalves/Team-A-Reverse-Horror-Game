@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7e8d773ae3567864090a85fa64263b80
+timeCreated: 1446483425
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/ToonShared/RaceBase/Expressions/ToonPoses/TongueLeft.asset
+  uploadId: 744093

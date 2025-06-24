@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 41da79f6380c3d04398d3996a8aecee3
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/HowTo Examples/How to Construct and load a DCA from
+    a prefab.unity
+  uploadId: 744093

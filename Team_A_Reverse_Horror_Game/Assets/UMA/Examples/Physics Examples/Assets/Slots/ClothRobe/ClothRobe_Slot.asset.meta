@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 6b8d84d3d68be9146899e780a8c296fb
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Physics Examples/Assets/Slots/ClothRobe/ClothRobe_Slot.asset
+  uploadId: 744093

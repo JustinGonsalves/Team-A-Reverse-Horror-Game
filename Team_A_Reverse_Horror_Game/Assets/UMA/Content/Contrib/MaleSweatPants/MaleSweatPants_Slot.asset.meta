@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2be54f8bb776cf440b3f9cc8d1fa9b31
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Contrib/MaleSweatPants/MaleSweatPants_Slot.asset
+  uploadId: 744093

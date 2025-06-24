@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f552fba85ff835a4f84eefcf620b7e33
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Timeline Example/UMA Timeline ExampleSettings.lighting
+  uploadId: 744093

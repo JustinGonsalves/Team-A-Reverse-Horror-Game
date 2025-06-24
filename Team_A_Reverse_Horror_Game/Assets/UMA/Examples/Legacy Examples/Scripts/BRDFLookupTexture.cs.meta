@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 93040e3d481979e489c16bf346c52213
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Legacy Examples/Scripts/BRDFLookupTexture.cs
+  uploadId: 744093

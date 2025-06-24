@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bb05426748b15004ba9d63a26604e0bb
+timeCreated: 1491852239
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Legacy Examples/UMA Core Demo - Crowd Recipes.unity
+  uploadId: 744093

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e40f405bbd058a0419b3d09cf94ee7de
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanFemale/Slots/UMA_Human_Female_Legs_Slot.asset
+  uploadId: 744093

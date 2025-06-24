@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 815c7ed9756d5494fa8b506a319f9f9b
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanMale/Slots/Body/UMA_Human_Male_Face_Slot.asset
+  uploadId: 744093

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 07908c48b4fc24542bd91f7d94e4a4f7
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/DynamicDNA/Resources/Overlays/GuideMeshOverlay.asset
+  uploadId: 744093

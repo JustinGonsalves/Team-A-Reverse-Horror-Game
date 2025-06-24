@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a32a7985c036ddc4ebda30571ff4c09d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/AdditionalSlots/Locomotion/LocomotionSlotScript.cs
+  uploadId: 744093

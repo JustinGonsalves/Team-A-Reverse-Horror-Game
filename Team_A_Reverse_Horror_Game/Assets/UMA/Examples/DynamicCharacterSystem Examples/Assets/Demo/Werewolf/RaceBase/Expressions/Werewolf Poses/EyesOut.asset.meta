@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f8f163b8d506348459486594ac81ae40
+timeCreated: 1459266119
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Werewolf/RaceBase/Expressions/Werewolf
+    Poses/EyesOut.asset
+  uploadId: 744093

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5687fa2fc82f7f74aae2f0250d103ac7
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/SkinShaders/Shader/SSS_Utils.cginc
+  uploadId: 744093

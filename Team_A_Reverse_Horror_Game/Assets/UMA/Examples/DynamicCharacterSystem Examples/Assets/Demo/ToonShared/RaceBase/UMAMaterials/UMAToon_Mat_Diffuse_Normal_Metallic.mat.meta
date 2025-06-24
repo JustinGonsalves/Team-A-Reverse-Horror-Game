@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ea2a05296253f6a4db641b4774f56ccc
+timeCreated: 1457757817
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/ToonShared/RaceBase/UMAMaterials/UMAToon_Mat_Diffuse_Normal_Metallic.mat
+  uploadId: 744093

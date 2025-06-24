@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3f931c57fc33c8145be2a71aa9e378a0
+timeCreated: 1459266118
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Werewolf/RaceBase/Expressions/Werewolf
+    Poses/EyeClose_L.asset
+  uploadId: 744093

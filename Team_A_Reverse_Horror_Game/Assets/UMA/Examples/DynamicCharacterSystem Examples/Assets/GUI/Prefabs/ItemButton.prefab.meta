@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 81de77acc06405641993b7b223bb2ebc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/GUI/Prefabs/ItemButton.prefab
+  uploadId: 744093

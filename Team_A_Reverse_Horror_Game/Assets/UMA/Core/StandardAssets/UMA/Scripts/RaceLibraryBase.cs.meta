@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9fffd3fc80e07534d8ec983e629f186a
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Scripts/RaceLibraryBase.cs
+  uploadId: 744093

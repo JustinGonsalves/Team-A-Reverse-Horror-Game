@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 9259f183d811e5c4e8abc46ba7c5e7ec
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/ToonShared/RaceBase/BaseRecipe/BaseSlots/UMA_Toon_EYES_Slot.asset
+  uploadId: 744093

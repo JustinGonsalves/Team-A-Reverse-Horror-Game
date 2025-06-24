@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 91e2cbe585e0f6145b24d5c6aaf13e1c
+timeCreated: 1457757410
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Toon/Race/ToonF
+    UMADNARangeAsset.asset
+  uploadId: 744093

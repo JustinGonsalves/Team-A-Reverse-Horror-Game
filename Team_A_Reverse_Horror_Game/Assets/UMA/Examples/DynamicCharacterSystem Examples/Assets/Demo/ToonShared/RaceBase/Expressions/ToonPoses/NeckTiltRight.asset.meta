@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5e7f77c4d63fba248a6c86f9c5a5404b
+timeCreated: 1446483429
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/ToonShared/RaceBase/Expressions/ToonPoses/NeckTiltRight.asset
+  uploadId: 744093

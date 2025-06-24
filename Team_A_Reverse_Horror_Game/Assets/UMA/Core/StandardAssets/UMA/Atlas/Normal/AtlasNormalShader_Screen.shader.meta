@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a7acb9f93a336674fbc4a94858aaab10
+timeCreated: 1426630728
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Atlas/Normal/AtlasNormalShader_Screen.shader
+  uploadId: 744093

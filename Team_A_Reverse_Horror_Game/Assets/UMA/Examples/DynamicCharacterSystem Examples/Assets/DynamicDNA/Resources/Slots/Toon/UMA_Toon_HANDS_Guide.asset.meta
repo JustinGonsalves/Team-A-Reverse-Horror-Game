@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 080febfeb9fabef40869c10c29e7b808
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/DynamicDNA/Resources/Slots/Toon/UMA_Toon_HANDS_Guide.asset
+  uploadId: 744093

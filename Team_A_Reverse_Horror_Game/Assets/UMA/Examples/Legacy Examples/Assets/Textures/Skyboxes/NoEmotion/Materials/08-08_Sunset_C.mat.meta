@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 11b30e62ce68af4478c801d9ca4e972b
+timeCreated: 1434818297
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Legacy Examples/Assets/Textures/Skyboxes/NoEmotion/Materials/08-08_Sunset_C.mat
+  uploadId: 744093

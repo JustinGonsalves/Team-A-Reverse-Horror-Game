@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 84b952592715cb94da0e3e81d267e72f
+labels:
+- UMA_Text Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Physics Examples/UMA_JiggleMaster/JiggleBreasts/JiggleBreastsRecipe.asset
+  uploadId: 744093

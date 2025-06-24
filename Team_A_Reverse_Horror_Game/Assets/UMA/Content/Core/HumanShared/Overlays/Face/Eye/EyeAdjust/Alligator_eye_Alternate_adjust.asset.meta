@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: cda7e080be988c44ab8341720f86d6cd
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanShared/Overlays/Face/Eye/EyeAdjust/Alligator_eye_Alternate_adjust.asset
+  uploadId: 744093

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 432996ca1b2bd36408bd150d34f9b6ca
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/ShaderPackages/ShaderPackager-main/Scripts/Editor/ShaderPackageImporter.cs
+  uploadId: 744093

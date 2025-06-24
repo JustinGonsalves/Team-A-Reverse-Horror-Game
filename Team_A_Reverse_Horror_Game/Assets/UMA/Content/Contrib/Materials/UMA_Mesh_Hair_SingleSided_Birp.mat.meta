@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0e95ef0aa23de984b9e09719a5d977c4
+timeCreated: 1499369180
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Contrib/Materials/UMA_Mesh_Hair_SingleSided_Birp.mat
+  uploadId: 744093

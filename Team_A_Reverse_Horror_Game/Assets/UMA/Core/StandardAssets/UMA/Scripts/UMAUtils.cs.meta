@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2427c7574661e40758b5b24079ddaf57
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Scripts/UMAUtils.cs
+  uploadId: 744093

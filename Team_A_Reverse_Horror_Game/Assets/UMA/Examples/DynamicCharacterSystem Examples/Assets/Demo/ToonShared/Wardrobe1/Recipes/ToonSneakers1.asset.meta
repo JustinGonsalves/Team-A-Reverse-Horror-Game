@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b823480ff505fdd4d9c772cf0702c28c
+labels:
+- UMA_Text Recipe
+- UMA_Wardrobe Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/ToonShared/Wardrobe1/Recipes/ToonSneakers1.asset
+  uploadId: 744093

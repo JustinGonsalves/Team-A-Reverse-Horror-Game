@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4eec278de692d0644bd75302d24aa066
+timeCreated: 1459266118
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Werewolf/RaceBase/Expressions/Werewolf
+    Poses/CheeksPuff.asset
+  uploadId: 744093

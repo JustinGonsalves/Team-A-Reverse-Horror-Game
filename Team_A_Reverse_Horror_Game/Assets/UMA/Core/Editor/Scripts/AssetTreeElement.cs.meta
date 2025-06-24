@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 71075f95f18b5a64b99c9bff2e55a9fd
+timeCreated: 1472024032
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/AssetTreeElement.cs
+  uploadId: 744093

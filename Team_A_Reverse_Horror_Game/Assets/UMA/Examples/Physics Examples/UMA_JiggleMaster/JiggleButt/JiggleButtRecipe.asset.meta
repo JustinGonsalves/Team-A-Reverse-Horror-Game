@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d0a23b6199dd01d4f9774992f538b2f5
+labels:
+- UMA_Text Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Physics Examples/UMA_JiggleMaster/JiggleButt/JiggleButtRecipe.asset
+  uploadId: 744093

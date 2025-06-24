@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: aa8d990ec3c557445ada4c167873bec5
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Contrib/Male_HairCaps/MainCap_Overlay.asset
+  uploadId: 744093

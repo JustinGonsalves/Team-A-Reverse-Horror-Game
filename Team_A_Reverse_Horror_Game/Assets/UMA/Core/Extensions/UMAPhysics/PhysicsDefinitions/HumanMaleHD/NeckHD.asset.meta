@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5891f76a4abe6834cac4e5d16266c4c3
+timeCreated: 1489807824
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Extensions/UMAPhysics/PhysicsDefinitions/HumanMaleHD/NeckHD.asset
+  uploadId: 744093

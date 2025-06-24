@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 580cfc624734b96409a41117dde7daae
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/ShaderPackages/ShaderPackager-main/LICENSE
+  uploadId: 744093

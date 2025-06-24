@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: cf8631a0e0aefb34aa822421f8d5f826
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Contrib/FemalePonyTail/FemalePonyTail_Overlay.asset
+  uploadId: 744093

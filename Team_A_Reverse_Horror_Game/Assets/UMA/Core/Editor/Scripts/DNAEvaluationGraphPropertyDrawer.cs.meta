@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: fb3f1200ce0e23448b08365bba5ff16f
+timeCreated: 1537559014
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/DNAEvaluationGraphPropertyDrawer.cs
+  uploadId: 744093

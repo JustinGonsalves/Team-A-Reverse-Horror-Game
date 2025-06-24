@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: aa5b823e3b6719e47b731c13062a0492
+timeCreated: 1459266119
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Werewolf/RaceBase/Expressions/Werewolf
+    Poses/HeadLeft.asset
+  uploadId: 744093

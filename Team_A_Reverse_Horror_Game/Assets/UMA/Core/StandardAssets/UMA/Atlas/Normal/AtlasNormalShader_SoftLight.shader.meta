@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e28ff790b707e184288004586c7dce45
+timeCreated: 1426630728
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Atlas/Normal/AtlasNormalShader_SoftLight.shader
+  uploadId: 744093

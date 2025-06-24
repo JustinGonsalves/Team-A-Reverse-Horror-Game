@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b53229351f1835947840963cdd44227e
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Contrib/FemalePonyTail/PonyTail_Scrunchie_Overlay.asset
+  uploadId: 744093

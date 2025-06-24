@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fa857c0e4a44bcf42abca9c1cecaa495
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Scripts/OverlayLibrary.cs
+  uploadId: 744093

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 28864c26b3f4bea4bb382e8ca1b60565
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Toon/Race/Recipes/BaseOverlays/UMA_Toon_F_Body.asset
+  uploadId: 744093

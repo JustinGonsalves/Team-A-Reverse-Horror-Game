@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 799aad75639b381489457f0a1db0b6ca
+timeCreated: 1499369237
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Contrib/Materials/UMA_Mesh_Hair_SingleSided.asset
+  uploadId: 744093

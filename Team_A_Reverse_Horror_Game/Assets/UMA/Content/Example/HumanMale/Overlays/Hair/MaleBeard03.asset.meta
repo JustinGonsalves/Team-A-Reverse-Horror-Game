@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0f78229f3dbb8e34f904840f3db74e72
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/HumanMale/Overlays/Hair/MaleBeard03.asset
+  uploadId: 744093

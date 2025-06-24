@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 761146c6245566642b5d708edd1c3def
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/CodeGenTemplate.cs
+  uploadId: 744093

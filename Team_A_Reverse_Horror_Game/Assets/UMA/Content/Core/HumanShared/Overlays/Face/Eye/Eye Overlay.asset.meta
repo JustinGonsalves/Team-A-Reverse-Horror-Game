@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 98b05b17b4e8ff142b1f16df2ef2315b
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanShared/Overlays/Face/Eye/Eye Overlay.asset
+  uploadId: 744093

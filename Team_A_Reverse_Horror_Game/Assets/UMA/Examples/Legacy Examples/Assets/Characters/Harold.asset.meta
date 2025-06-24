@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0409db20f2fc7ea488319e711c94c603
+labels:
+- UMA_Text Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Legacy Examples/Assets/Characters/Harold.asset
+  uploadId: 744093

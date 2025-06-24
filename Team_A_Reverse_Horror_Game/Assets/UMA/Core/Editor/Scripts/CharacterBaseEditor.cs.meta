@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f22192b22c8d1e4479a84d056207e88b
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/CharacterBaseEditor.cs
+  uploadId: 744093

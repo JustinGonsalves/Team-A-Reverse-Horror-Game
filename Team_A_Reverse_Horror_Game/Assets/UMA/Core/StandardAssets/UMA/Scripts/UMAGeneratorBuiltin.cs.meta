@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 803cfbac19edb5545a2d75c5a4794e5f
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Scripts/UMAGeneratorBuiltin.cs
+  uploadId: 744093

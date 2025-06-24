@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a2cfb51958276a643b9e80a541702b9d
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Werewolf/RaceBase/BaseRecipe/BaseRecipeSlots/UMA_Werewolf_InnerMouth_Slot.asset
+  uploadId: 744093

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 26d31d9b353207f4a9a4339d33a4af1d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Legacy Examples/Assets/Materials/Cement.mat
+  uploadId: 744093

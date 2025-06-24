@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3c831180fd2f190428a8151a60b3e55f
+labels:
+- UMA_Text Recipe
+- UMA_Wardrobe Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Physics Examples/Assets/Slots/BoneyTail/BoneyTail_Recipe.asset
+  uploadId: 744093

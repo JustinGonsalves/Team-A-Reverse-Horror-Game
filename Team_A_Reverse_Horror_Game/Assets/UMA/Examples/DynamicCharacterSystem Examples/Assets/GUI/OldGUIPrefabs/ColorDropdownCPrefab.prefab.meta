@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dbad0120152d8354d93eb310ea379ca6
+timeCreated: 1459802231
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/GUI/OldGUIPrefabs/ColorDropdownCPrefab.prefab
+  uploadId: 744093

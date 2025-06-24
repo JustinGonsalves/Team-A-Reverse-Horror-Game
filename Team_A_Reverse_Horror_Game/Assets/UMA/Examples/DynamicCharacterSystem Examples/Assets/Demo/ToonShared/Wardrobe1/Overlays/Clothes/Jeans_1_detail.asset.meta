@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ebe828fad47d6974d98f634f415815f9
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/ToonShared/Wardrobe1/Overlays/Clothes/Jeans_1_detail.asset
+  uploadId: 744093

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4a4f870debb12224fb42cd5160d5c90d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Scripts/PopupAssetInspector.cs
+  uploadId: 744093

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a60f356119dc5894a95697306d5d53b1
+timeCreated: 1489788754
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Extensions/UMAPhysics/PhysicsDefinitions/HumanMaleStandard/RightLegStandard.asset
+  uploadId: 744093

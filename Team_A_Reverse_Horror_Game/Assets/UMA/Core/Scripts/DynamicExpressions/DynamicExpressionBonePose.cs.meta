@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5038fa450b0832144af1bfb32d84d3fc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Scripts/DynamicExpressions/DynamicExpressionBonePose.cs
+  uploadId: 744093

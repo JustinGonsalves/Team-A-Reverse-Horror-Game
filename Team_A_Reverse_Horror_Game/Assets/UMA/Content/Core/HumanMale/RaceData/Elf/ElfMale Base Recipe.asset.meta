@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 52132aa93024910468fe6e7ce1e450a9
+labels:
+- UMA_Text Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanMale/RaceData/Elf/ElfMale Base Recipe.asset
+  uploadId: 744093

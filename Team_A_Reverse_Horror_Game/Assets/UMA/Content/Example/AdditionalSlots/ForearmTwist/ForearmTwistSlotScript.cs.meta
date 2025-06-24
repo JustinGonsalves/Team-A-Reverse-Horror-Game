@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eb235dc3846054e388b467b624c23bae
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/AdditionalSlots/ForearmTwist/ForearmTwistSlotScript.cs
+  uploadId: 744093

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 70f0a512c64cccf4391f4279165d3add
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/BonePoseSets/TrollFace_Controller DynamicDNAConverterController.asset
+  uploadId: 744093

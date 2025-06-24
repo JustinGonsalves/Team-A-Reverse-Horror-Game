@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7c7a68f26d49a4046b039854e10a7751
+labels:
+- UMA_Text Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanFemale/RaceData/Elf/Elf Female Base Race
+    Recipe.asset
+  uploadId: 744093

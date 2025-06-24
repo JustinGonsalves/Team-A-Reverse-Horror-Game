@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f7ff3729dba08b044a2535b32a1251ba
+labels:
+- UMA_Text Recipe
+- UMA_Wardrobe Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Contrib/F_Shoes/FemaleTallShoes_Black.asset
+  uploadId: 744093

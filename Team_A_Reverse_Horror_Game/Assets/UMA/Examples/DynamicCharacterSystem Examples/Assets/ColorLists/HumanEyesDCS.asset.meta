@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 279fee251e5d9df4683c58715185be70
+timeCreated: 1463863074
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/ColorLists/HumanEyesDCS.asset
+  uploadId: 744093

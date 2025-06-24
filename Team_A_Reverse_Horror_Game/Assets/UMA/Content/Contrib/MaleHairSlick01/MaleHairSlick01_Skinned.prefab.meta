@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3574ff9434d8efd4c96c91e02c9d8bad
+timeCreated: 1509634153
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Contrib/MaleHairSlick01/MaleHairSlick01_Skinned.prefab
+  uploadId: 744093

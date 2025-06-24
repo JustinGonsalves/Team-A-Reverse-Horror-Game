@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bf214390b0b80ac41b53432ba8eaaeb5
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Editor/Addressable_Editor.asmdef
+  uploadId: 744093

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 18c3aebbe7284b346a6bb269ef320410
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/UMAMaterialAnimatorInspector.cs
+  uploadId: 744093

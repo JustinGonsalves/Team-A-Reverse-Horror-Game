@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4dddfeb7c1d47498c82430e5960d4cce
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Scripts/DNA/Legacy/HumanoidDNAConverterBehaviour.cs
+  uploadId: 744093

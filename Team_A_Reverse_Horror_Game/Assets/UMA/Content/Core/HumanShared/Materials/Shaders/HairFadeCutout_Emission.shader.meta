@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e13c91899da998545b35d9d976e03af9
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanShared/Materials/Shaders/HairFadeCutout_Emission.shader
+  uploadId: 744093

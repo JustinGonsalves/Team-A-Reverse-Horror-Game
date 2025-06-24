@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: ac740e993146b9d438873fa300c5f87c
+timeCreated: 1538743041
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/DynamicDNAPluginInspector.cs
+  uploadId: 744093

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6378e23bda136ba4db84d6b5d8dd54aa
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Legacy Examples/UMA Core Demo - Crowd/LightingData.asset
+  uploadId: 744093

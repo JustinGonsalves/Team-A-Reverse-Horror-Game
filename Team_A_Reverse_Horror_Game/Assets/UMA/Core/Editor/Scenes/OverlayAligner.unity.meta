@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 670cf9926876aed4cac3f3687530eab6
+labels:
+- UMA_Test
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scenes/OverlayAligner.unity
+  uploadId: 744093

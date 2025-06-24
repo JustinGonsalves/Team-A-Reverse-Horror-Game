@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 769b59550b1e5854b8509c9a65f2c430
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Scripts/DnaConverterBehaviour.cs
+  uploadId: 744093

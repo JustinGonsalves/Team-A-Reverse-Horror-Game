@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 15a5f99afe13df8468a9d786b532a08f
+timeCreated: 1426806253
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanShared/Materials/Other/UMA_Mat_Fade_Diffuse.mat
+  uploadId: 744093

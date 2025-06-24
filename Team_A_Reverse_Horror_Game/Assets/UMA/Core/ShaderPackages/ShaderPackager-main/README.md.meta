@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7b5c0e1a8d9e26c4f8d6692206b672f7
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/ShaderPackages/ShaderPackager-main/README.md
+  uploadId: 744093

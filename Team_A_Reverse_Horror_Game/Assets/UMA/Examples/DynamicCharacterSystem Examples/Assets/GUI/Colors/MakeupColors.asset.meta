@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 578be21668fd25d4f87b083cf1ec234c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/GUI/Colors/MakeupColors.asset
+  uploadId: 744093

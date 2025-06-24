@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e5f24ace69a61714ab212062339dc69d
+timeCreated: 1434836257
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Legacy Examples/Assets/Textures/Skyboxes/NoEmotion/Materials/04-23_Sun_A.mat
+  uploadId: 744093

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 049023c663609fb4b995c6206aa43ca7
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Contrib/MaleHoodie/MaleHoodie_Slot.asset
+  uploadId: 744093

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6f31ee598e4f8d64793eaa3211d9293f
+timeCreated: 1495924731
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Physics Examples/Assets/Slots/ClothRobe/ClothRobe_Skinned.prefab
+  uploadId: 744093

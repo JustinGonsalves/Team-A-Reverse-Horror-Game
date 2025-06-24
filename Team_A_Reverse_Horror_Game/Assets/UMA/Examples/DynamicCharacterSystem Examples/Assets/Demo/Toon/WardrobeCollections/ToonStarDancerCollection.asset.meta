@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b6b3facce2ec62848b07e8d9e8e1bfed
+labels:
+- UMA_Text Recipe
+- UMA_Wardrobe Collection
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Toon/WardrobeCollections/ToonStarDancerCollection.asset
+  uploadId: 744093

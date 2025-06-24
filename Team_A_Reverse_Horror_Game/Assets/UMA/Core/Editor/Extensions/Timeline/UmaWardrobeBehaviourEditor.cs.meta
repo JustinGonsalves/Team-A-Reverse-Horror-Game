@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 4f558d4d5a4c5844fa3c6306df0b2079
+timeCreated: 1537147299
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Extensions/Timeline/UmaWardrobeBehaviourEditor.cs
+  uploadId: 744093

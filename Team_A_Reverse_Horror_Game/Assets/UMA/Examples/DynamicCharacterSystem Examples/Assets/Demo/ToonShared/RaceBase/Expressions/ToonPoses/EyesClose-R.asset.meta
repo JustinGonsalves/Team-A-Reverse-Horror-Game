@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0a7a841382e3a8a4999a1ef9b0d63547
+timeCreated: 1446485974
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/ToonShared/RaceBase/Expressions/ToonPoses/EyesClose-R.asset
+  uploadId: 744093

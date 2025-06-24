@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 976ccd244cd4e334fa91c7ceabffc2ff
+timeCreated: 1506789711
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/MountingObjects Example/MountingObjectsExampleScene.unity
+  uploadId: 744093

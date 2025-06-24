@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 31b625579c8744547b02bdd5c42c557e
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanShared/Overlays/Face/Eye/EyeAdjust/Default
+    Eye Adjust.asset
+  uploadId: 744093

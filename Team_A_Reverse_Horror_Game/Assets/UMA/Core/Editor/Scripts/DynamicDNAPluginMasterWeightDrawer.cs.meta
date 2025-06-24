@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 8fae1066aa910be4e8242e8f4ea30298
+timeCreated: 1539708358
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/DynamicDNAPluginMasterWeightDrawer.cs
+  uploadId: 744093

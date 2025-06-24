@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b7fd1a50ba60d8c4eb01f5670d967e82
+timeCreated: 1459266119
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Werewolf/RaceBase/Expressions/Werewolf
+    Poses/BrowOuterUp_R.asset
+  uploadId: 744093

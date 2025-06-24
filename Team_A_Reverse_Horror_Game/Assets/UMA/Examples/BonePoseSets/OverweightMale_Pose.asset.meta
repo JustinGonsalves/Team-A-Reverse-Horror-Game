@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 46a5cbeeb98914f4ca3db8d5ce8c2cc5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/BonePoseSets/OverweightMale_Pose.asset
+  uploadId: 744093

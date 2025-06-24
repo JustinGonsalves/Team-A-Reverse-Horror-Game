@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a60d5c517fee0ce48b5b59b9ed45861e
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanMale/Overlays/Face/SwappedHead/MaleFace01.asset
+  uploadId: 744093

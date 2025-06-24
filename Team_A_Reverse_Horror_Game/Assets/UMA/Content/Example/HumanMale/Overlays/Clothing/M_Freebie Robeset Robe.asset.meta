@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c901b9f1e6dc2dd4190fe7ae4272a633
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/HumanMale/Overlays/Clothing/M_Freebie Robeset
+    Robe.asset
+  uploadId: 744093

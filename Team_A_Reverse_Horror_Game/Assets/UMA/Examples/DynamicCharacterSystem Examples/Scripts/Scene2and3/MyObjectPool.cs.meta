@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 4550573478ffc9047ac0c13b86830621
+timeCreated: 1459801769
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Scripts/Scene2and3/MyObjectPool.cs
+  uploadId: 744093

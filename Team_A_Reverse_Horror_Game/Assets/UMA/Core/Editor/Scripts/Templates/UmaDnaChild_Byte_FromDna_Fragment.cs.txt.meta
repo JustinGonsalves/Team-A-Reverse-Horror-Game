@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 276fb4664da6b9843b88f11b50fca750
+TextScriptImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/Templates/UmaDnaChild_Byte_FromDna_Fragment.cs.txt
+  uploadId: 744093

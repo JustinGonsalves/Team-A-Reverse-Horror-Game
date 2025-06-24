@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 64c6614d653bc0e4d8b0ec1524b409b6
+labels:
+- UMA_Text Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DNAConverterController Examples/Assets/Recipes/DNAConverterControllerExample
+    Base Recipe.asset
+  uploadId: 744093

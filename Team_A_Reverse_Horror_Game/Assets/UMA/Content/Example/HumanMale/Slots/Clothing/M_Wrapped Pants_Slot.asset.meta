@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8af4a60576514c7478104a0a50713222
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/HumanMale/Slots/Clothing/M_Wrapped Pants_Slot.asset
+  uploadId: 744093

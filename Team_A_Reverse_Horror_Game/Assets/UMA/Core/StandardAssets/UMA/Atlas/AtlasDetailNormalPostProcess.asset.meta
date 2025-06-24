@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6723c87feec7dbc49914728f5b571b02
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Atlas/AtlasDetailNormalPostProcess.asset
+  uploadId: 744093

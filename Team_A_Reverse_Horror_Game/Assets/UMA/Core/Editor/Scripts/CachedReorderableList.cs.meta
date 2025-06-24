@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 0a038190d39cafa4993760e4dfe60b40
+timeCreated: 1538148631
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/CachedReorderableList.cs
+  uploadId: 744093

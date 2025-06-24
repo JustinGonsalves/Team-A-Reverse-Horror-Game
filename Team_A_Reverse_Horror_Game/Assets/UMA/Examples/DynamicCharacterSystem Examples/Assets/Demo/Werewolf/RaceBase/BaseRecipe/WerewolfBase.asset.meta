@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7057b3bb6c38031459bffc3b43b345e3
+labels:
+- UMA_Text Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Werewolf/RaceBase/BaseRecipe/WerewolfBase.asset
+  uploadId: 744093

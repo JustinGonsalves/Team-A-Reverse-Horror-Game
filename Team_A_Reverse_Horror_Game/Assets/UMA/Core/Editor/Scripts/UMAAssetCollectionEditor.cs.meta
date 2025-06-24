@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f890f3e7c24e20149b87463dff84d215
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/UMAAssetCollectionEditor.cs
+  uploadId: 744093

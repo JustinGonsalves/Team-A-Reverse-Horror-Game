@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9c90fa322af63ed48aef526f53c480c6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanMale/FBX/TPoses/Male_Unified_TPose.asset
+  uploadId: 744093

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 9f8517ff4e839574d90631d851147e81
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Contrib/MaleHoodie/MaleHoodie_Overlay.asset
+  uploadId: 744093

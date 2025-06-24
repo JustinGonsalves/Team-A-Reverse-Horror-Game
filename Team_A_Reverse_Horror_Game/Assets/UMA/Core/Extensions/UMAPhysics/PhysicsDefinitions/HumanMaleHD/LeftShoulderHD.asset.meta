@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 99b95196ddb3b0e45828b3eda34907b6
+timeCreated: 1489807692
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Extensions/UMAPhysics/PhysicsDefinitions/HumanMaleHD/LeftShoulderHD.asset
+  uploadId: 744093

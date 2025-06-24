@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 223ba86cee7348847906802e88a29bfb
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Addressables/AddressablesScene.unity
+  uploadId: 744093

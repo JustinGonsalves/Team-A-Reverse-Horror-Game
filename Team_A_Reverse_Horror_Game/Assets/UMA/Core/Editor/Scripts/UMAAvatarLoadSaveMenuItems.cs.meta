@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 51bbbbc35fb98084796067ef0ae0d23f
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/UMAAvatarLoadSaveMenuItems.cs
+  uploadId: 744093

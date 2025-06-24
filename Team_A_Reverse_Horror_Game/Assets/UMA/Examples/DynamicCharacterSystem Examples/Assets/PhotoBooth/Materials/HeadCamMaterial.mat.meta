@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cb2db85810d24434e835d5a1d88f6064
+timeCreated: 1459430688
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/PhotoBooth/Materials/HeadCamMaterial.mat
+  uploadId: 744093

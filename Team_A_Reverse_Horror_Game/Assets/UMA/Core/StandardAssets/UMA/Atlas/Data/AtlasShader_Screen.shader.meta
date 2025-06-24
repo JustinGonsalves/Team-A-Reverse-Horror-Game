@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: eff2e81e510ad8348b120d56d22fddf3
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Atlas/Data/AtlasShader_Screen.shader
+  uploadId: 744093

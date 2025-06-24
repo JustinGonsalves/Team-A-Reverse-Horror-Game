@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ba3b889a499bd634591d1aa2dc7b1f5c
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Editor/UMA_Examples_Editor.asmdef
+  uploadId: 744093

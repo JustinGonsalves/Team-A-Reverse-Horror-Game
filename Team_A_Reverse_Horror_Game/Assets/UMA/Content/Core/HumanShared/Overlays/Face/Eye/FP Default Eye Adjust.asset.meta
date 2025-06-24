@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b50b1d40e34242d4da5d97c1e5f8804e
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanShared/Overlays/Face/Eye/FP Default Eye
+    Adjust.asset
+  uploadId: 744093

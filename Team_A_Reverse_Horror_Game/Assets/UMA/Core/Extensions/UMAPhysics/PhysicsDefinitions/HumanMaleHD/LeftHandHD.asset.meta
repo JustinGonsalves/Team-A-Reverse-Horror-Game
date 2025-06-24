@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 335fc70cf238d0c4e95ef8568687b705
+timeCreated: 1489807578
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Extensions/UMAPhysics/PhysicsDefinitions/HumanMaleHD/LeftHandHD.asset
+  uploadId: 744093

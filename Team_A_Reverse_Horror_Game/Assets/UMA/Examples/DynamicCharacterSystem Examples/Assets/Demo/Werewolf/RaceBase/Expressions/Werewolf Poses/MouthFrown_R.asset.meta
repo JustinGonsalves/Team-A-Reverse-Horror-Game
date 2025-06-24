@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 830e8962c931a7445bca021388dc8961
+timeCreated: 1459266119
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Werewolf/RaceBase/Expressions/Werewolf
+    Poses/MouthFrown_R.asset
+  uploadId: 744093

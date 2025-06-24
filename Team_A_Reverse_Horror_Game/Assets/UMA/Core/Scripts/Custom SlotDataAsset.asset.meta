@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: cea561855e83c6a479aac5acdafb601e
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Scripts/Custom SlotDataAsset.asset
+  uploadId: 744093

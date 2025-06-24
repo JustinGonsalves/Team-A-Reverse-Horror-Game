@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 94fd29396cd1bd1458572dd0b3a178e4
+labels:
+- UMA_Test
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/UMA DCS Tool - Photo
+    Booth.unity
+  uploadId: 744093

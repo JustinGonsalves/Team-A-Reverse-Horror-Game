@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 48cf1a4b393ff1346a29fee152840158
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/HowTo Examples/Scripts/SliderController.cs
+  uploadId: 744093

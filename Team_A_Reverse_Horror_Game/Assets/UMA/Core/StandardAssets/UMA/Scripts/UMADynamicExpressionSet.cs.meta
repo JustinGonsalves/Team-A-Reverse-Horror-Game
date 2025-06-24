@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5645cae3a852f3b4d84a7c784a0f52bb
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Scripts/UMADynamicExpressionSet.cs
+  uploadId: 744093

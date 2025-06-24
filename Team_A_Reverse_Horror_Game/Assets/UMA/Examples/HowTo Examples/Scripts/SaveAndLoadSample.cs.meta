@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b303503926eb5894db4f2e9d703dbfdf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/HowTo Examples/Scripts/SaveAndLoadSample.cs
+  uploadId: 744093

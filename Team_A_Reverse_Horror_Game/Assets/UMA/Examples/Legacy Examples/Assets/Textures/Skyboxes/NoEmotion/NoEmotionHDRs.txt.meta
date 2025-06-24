@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 644c1b2c1be34cb4ab77ee7383cbb3cb
+timeCreated: 1437176544
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Legacy Examples/Assets/Textures/Skyboxes/NoEmotion/NoEmotionHDRs.txt
+  uploadId: 744093

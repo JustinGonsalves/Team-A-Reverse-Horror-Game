@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1320201c90abfb148ba70377406b5dc4
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanMale/Overlays/Complexion/Skin patches Face.asset
+  uploadId: 744093

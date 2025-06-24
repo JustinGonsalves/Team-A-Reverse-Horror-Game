@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: e1c7d4e61d4273e40bd24c6f543af563
+timeCreated: 1548119047
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Legacy Examples/Scripts/UMADnaTweaker.cs
+  uploadId: 744093

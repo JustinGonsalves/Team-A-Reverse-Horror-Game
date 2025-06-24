@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9670dae62ebdb8e4dbebe1dd39e0ba49
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/SkinShaders/standard-subsurface-scattering-master/Shaders/SSSSS/SSS_Shadow.cginc
+  uploadId: 744093

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8e602eb11a46e714893e795fb1d10d5e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scenes/OverlayAlignerSettings.lighting
+  uploadId: 744093

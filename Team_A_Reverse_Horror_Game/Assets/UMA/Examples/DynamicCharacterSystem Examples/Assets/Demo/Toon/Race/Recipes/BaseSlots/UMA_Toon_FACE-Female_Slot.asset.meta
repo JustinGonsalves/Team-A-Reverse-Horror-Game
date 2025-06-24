@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5fd5270c8c2ab624caef7289850414e0
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Toon/Race/Recipes/BaseSlots/UMA_Toon_FACE-Female_Slot.asset
+  uploadId: 744093

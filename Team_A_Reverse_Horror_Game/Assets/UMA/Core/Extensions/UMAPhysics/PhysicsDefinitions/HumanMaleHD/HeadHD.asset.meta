@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 901c7721aaf45f54e9f1ec8ed8247431
+timeCreated: 1489807209
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Extensions/UMAPhysics/PhysicsDefinitions/HumanMaleHD/HeadHD.asset
+  uploadId: 744093

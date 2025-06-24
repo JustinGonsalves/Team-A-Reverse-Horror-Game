@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3a1edb5d395b68f4089d59c1f1217d81
+labels:
+- UMA_Text Recipe
+- UMA_Wardrobe Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleBrowHR.asset
+  uploadId: 744093

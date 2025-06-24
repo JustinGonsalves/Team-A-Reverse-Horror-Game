@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 63fa1964bbcc44e55a2fe1c83acc54bf
+labels:
+- UMA_Text Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Blendshape Examples/Assets/Characters/Puck.asset
+  uploadId: 744093

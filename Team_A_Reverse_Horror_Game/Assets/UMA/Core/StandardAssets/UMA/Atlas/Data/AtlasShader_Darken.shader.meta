@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: e5c5b4cf426f2ea48a7cce0214a0bdb4
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Atlas/Data/AtlasShader_Darken.shader
+  uploadId: 744093

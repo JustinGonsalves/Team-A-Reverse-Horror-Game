@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: eec31456f04efc743a680d6caf7207e6
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanShared/Overlays/Hair/MeshHairAniso.asset
+  uploadId: 744093

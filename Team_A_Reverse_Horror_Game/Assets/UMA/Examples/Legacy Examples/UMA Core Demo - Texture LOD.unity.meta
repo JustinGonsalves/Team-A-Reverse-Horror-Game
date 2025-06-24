@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 32efa5b1cfd34f84f9b67fe7a18f6bdb
+timeCreated: 1464203829
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Legacy Examples/UMA Core Demo - Texture LOD.unity
+  uploadId: 744093

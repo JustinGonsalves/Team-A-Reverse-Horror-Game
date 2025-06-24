@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0c812749c2cd1a541b79b1fe749694c2
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Werewolf/RaceBase/BaseRecipe/BaseRecipeOverlays/WerewolfTeeth.asset
+  uploadId: 744093

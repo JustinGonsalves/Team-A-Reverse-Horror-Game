@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ce8a1c055b54aff47b24b0c99c43bd4a
+timeCreated: 1446485223
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/ToonShared/RaceBase/Expressions/ToonPoses/MouthWide-L.asset
+  uploadId: 744093

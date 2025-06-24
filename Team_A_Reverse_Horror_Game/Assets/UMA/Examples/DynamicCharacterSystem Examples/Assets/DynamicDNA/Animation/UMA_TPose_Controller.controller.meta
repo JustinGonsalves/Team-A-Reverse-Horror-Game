@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 831b46c503d9add42b15044ab2bac737
+labels:
+- UMA_Animator Controller
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/DynamicDNA/Animation/UMA_TPose_Controller.controller
+  uploadId: 744093

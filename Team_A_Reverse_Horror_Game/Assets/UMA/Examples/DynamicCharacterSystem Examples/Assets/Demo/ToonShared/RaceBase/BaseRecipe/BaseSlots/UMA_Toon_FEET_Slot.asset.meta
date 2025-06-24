@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 4652d37480c971743a1b555c6e3ea849
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/ToonShared/RaceBase/BaseRecipe/BaseSlots/UMA_Toon_FEET_Slot.asset
+  uploadId: 744093

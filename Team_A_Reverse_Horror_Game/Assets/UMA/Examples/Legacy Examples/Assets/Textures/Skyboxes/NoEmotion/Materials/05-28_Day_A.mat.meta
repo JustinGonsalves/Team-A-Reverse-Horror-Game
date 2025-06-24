@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 076a262e301903a46aa6411bdbbe2105
+timeCreated: 1434671891
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Legacy Examples/Assets/Textures/Skyboxes/NoEmotion/Materials/05-28_Day_A.mat
+  uploadId: 744093

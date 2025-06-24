@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 52d51b19b7ef0564683800c6b181ac4e
+labels:
+- UMA_Text Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Legacy Examples/Assets/Characters/Shelly.asset
+  uploadId: 744093

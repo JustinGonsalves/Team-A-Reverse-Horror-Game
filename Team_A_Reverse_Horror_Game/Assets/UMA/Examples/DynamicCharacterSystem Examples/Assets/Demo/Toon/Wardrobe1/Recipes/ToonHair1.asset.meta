@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7208f8cc5e698b74ca3fc08abfb29cc6
+labels:
+- UMA_Text Recipe
+- UMA_Wardrobe Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Toon/Wardrobe1/Recipes/ToonHair1.asset
+  uploadId: 744093

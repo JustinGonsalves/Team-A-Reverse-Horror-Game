@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a975002cf0da09747958cecbbb8b1009
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/GUI/Prefabs/DNAAdjuster.prefab
+  uploadId: 744093

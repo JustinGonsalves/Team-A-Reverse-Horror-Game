@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2071b43eda5781a418c26cba68620eef
+timeCreated: 1508447462
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanShared/Materials/Standard/UMA_Cutout_Diffuse_Normal_Metallic_Occlusion.asset
+  uploadId: 744093

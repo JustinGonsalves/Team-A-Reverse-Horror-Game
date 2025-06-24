@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4f4cd0929f2c2e54ab7dda65a8576b04
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/GUI/Prefabs/ColorGrid.prefab
+  uploadId: 744093

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0300df389f0b4b14184d317306b75ca6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Getting Started/ArrowMaterial.mat
+  uploadId: 744093

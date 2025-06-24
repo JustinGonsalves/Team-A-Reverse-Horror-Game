@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f8bd3f6c4901d6d4c986bb042def995c
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Contrib/Male_TallShoes/TallShoes_Black_Overlay.asset
+  uploadId: 744093

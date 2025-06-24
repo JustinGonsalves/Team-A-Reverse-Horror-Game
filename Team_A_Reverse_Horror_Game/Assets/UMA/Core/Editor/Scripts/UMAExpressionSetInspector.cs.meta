@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c0f8c7253aad545478b7f66ad815ee76
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/UMAExpressionSetInspector.cs
+  uploadId: 744093

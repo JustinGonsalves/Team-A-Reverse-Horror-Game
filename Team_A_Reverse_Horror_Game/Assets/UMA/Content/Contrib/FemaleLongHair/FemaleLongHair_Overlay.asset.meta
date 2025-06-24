@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 304fc44cf9ff5ad428e4802e082702c5
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Contrib/FemaleLongHair/FemaleLongHair_Overlay.asset
+  uploadId: 744093

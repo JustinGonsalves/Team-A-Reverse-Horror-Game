@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c50082c757568bc47aeeef7b048c3f6c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Timeline Example/UMA Timeline Example/LightingData.asset
+  uploadId: 744093

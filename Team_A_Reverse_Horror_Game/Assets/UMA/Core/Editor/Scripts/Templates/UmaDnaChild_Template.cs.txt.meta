@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 6b4a65d9a65d80a49861044528272ba4
+TextScriptImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/Templates/UmaDnaChild_Template.cs.txt
+  uploadId: 744093

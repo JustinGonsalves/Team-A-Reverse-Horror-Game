@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0ec96409ed505ea41a08ee9f877fb5cc
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Toon/Wardrobe2/Slots/Clothes/Tops_Female_Halter_Neck_1_TORSO_Slot.asset
+  uploadId: 744093

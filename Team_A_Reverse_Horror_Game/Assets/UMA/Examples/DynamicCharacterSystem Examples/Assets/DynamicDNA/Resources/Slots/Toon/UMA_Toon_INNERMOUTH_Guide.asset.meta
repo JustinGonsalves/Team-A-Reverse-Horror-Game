@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 41c114273632845418c2782ce5be2634
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/DynamicDNA/Resources/Slots/Toon/UMA_Toon_INNERMOUTH_Guide.asset
+  uploadId: 744093

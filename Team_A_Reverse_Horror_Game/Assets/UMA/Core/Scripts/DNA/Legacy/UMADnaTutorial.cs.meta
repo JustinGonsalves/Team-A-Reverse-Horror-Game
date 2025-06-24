@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eaf5b852437ea4db0a37bba17017d480
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Scripts/DNA/Legacy/UMADnaTutorial.cs
+  uploadId: 744093

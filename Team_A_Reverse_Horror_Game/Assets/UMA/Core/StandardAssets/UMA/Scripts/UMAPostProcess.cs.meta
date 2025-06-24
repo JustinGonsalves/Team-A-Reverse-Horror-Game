@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 9d798d4649ed1494e9924a7df38fea89
+timeCreated: 1546913177
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Scripts/UMAPostProcess.cs
+  uploadId: 744093

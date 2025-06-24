@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 51da992de74eaf64d948fcd2449a3cd9
+timeCreated: 1460146931
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/UMA DCS Demo - DNA
+    Delegates.unity
+  uploadId: 744093

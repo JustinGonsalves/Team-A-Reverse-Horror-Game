@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f4cb6d2c24715bd4884385645277f011
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/UMA_Core.asmdef
+  uploadId: 744093

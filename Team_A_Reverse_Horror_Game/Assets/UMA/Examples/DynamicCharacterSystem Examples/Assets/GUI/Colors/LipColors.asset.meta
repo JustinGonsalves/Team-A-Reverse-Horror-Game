@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 417b3ac9bd69ad548b531c3aa25adac8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/GUI/Colors/LipColors.asset
+  uploadId: 744093

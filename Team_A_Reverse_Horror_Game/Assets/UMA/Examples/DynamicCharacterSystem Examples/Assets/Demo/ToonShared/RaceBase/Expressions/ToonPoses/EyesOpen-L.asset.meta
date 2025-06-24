@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: db8c42856fa764047b3f1ca49e6ef994
+timeCreated: 1446485923
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/ToonShared/RaceBase/Expressions/ToonPoses/EyesOpen-L.asset
+  uploadId: 744093

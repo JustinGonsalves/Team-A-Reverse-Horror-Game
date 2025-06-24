@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 20680b3241850f340b2d42b5685d8ed3
+timeCreated: 1457022844
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Extensions/DynamicCharacterSystem/Scripts/DynamicRaceLibrary.cs
+  uploadId: 744093

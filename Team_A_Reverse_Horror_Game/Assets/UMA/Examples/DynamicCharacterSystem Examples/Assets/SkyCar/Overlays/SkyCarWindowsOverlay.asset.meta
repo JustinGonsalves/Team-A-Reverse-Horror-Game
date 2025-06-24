@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e17ed6a342f054b4ab8f3dd2fdea7fa1
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/SkyCar/Overlays/SkyCarWindowsOverlay.asset
+  uploadId: 744093

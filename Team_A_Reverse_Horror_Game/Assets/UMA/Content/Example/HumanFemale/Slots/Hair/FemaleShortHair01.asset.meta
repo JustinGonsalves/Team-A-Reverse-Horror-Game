@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5baae6388af63c0448e6d614fa7586b3
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/HumanFemale/Slots/Hair/FemaleShortHair01.asset
+  uploadId: 744093

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8f9fc622c08165a4297be9de525ccd1b
+labels:
+- UMA_Race
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanFemale/RaceData/Human Girl.asset
+  uploadId: 744093

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 45b6d4db30ba89c4fbc26dbc580b78ad
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Contrib/MaleAnkles/MaleAnkles_Slot.asset
+  uploadId: 744093

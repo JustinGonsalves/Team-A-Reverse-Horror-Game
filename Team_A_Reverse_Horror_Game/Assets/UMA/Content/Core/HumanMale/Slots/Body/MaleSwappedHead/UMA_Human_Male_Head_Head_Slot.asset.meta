@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1230573bff5087944ad7f54ac9cb9e50
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanMale/Slots/Body/MaleSwappedHead/UMA_Human_Male_Head_Head_Slot.asset
+  uploadId: 744093

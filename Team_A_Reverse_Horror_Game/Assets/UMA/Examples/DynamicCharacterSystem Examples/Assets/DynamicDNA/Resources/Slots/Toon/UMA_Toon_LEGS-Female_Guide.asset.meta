@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 917d126d626e02c408f7cb57bd44e83b
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/DynamicDNA/Resources/Slots/Toon/UMA_Toon_LEGS-Female_Guide.asset
+  uploadId: 744093

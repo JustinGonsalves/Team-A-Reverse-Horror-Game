@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7befd19f830118944988c323d0ee2a2c
+timeCreated: 1489807484
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Extensions/UMAPhysics/PhysicsDefinitions/HumanMaleHD/LeftForeArmHD.asset
+  uploadId: 744093

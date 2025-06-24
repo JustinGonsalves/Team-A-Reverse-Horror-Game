@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b0eccd9efc450114ba37d23a5cee6957
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/InternalDataStore/InGame/Resources/UtilityMarker1.mat
+  uploadId: 744093

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8b232fbd9c99b3149bc6c4f6cb7afb7d
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/HumanMale/Slots/Hair/M_Eyebrow_Slot.asset
+  uploadId: 744093

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2a5fc17f40332ee4a9ad46bdb74662c0
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/SkinShaders/standard-subsurface-scattering-master/README.md
+  uploadId: 744093

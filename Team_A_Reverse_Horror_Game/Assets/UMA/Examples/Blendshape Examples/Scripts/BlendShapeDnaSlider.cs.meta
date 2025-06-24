@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 12ad27c86306f0b44933df3b3b03fd4f
+timeCreated: 1489723912
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Blendshape Examples/Scripts/BlendShapeDnaSlider.cs
+  uploadId: 744093

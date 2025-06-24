@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 27fa8d9aba5f64596aba9f576eea8aa9
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Scripts/DNARangeAsset.cs
+  uploadId: 744093

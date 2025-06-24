@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4dca494b9031f47d1b75b3f305f9562b
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Expressions Examples/Scripts/EditModeExpressionPreview.cs
+  uploadId: 744093

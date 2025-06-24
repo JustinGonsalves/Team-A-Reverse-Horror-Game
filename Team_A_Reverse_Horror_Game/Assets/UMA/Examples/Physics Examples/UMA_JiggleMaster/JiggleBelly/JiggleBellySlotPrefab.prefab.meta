@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fad8ebef1c7c00e43a2b20be69e19506
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Physics Examples/UMA_JiggleMaster/JiggleBelly/JiggleBellySlotPrefab.prefab
+  uploadId: 744093

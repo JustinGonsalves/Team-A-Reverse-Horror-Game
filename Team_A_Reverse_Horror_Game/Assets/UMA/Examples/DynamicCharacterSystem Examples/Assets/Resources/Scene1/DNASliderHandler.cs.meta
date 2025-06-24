@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d02524b27e167624fb0eeddcfd4f3dc7
+timeCreated: 1476415832
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Resources/Scene1/DNASliderHandler.cs
+  uploadId: 744093

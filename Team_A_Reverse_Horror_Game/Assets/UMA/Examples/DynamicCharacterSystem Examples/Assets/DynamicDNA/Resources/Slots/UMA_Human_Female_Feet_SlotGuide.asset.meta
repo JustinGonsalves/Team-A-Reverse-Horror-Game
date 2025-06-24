@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0295a68ebb3f445488d01e1e501afe45
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/DynamicDNA/Resources/Slots/UMA_Human_Female_Feet_SlotGuide.asset
+  uploadId: 744093

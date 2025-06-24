@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 70b61d5f511fec649a7f297690b022a1
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Toon/Wardrobe2/Overlays/Clothes/Fancy_Flats_1_detail1.asset
+  uploadId: 744093

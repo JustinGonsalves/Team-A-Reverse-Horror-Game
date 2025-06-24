@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5abbc2ec892f7cf478a31da209981941
+labels:
+- UMA_Text Recipe
+- UMA_Wardrobe Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/HumanMale/Recipes/WardrobeRecipes/MaleShirt1.asset
+  uploadId: 744093

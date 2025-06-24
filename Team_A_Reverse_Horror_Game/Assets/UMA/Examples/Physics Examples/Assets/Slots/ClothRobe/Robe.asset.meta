@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 61e7ff284dfda9a4da7f607990532422
+timeCreated: 1495924731
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Physics Examples/Assets/Slots/ClothRobe/Robe.asset
+  uploadId: 744093

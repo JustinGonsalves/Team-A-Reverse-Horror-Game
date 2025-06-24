@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1551afe8a7664da4dacda0108407f834
+timeCreated: 1446485421
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/ToonShared/RaceBase/Expressions/ToonPoses/LowerLipUp-L.asset
+  uploadId: 744093

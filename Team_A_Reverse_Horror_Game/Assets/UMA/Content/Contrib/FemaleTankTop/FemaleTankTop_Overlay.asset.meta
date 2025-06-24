@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: cd3e9381ee9d87d4a8e18517f090469e
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Contrib/FemaleTankTop/FemaleTankTop_Overlay.asset
+  uploadId: 744093

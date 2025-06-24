@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f40bf2e2d4087954bb4d86d0c4aa290f
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/HumanMale/Overlays/Hair/M_Face 1 eyebrows.asset
+  uploadId: 744093

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 936cf90bea11b69439b5c47612fecccb
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Scripts/OverlayLibraryEditor.cs
+  uploadId: 744093

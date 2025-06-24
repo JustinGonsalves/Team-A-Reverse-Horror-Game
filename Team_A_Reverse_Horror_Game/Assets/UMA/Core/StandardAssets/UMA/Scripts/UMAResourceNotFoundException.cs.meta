@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6cdaed3362a111243bb720190578c07d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Scripts/UMAResourceNotFoundException.cs
+  uploadId: 744093

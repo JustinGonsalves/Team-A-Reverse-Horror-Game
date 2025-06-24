@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ff711d19b586b5a43b1165082b5c878b
+labels:
+- UMA_Text Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Legacy Examples/Assets/Characters/Troll.asset
+  uploadId: 744093

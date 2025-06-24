@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 30819781a55e5b540abd5f8a35901ca2
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/HumanFemale/Overlays/Hair/FemaleShortHair01.asset
+  uploadId: 744093

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 430a7757b73d1004381254643355184d
+timeCreated: 1489788619
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Extensions/UMAPhysics/PhysicsDefinitions/HumanMaleStandard/LeftUpLegStandard.asset
+  uploadId: 744093

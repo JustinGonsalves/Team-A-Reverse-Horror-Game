@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1822af88b8f91a444b7ee70427c1a494
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Physics Examples/Scripts/SwayBone/SwayRootBone.cs
+  uploadId: 744093

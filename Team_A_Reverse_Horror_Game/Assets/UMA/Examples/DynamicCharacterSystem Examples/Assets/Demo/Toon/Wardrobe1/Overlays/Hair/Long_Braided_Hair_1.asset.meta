@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 4f6302b08fbd3fd4abc60ce8e15d57e3
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Toon/Wardrobe1/Overlays/Hair/Long_Braided_Hair_1.asset
+  uploadId: 744093

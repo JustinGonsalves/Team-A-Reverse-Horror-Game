@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: faede5ef802a4d04080266de31601bc8
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/ToonShared/Wardrobe1/Overlays/Clothes/Sneakers_1.asset
+  uploadId: 744093

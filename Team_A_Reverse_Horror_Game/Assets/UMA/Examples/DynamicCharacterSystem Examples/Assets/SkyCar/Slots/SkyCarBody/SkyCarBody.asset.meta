@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6bc2febd7f3fdb844b905d89ee15178d
+timeCreated: 1534197924
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/SkyCar/Slots/SkyCarBody/SkyCarBody.asset
+  uploadId: 744093

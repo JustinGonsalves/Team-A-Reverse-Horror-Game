@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3a59564f297136a47b8434bb04d187c5
+timeCreated: 1446486012
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/ToonShared/RaceBase/Expressions/ToonPoses/EyesUp-L.asset
+  uploadId: 744093

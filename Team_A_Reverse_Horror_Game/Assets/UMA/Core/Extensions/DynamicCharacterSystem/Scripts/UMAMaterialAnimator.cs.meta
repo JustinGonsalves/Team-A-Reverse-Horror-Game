@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 947dbc3beb7523a488c18f7a09232cbc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Extensions/DynamicCharacterSystem/Scripts/UMAMaterialAnimator.cs
+  uploadId: 744093

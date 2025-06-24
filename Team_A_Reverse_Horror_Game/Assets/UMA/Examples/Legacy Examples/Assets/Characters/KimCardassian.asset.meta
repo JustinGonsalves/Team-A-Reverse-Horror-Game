@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b4b622ae9ec2e484abb64a355579e52d
+labels:
+- UMA_Text Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/Legacy Examples/Assets/Characters/KimCardassian.asset
+  uploadId: 744093

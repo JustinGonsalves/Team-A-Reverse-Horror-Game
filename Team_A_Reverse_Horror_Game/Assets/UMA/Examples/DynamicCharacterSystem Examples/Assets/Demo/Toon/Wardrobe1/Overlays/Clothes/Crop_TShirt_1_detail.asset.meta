@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5c36f948b8e7aab409933dec824d011d
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Toon/Wardrobe1/Overlays/Clothes/Crop_TShirt_1_detail.asset
+  uploadId: 744093

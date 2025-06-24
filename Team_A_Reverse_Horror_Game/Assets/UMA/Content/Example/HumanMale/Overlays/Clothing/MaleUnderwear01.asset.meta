@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 4e443d543c17d314984f1bf934677b05
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/HumanMale/Overlays/Clothing/MaleUnderwear01.asset
+  uploadId: 744093

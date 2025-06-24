@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4588e9ebe9d8645498380149f9f92254
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Scripts/Integrations/PowerToolsIntegration/PowerToolsIntegration.cs
+  uploadId: 744093

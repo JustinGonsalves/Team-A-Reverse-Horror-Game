@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1faa765399f5d76478a152bd1615c95e
+labels:
+- UMA_Text Recipe
+- UMA_Wardrobe Recipe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanMale/Recipes/WardrobeRecipes/MaleHandsMid.asset
+  uploadId: 744093

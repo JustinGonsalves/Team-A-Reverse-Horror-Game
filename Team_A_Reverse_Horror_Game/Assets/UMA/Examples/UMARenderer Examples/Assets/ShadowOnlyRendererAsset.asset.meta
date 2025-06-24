@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fd9a79ffc724db84ba05fa1245f80fbf
+timeCreated: 1549594193
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/UMARenderer Examples/Assets/ShadowOnlyRendererAsset.asset
+  uploadId: 744093

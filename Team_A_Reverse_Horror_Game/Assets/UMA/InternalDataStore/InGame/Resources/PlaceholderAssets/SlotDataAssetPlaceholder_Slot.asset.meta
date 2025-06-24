@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f7dc0c3c60324eb47b462c0eed16b191
+timeCreated: 1491837592
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/InternalDataStore/InGame/Resources/PlaceholderAssets/SlotDataAssetPlaceholder_Slot.asset
+  uploadId: 744093

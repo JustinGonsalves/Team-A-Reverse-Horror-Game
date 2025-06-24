@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: fe30fbf67b51de8499624c6913a39e64
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/DefaultMissingOverlays/DefaultStandardOverlayDataAsset.asset
+  uploadId: 744093

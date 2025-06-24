@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 0f73d023a5dc72b4e9097df305281713
+timeCreated: 1476057859
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Resources/Scene1/SlotHandler.cs
+  uploadId: 744093

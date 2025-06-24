@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 4c5c96e8edf9cdc4abf5fed26d977b87
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Contrib/F_Shoes/FemaleTallShoes_Slot.asset
+  uploadId: 744093

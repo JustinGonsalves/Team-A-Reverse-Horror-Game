@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: cda4a55bec197c646a1e3e11583d7ef4
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Werewolf/RaceBase/BaseRecipe/BaseRecipeSlots/UMA_Werewolf_Claws_Slot.asset
+  uploadId: 744093

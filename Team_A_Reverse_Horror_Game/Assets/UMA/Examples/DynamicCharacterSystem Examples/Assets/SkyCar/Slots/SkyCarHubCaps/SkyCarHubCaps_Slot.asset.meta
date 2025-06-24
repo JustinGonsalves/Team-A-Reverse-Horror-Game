@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 230ec082a97430c4da05bcd1157f7b44
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/SkyCar/Slots/SkyCarHubCaps/SkyCarHubCaps_Slot.asset
+  uploadId: 744093

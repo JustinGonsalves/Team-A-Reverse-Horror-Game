@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 587a3fe806c16ba4faf96a3fe0b4b10a
+timeCreated: 1481748839
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/Extensions/DynamicCharacterSystem/Scripts/DCSStandardTypes.cs
+  uploadId: 744093

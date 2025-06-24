@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0bc264c391455944a94d094e18d6cbd0
+labels:
+- UMA_Slot
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Toon/Wardrobe1/Slots/Clothes/Bottoms_Female_Hot_Pants_1_Slot.asset
+  uploadId: 744093

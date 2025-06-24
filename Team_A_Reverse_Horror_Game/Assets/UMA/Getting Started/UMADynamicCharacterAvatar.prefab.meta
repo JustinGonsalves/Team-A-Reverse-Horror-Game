@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5c80fc4442f8349969abea6c1a0f1faa
+timeCreated: 1489108426
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Getting Started/UMADynamicCharacterAvatar.prefab
+  uploadId: 744093

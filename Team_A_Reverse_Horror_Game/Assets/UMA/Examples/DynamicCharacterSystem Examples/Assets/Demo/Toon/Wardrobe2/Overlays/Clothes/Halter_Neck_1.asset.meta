@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a0b2da7dcebf2534c9359d5d87fa9d50
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/Demo/Toon/Wardrobe2/Overlays/Clothes/Halter_Neck_1.asset
+  uploadId: 744093

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: afecbdb8f051eff408e0749bb6a44bf1
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Core/HumanShared/Overlays/Face/ElvenEars.asset
+  uploadId: 744093

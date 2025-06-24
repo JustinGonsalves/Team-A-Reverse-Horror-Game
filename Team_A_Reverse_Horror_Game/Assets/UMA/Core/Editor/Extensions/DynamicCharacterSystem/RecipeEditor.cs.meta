@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 691decbfdd20d7b49940a58ab60f21de
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Editor/Extensions/DynamicCharacterSystem/RecipeEditor.cs
+  uploadId: 744093

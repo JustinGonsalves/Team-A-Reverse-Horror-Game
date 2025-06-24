@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e5ba71eed666aef459dbb1dce2bc3d2f
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/StandardAssets/UMA/Atlas/AtlasDetailNormalShader.shader
+  uploadId: 744093

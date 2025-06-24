@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5da0c33e07265284fad073984659ddf7
+timeCreated: 1489788859
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Core/Extensions/UMAPhysics/PhysicsDefinitions/HumanMaleStandard/Spine1Standard.asset
+  uploadId: 744093

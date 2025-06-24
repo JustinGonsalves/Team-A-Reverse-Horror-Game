@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d4273edae79407845a44418e0f50809d
+labels:
+- UMA_Overlay
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 35611
+  packageName: UMA 2
+  packageVersion: 2.14
+  assetPath: Assets/UMA/Content/Example/HumanFemale/Overlays/Body/Alternate Bodies/FemaleBody01.asset
+  uploadId: 744093
