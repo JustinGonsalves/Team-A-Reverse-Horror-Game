@@ -6,6 +6,7 @@ public class TV : Interactable
     public Light pointLight;
     public float pushForce = 3f;
     public AudioClip toggleSwitchNoise;
+    public AudioClip crashSound;
     public float positiveKarmaValue = -20f;
     public float negativeKarmaValue = 20f;
 
@@ -69,6 +70,7 @@ public class TV : Interactable
 
         Vector3 pushDirection =  transform.forward;
 
+        AudioSource.PlayClipAtPoint(crashSound, transform.position);
         TurnOffTV();
         Push(pushDirection);
 

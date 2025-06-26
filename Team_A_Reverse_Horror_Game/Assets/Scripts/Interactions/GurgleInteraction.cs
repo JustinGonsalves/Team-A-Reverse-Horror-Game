@@ -4,8 +4,15 @@ public class GurgleInteraction : Interactable
 {
     public override bool SupportsPositiveInteraction => false;
 
+    public GameObject player;
     public AudioClip gurgleNoise;
     public float karmaValue = 20;
+    private AudioSource playersAudioSource;
+
+    private void Start()
+    {
+        playersAudioSource = player.GetComponent<AudioSource>();
+    }
 
     public override KarmaType GetKarmaType()
     {
@@ -23,7 +30,7 @@ public class GurgleInteraction : Interactable
 
         base.NegativeInteract();
 
-        AudioSource.PlayClipAtPoint(gurgleNoise, transform.position);
+        playersAudioSource.PlayOneShot(gurgleNoise);
 
         selectedKarmaType = KarmaType.Bad;
         karmaValueEffect = karmaValue;
@@ -34,6 +41,8 @@ public class GurgleInteraction : Interactable
         {
             outline.gameObject.SetActive(false);
         }
+
+        gameObject.SetActive(false);
 
         Debug.Log("Gurgled at child. Karma Type: " + GetKarmaType());
         Debug.Log("Karma Change = " + GetKarmaValue());

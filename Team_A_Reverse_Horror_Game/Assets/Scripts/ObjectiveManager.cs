@@ -140,10 +140,7 @@ public class ObjectiveManager : MonoBehaviour
             {
                 objectiveUI.ShowMessage(currentFinalStage.objectiveReminder);
             }
-            else
-            {
-                objectiveUI.ShowMessage("All objectives complete!");
-            }
+
         }
         else
         {
