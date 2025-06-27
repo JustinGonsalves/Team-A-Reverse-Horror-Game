@@ -9,6 +9,7 @@ public class KitchenSink : Interactable
     public float karmaValue = -20f;
     public ParticleSystem drip;
     public AudioClip closeDrawers;
+    public Vector3 tapPosition;
 
     private AudioSource audioSource;
     private Animator animator;
@@ -86,7 +87,7 @@ public class KitchenSink : Interactable
         drip.Stop();
         animator.Play("turn_off");
         audioSource.Stop();
-        //AudioSource.PlayClipAtPoint(closeDrawers, transform.position);
+        AudioSource.PlayClipAtPoint(closeDrawers, tapPosition);
     }
 
 }
