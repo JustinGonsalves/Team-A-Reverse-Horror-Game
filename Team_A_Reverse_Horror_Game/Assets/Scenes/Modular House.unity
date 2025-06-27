@@ -569,7 +569,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1511217700893364203, guid: 0d6c13da130049241a8a0febc27a7135, type: 3}
       propertyPath: karmaValue
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8742686056386794817, guid: 0d6c13da130049241a8a0febc27a7135, type: 3}
       propertyPath: m_LocalScale.x
@@ -653,7 +653,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6728288136593809778, guid: 15ff726c9f095c74595327d43b8dac66, type: 3}
       propertyPath: karmaValue
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8862014196605291607, guid: 15ff726c9f095c74595327d43b8dac66, type: 3}
       propertyPath: m_Name
@@ -6158,7 +6158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8024049059560315707, guid: b7701c7c949e9b6428f05b0f4c2ff9ce, type: 3}
       propertyPath: karmaValue
-      value: -14
+      value: -11.67
       objectReference: {fileID: 0}
     - target: {fileID: 8561562332132365975, guid: b7701c7c949e9b6428f05b0f4c2ff9ce, type: 3}
       propertyPath: m_LocalScale.x
@@ -6374,7 +6374,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2623638707234106368, guid: 1844a90db1eeb7e45b712d09b122de61, type: 3}
       propertyPath: karmaValue
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3628819674395038896, guid: 1844a90db1eeb7e45b712d09b122de61, type: 3}
       propertyPath: m_LocalScale.x
@@ -6601,7 +6601,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1562499875460225213, guid: 9ecc2ebd70186d24e9bf13c60234c241, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.796
+      value: 4.799
       objectReference: {fileID: 0}
     - target: {fileID: 1562499875460225213, guid: 9ecc2ebd70186d24e9bf13c60234c241, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6609,7 +6609,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1562499875460225213, guid: 9ecc2ebd70186d24e9bf13c60234c241, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.26
+      value: 7.345
       objectReference: {fileID: 0}
     - target: {fileID: 1562499875460225213, guid: 9ecc2ebd70186d24e9bf13c60234c241, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8771,7 +8771,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4498846544559842767, guid: 95848d5631f3ded41b70b7738017ac9f, type: 3}
       propertyPath: karmaValue
-      value: -14
+      value: -11.67
       objectReference: {fileID: 0}
     - target: {fileID: 6623695465969094324, guid: 95848d5631f3ded41b70b7738017ac9f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18764,11 +18764,11 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: e0b0f70d95a756c42a583a39e97a8346, type: 3}
     - target: {fileID: 2125206478072067974, guid: 193620401d561f24ab714e6517913572, type: 3}
       propertyPath: negativeKarmaValue
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2125206478072067974, guid: 193620401d561f24ab714e6517913572, type: 3}
       propertyPath: positiveKarmaValue
-      value: -14
+      value: -11.67
       objectReference: {fileID: 0}
     - target: {fileID: 4976992335957174830, guid: 193620401d561f24ab714e6517913572, type: 3}
       propertyPath: m_Radius
@@ -20379,6 +20379,10 @@ PrefabInstance:
     - target: {fileID: 761187056149873997, guid: f920163421f537643a94fbbfe25244f9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2063085490807765964, guid: f920163421f537643a94fbbfe25244f9, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4388711389979429264, guid: f920163421f537643a94fbbfe25244f9, type: 3}
       propertyPath: m_Name
@@ -25059,7 +25063,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1389406588976974166, guid: d53eda25ff3bc994393c194df99b0098, type: 3}
       propertyPath: karmaValue
-      value: -14
+      value: -11.67
       objectReference: {fileID: 0}
     - target: {fileID: 1389406588976974166, guid: d53eda25ff3bc994393c194df99b0098, type: 3}
       propertyPath: switchOffSound
@@ -27026,7 +27030,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4804821041118705360, guid: 44de6c1be5141ad4b94e6491ca49a6f9, type: 3}
       propertyPath: karmaValue
-      value: -14
+      value: -11.67
       objectReference: {fileID: 0}
     - target: {fileID: 4804821041118705360, guid: 44de6c1be5141ad4b94e6491ca49a6f9, type: 3}
       propertyPath: closeDrawers
@@ -28624,6 +28628,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teddy Bear
       objectReference: {fileID: 0}
+    - target: {fileID: 3724680491094398903, guid: 11e3913d959e87b40bdc459b9f4c2b05, type: 3}
+      propertyPath: negativeKarmaValue
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3724680491094398903, guid: 11e3913d959e87b40bdc459b9f4c2b05, type: 3}
+      propertyPath: positiveKarmaValue
+      value: -11.67
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28641,6 +28653,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 641750519}
+    - target: {fileID: 1386413219211886628, guid: 37babd939c7177c4bb670e8a4c84764a, type: 3}
+      propertyPath: karmaValue
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2823245452408413270, guid: 37babd939c7177c4bb670e8a4c84764a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.24386682
