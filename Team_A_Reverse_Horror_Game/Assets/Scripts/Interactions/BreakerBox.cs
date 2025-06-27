@@ -11,7 +11,7 @@ public class BreakerBox : Interactable
 
     private Animator animator;
     private AudioSource audioSource;
-       
+
 
     void Start()
     {
@@ -50,6 +50,12 @@ public class BreakerBox : Interactable
             outline.gameObject.SetActive(false);
         }
 
+        GameObject Lights = GameObject.Find("Lights");
+if (Lights != null)
+{
+    Lights.SetActive(false);
+}
+
         Debug.Log("Turned off the breaker. Karma Type: " + GetKarmaType());
         Debug.Log("Karma Change = " + GetKarmaValue());
 
@@ -83,4 +89,6 @@ public class BreakerBox : Interactable
             }
         }
     }
+    
+    
 }
