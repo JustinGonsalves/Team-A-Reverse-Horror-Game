@@ -21727,6 +21727,18 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
+      propertyPath: badFinalStage.objectiveStartLine
+      value: 
+      objectReference: {fileID: 8300000, guid: 8e6020e6e4d97024189400467625b982, type: 3}
+    - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
+      propertyPath: goodFinalStage.objectiveStartLine
+      value: 
+      objectReference: {fileID: 8300000, guid: 6a3223b61fb104e4d956bc911f741b8d, type: 3}
+    - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
+      propertyPath: neutralFinalStage.objectiveStartLine
+      value: 
+      objectReference: {fileID: 8300000, guid: 686775831f684e74d950fe74c3652c76, type: 3}
+    - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[0].objectiveReminder
       value: Close the curtains or gurgle at the child
       objectReference: {fileID: 0}
@@ -21744,20 +21756,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[4].objectiveReminder
-      value: Smash the bottle, or tidy the kitchen
+      value: Turn off the music box, or flip the cross
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[5].objectiveReminder
-      value: Turn off the music box, or flip the cross
+      value: Smash the bottle, or tidy the kitchen
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[0].objectiveStartLine
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: 7193e9c8f28fc26469052d7d60b6888b, type: 3}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[1].objectiveStartLine
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: cf22f05bf9f9f084981f35a98e953ef5, type: 3}
+    - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
+      propertyPath: stages.Array.data[2].objectiveStartLine
+      value: 
+      objectReference: {fileID: 8300000, guid: f7060987a9ea87a409ba6e2f161d2d45, type: 3}
+    - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
+      propertyPath: stages.Array.data[3].objectiveStartLine
+      value: 
+      objectReference: {fileID: 8300000, guid: 62f500792d58afe4eb833718ab9e4b67, type: 3}
+    - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
+      propertyPath: stages.Array.data[4].objectiveStartLine
+      value: 
+      objectReference: {fileID: 8300000, guid: 79e7b1c860b5a43418d20b5985693a88, type: 3}
+    - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
+      propertyPath: stages.Array.data[5].objectiveStartLine
+      value: 
+      objectReference: {fileID: 8300000, guid: 05b9e2f9201cdcd4bb61dce2af390198, type: 3}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'badFinalStage.interactables.Array.data[0]'
       value: 
@@ -21829,19 +21857,19 @@ PrefabInstance:
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[4].interactables.Array.data[0]'
       value: 
-      objectReference: {fileID: 57632208}
+      objectReference: {fileID: 577088531}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[4].interactables.Array.data[1]'
       value: 
-      objectReference: {fileID: 2748440066106530623}
+      objectReference: {fileID: 71243097}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[5].interactables.Array.data[0]'
       value: 
-      objectReference: {fileID: 577088531}
+      objectReference: {fileID: 57632208}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[5].interactables.Array.data[1]'
       value: 
-      objectReference: {fileID: 71243097}
+      objectReference: {fileID: 2748440066106530623}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
