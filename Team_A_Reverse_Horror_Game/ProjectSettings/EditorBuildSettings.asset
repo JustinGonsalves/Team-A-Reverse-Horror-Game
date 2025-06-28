@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 1e699d6b99505dc4ba9b794a521dccf3
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/IntroMindPalace.unity
+    guid: ffc3a0ecd0bed1e4abff71f5287410bb
+  - enabled: 1
     path: Assets/Scenes/Modular House.unity
     guid: 4ae06e4eca3eb5842891a0c9ab118d64
   - enabled: 1
