@@ -9879,6 +9879,10 @@ PrefabInstance:
       propertyPath: karmaValue
       value: -11.67
       objectReference: {fileID: 0}
+    - target: {fileID: 4498846544559842767, guid: 95848d5631f3ded41b70b7738017ac9f, type: 3}
+      propertyPath: gurgleObject
+      value: 
+      objectReference: {fileID: 1539196253}
     - target: {fileID: 6623695465969094324, guid: 95848d5631f3ded41b70b7738017ac9f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.713
@@ -9923,7 +9927,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1386413219211886628, guid: 37babd939c7177c4bb670e8a4c84764a, type: 3}
   m_PrefabInstance: {fileID: 5657423144679012861}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1539196253}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 90ddb69694642a94a88085c010992d00, type: 3}
@@ -12567,7 +12571,7 @@ GameObject:
   - component: {fileID: 963964041}
   - component: {fileID: 963964040}
   m_Layer: 0
-  m_Name: Point (10)
+  m_Name: BigLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21432,6 +21436,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 491556, guid: 501184e5288a4c447a6e433363f8f6ee, type: 3}
   m_PrefabInstance: {fileID: 1060969775}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1539196253 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3199242847882184428, guid: 37babd939c7177c4bb670e8a4c84764a, type: 3}
+  m_PrefabInstance: {fileID: 5657423144679012861}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1545911676 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5261235882166334515, guid: 44af88ee9fc28e043adf0e6fb2befd88, type: 3}
@@ -22514,6 +22523,10 @@ PrefabInstance:
     - target: {fileID: 761187056149873997, guid: f920163421f537643a94fbbfe25244f9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730319538400154268, guid: f920163421f537643a94fbbfe25244f9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2063085490807765964, guid: f920163421f537643a94fbbfe25244f9, type: 3}
       propertyPath: m_Enabled
@@ -24268,7 +24281,7 @@ PrefabInstance:
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[3].interactables.Array.data[1]'
       value: 
-      objectReference: {fileID: 583076483}
+      objectReference: {fileID: 71243097}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[4].interactables.Array.data[0]'
       value: 
@@ -28355,6 +28368,10 @@ PrefabInstance:
       propertyPath: karmaValue
       value: -11.67
       objectReference: {fileID: 0}
+    - target: {fileID: 1389406588976974166, guid: d53eda25ff3bc994393c194df99b0098, type: 3}
+      propertyPath: bigRoomLight
+      value: 
+      objectReference: {fileID: 963964041}
     - target: {fileID: 1389406588976974166, guid: d53eda25ff3bc994393c194df99b0098, type: 3}
       propertyPath: switchOffSound
       value: 

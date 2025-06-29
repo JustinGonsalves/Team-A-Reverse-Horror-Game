@@ -6,6 +6,8 @@ public class NightLight : Interactable
 
     // Reference to light child object, assigned in editor
     public Light pointLight;
+    // Reference to main room light
+    public Light bigRoomLight;
     // Reference to off click sound
     public AudioClip switchOffSound;
     // Reference to the game object renderer to access the material properties
@@ -60,6 +62,8 @@ public class NightLight : Interactable
             AudioSource.PlayClipAtPoint(switchOffSound, transform.position);
             // Turn on light
             pointLight.enabled = isTurnedOn;
+            // Turn off big light
+            bigRoomLight.enabled = false;
             // Increase the emission intensity by the intensityMultiplier
             materialInstance.SetColor("_EmissionColor", baseEmission * intensityMultiplier);
 

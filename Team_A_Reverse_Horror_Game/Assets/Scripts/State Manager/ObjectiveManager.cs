@@ -53,7 +53,7 @@ public class ObjectiveManager : MonoBehaviour
         // If all the stages are complete, end the sequence
         if (currentStage >= stages.Count)
         {
-            objectiveUI.ShowMessage("All objectives complete!");
+            //objectiveUI.ShowMessage("All objectives complete!");
             return;
         }
 
@@ -183,8 +183,6 @@ public class ObjectiveManager : MonoBehaviour
 
     private void StartCustomStage(Stage stage)
     {
-        //stage.messagePopup?.SetActive(true);
-
         if (stage.objectiveStartLine != null && audioSource != null)
         {
             audioSource.clip = stage.objectiveStartLine;
@@ -196,8 +194,6 @@ public class ObjectiveManager : MonoBehaviour
             item.canBeInteracted = true;
             item.OnInteracted += OnFinalStageInteracted;
         }
-
-        objectiveUI.ShowMessage(stage.objectiveReminder);
     }
 
     private void OnFinalStageInteracted(Interactable chosen)
