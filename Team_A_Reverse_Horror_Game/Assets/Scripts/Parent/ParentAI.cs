@@ -95,7 +95,7 @@ public class Enemy : MonoBehaviour
         agent.SetDestination(waypoints[currentWaypoint].position);
 
         float distanceToPoint = Vector3.Distance(transform.position, waypoints[currentWaypoint].position);
-        if (distanceToPoint < 0.5f && !atWaypoint)
+        if (distanceToPoint < 1.5f && !atWaypoint)
         {
             atWaypoint = true;
             timeSpentIdling = 0f;
@@ -105,8 +105,8 @@ public class Enemy : MonoBehaviour
 
     private void Idle()
     {
-        agent.SetDestination(transform.position);
-        timeSpentIdling += Time.deltaTime;
+        agent.SetDestination(transform.position); // stops moving
+        timeSpentIdling += Time.deltaTime; // track time spent in this waypoint
 
         float waitTime = 3f;
 
