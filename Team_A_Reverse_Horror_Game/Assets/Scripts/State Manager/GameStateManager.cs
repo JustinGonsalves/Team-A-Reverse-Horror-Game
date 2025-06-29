@@ -12,6 +12,10 @@ public class GameStateManager : MonoBehaviour
     {
         //Access the scene manager to load a scene
         SceneManager.LoadScene(sceneToLoad);
+
+        //Locks the cursor so the player can take control of the character
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
     
     //Quit game function
