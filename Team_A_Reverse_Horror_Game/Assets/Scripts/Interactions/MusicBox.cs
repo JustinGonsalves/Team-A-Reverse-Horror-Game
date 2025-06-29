@@ -9,8 +9,6 @@ public class MusicBox : Interactable
     private AudioSource audioSource;
     // Empty reference to AnimatorController
     private Animator animator;
-    // Reference for if music is playing or not
-    private bool isTurnedOn = false;
 
     // Disables negative interactions
     public override bool SupportsNegativeInteraction => false;
@@ -23,12 +21,9 @@ public class MusicBox : Interactable
         animator = GetComponent<Animator>();
     }
 
-    private void Update()
+    public override void OnStageActivated()
     {
-        if (canBeInteracted && !isTurnedOn)
-        {
-            PlayMusic();
-        }
+        PlayMusic();
     }
 
     public override KarmaType GetKarmaType()
@@ -81,8 +76,6 @@ public class MusicBox : Interactable
     {
         if (audioSource != null)
         {
-            // Log turn on
-            isTurnedOn = true;
             // Starts playing the music
             audioSource.Play();
             // Enables handle rotation
@@ -93,8 +86,6 @@ public class MusicBox : Interactable
     // Call this to end the music (used in PositiveInteract())
     public void StopMusic()
     {
-        // Log turn off
-        isTurnedOn = false;
         // Stop music
         audioSource.Stop();
         // Disable handle rotation

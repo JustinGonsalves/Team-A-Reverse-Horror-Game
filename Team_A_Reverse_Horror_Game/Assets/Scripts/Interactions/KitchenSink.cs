@@ -13,22 +13,12 @@ public class KitchenSink : Interactable
 
     private AudioSource audioSource;
     private Animator animator;
-    private bool isDripping = false;
-
     
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         drip.Stop();
-    }
-
-    private void Update()
-    {
-        if (canBeInteracted && !isDripping)
-        {
-            StartDripping();
-        }
     }
 
     public override KarmaType GetKarmaType()
@@ -75,9 +65,13 @@ public class KitchenSink : Interactable
         base.OnHoverEnd();
     }
 
+    public override void OnStageActivated()
+    {
+        StartDripping();
+    }
+
     private void StartDripping()
     {
-        isDripping = true;
         drip.Play();
         audioSource.Play();
     }

@@ -60,25 +60,30 @@ public class ObjectiveManager : MonoBehaviour
         // Grab the current stage from the list
         Stage current = stages[currentStage];
 
+        // Play the voiceline and wait for it to finish before enabling interactables
+        StartCoroutine(ShowStageAfterVoiceline(current));
+    }
+
+    private IEnumerator ShowStageAfterVoiceline(Stage current)
+    {
+        // Call OnStageActivated for all interactables
+        foreach (var item in current.interactables)
+        {
+            item.OnStageActivated();
+        }
+
         // Play the voiceline
         if (current.objectiveStartLine != null && audioSource != null)
         {
             audioSource.clip = current.objectiveStartLine;
             audioSource.Play();
+            yield return new WaitWhile(() => audioSource.isPlaying);
         }
 
-        // Make the pop-up message visible
-        //if (current.messagePopup != null)
-        //{
-        //    current.messagePopup.SetActive(true);
-        //}
-
-        // Go through each interactable object in the current stage
+        // Enable interactables after voiceline
         foreach (var item in current.interactables)
         {
-            // Allow the objects to be used
             item.canBeInteracted = true;
-            // Start listening for when the object is used, when it is, call OnPlayerInteracted method
             item.OnInteracted += OnPlayerInteracted;
         }
 

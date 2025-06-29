@@ -73,6 +73,8 @@ public class Interactable : MonoBehaviour
 
     }
 
+    public virtual void OnStageActivated() { }
+
     public virtual void OnHoverStart()
     {
         Transform outline = transform.Find("Outline");
