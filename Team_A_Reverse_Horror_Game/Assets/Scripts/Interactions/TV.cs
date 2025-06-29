@@ -12,7 +12,6 @@ public class TV : Interactable
 
     private VideoPlayer videoPlayer;
     private AudioSource audioSource;
-    private bool isTurnedOn = false;
 
     public override KarmaType GetKarmaType()
     {
@@ -30,12 +29,10 @@ public class TV : Interactable
         audioSource = GetComponent<AudioSource>();
     }
 
-    private void Update()
+
+    public override void OnStageActivated()
     {
-        if (canBeInteracted && !isTurnedOn)
-        {
-            TurnOnTV();
-        }
+        TurnOnTV();
     }
 
     public override void PositiveInteract()
@@ -111,7 +108,6 @@ public class TV : Interactable
     {
         if (pointLight != null && videoPlayer != null)
         {
-            isTurnedOn = true;
             pointLight.enabled = true;
             GetComponent<TVLightFlicker>().StartFlicker();
             videoPlayer.Play();
