@@ -1,4 +1,5 @@
 
+using StarterAssets;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -28,6 +29,8 @@ public class Enemy : MonoBehaviour
     public Transform stairWaypoint;
     public bool standAtStairsTriggered = false;
     public float timeSpentAtStairs = 0f;
+
+    public GameObject gameOverMenu;
 
     void Start()
     {
@@ -156,19 +159,17 @@ public class Enemy : MonoBehaviour
 
         Debug.LogWarning("Player spotted!"); // replace or remove later
 
-        // Play animation
-        // GetComponent<Animator>().SetTrigger("Gasp");
+        //Set the game over menu to active and display menu
+        gameOverMenu.SetActive(true);
 
-        // Optional: delay before scene switch (coroutine)
-        // StartCoroutine(HandleGameOver());
+        //Find the player controller and disable it
+        FindAnyObjectByType<FirstPersonController>().enabled = false;
+
+        //Release the mouse so it can interact with the menu
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;                
     }
-
-    private IEnumerator HandleGameOver()
-    {
-        yield return new WaitForSeconds(2f); // wait for gasp animation to play
-        // SceneManager.LoadScene(gameOverScene);
-    }
-
+        
     private void ChangeState(EnemyState newState)
     {
         if (state == newState) return;
