@@ -128,6 +128,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 19456597}
+  - component: {fileID: 19456599}
+  - component: {fileID: 19456598}
   m_Layer: 0
   m_Name: Cutscenes
   m_TagString: Untagged
@@ -155,6 +157,49 @@ Transform:
   - {fileID: 2058485263}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &19456598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19456596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: a5667aa9c05272d4883cf4d9b77deaca, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 19456599}
+          m_TargetAssemblyTypeName: GameStateManager, Assembly-CSharp
+          m_MethodName: LoadScene
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &19456599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19456596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 995263e63852fb945ade8e667969e087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Modular House
 --- !u!1 &89699832
 GameObject:
   m_ObjectHideFlags: 0
@@ -3521,6 +3566,8 @@ PlayableDirector:
     value: {fileID: 370762361}
   - key: {fileID: -3771246845983604427, guid: aa2085239a912ea46839df00a3bd3293, type: 2}
     value: {fileID: 89699834}
+  - key: {fileID: 5048025692685124537, guid: aa2085239a912ea46839df00a3bd3293, type: 2}
+    value: {fileID: 19456598}
   m_ExposedReferences:
     m_References:
     - 81604a595ede4a54b9ddf74c92d3b5b5: {fileID: 801727094}

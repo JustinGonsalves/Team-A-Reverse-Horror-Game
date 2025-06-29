@@ -3,6 +3,8 @@ using UnityEngine;
 public class Curtain : Interactable
 {
     public override bool SupportsNegativeInteraction => false;
+
+    public GameObject gurgleObject;
     public AudioClip openSound;
     public float karmaValue = -20f;
 
@@ -31,6 +33,7 @@ public class Curtain : Interactable
 
         AudioSource.PlayClipAtPoint(openSound, transform.position);
         animator.Play("open");
+        gurgleObject.SetActive(false);
 
         selectedKarmaType = KarmaType.Good;
         karmaValueEffect = karmaValue;
