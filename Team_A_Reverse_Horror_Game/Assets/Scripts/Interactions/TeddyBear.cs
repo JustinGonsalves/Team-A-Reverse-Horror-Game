@@ -56,7 +56,7 @@ public class TeddyBear : Interactable
 
         base.PositiveInteract();
 
-        //audioSource.PlayOneShot(goodVoiceline);
+        audioSource.PlayOneShot(goodVoiceline);
 
         selectedKarmaType = KarmaType.Good;
         karmaValueEffect = positiveKarmaValue;
@@ -85,10 +85,10 @@ public class TeddyBear : Interactable
 
         base.NegativeInteract();
         
-        Vector3 pushDirection = -transform.forward;
+        Vector3 pushDirection = transform.right;
 
         Push(pushDirection);
-        // audioSource.PlayOneShot(badVoiceline);
+        audioSource.PlayOneShot(badVoiceline);
         audioSource.PlayOneShot(hitNoise);
 
         // Set both eyes to red
