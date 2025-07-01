@@ -35,10 +35,14 @@ public class Enemy : MonoBehaviour
     private Animator animator;
     private bool isWalkingAnim = false;
 
+    public bool aiEnabled = false;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
+
+        state = EnemyState.Idle;
 
         if (playerObject != null)
         {
@@ -49,6 +53,8 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
+        if (!aiEnabled) return;
+
         PlayerInSight();
 
         if (canSeePlayer == true)
@@ -200,4 +206,11 @@ public class Enemy : MonoBehaviour
             isWalkingAnim = walking;
         }
     }
+
+    public void EnableAI()
+    {
+        aiEnabled = true;
+        Debug.Log("AI has been enabled.");
+    }
+
 }
