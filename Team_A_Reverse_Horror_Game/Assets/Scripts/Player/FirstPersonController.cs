@@ -67,6 +67,8 @@ namespace StarterAssets
 		[Tooltip("How far in degrees can you move the camera down")]
 		public float BottomClamp = -90.0f;
 
+		public Footsteps footsteps;
+
 		// cinemachine
 		private float _cinemachineTargetPitch;
 
@@ -133,12 +135,29 @@ namespace StarterAssets
 		{
 			JumpAndGravity();
 			GroundedCheck();
-			
+
 			_isCrouching = _input.crouch;
 			_isWalking = _input.walk;
 
+			// Set footstep pitch based on movement state
+			if (footsteps != null && footsteps.audioSource != null)
+			{
+				if (_input.sprint)
+				{
+					footsteps.audioSource.pitch = 1.4f; 
+				}
+				else if (_isWalking || _isCrouching)
+				{
+					footsteps.audioSource.pitch = 0.8f; 
+				}
+				else
+				{
+					footsteps.audioSource.pitch = 1.0f; 
+				}
+			}
+
 			HandleCrouch();
-            Move();
+			Move();
 		}
 
 		private void LateUpdate()
