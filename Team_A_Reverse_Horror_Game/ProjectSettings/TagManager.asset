@@ -12,6 +12,8 @@ TagManager:
   - BadEnding
   - UMAIgnore
   - Water
+  - CarpetFloor
+  - WoodFloor
   layers:
   - Default
   - TransparentFX
