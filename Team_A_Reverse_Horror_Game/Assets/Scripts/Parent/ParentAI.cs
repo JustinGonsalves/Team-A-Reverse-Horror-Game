@@ -32,9 +32,14 @@ public class Enemy : MonoBehaviour
 
     public GameObject gameOverMenu;
 
+    private Animator animator;
+    private bool isWalkingAnim = false;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        animator = GetComponent<Animator>();
+
         if (playerObject != null)
         {
             player = playerObject.transform;
@@ -92,7 +97,10 @@ public class Enemy : MonoBehaviour
 
     private void Patrol()
     {
+        agent.speed = 5f;
         agent.SetDestination(waypoints[currentWaypoint].position);
+
+        SetWalkingAnimation(true);
 
         float distanceToPoint = Vector3.Distance(transform.position, waypoints[currentWaypoint].position);
         if (distanceToPoint < 1.5f && !atWaypoint)
@@ -107,6 +115,8 @@ public class Enemy : MonoBehaviour
     {
         agent.SetDestination(transform.position); // stops moving
         timeSpentIdling += Time.deltaTime; // track time spent in this waypoint
+
+        SetWalkingAnimation(false);
 
         float waitTime = 3f;
 
@@ -139,6 +149,8 @@ public class Enemy : MonoBehaviour
     {
         agent.SetDestination(stairWaypoint.position);
         atWaypoint = false;
+
+        SetWalkingAnimation(false);
 
         float distToStairs = Vector3.Distance(transform.position, stairWaypoint.position);
         if (distToStairs < 1.5f)
@@ -175,5 +187,14 @@ public class Enemy : MonoBehaviour
         if (state == newState) return;
         Debug.Log($"Changing state from {state} to {newState}");
         state = newState;
+    }
+
+    private void SetWalkingAnimation(bool walking)
+    {
+        if (animator != null && isWalkingAnim != walking)
+        {
+            animator.SetBool("isWalking", walking);
+            isWalkingAnim = walking;
+        }
     }
 }
