@@ -15,8 +15,7 @@ public class Enemy : MonoBehaviour
     public List<Transform> waypoints;
     private float sightRange = 10f;
     private float fovAngle = 140f;
-    // public string gameOverSceneName = "GameOver";
-
+    
     private int currentWaypoint = 0;
     private NavMeshAgent agent;
     private bool atWaypoint = false;
@@ -35,10 +34,14 @@ public class Enemy : MonoBehaviour
     private Animator animator;
     private bool isWalkingAnim = false;
 
+    public bool aiEnabled = false;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
+
+        state = EnemyState.Idle;
 
         if (playerObject != null)
         {
@@ -49,6 +52,8 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
+        if (!aiEnabled) return;
+
         PlayerInSight();
 
         if (canSeePlayer == true)
@@ -83,7 +88,9 @@ public class Enemy : MonoBehaviour
         if (distance <= sightRange && angle <= fovAngle / 2f)
         {
             RaycastHit hit;
-            if (Physics.Raycast(transform.position, direction, out hit, sightRange))
+            Vector3 origin = transform.position + Vector3.up * 1f;
+            Vector3 directionP = (player.position - origin).normalized;
+            if (Physics.Raycast(origin, directionP, out hit, sightRange))
             {
                 if (hit.transform.CompareTag("Player"))
                 {
@@ -97,7 +104,7 @@ public class Enemy : MonoBehaviour
 
     private void Patrol()
     {
-        agent.speed = 5f;
+        agent.speed = 2f;
         agent.SetDestination(waypoints[currentWaypoint].position);
 
         SetWalkingAnimation(true);
@@ -169,13 +176,17 @@ public class Enemy : MonoBehaviour
         if (agent != null)
             agent.SetDestination(transform.position); // Stop moving
 
-        Debug.LogWarning("Player spotted!"); // replace or remove later
+        Debug.LogWarning("Player spotted!");
+        SetWalkingAnimation(false);
 
         //Set the game over menu to active and display menu
         gameOverMenu.SetActive(true);
 
         //Find the player controller and disable it
         FindAnyObjectByType<FirstPersonController>().enabled = false;
+
+        //Find the player footsteps script and disable it
+        FindAnyObjectByType<Footsteps>().enabled = false;
 
         //Release the mouse so it can interact with the menu
         Cursor.lockState = CursorLockMode.None;
@@ -197,4 +208,11 @@ public class Enemy : MonoBehaviour
             isWalkingAnim = walking;
         }
     }
+
+    public void EnableAI()
+    {
+        aiEnabled = true;
+        Debug.Log("AI has been enabled.");
+    }
+
 }

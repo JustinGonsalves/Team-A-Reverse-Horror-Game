@@ -10,6 +10,8 @@ public class TV : Interactable
     public float positiveKarmaValue = -20f;
     public float negativeKarmaValue = 20f;
 
+    public Enemy enemyScript;
+
     private VideoPlayer videoPlayer;
     private AudioSource audioSource;
 
@@ -124,6 +126,7 @@ public class TV : Interactable
             GetComponent<TVLightFlicker>().StopFlicker();
             videoPlayer.Stop();
             audioSource.Stop();
+            enemyScript.EnableAI();
         }
     }
 }
