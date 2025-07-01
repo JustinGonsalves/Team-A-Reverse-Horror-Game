@@ -15,8 +15,7 @@ public class Enemy : MonoBehaviour
     public List<Transform> waypoints;
     private float sightRange = 10f;
     private float fovAngle = 140f;
-    // public string gameOverSceneName = "GameOver";
-
+    
     private int currentWaypoint = 0;
     private NavMeshAgent agent;
     private bool atWaypoint = false;
@@ -105,7 +104,7 @@ public class Enemy : MonoBehaviour
 
     private void Patrol()
     {
-        agent.speed = 5f;
+        agent.speed = 2f;
         agent.SetDestination(waypoints[currentWaypoint].position);
 
         SetWalkingAnimation(true);
@@ -185,6 +184,9 @@ public class Enemy : MonoBehaviour
 
         //Find the player controller and disable it
         FindAnyObjectByType<FirstPersonController>().enabled = false;
+
+        //Find the player footsteps script and disable it
+        FindAnyObjectByType<Footsteps>().enabled = false;
 
         //Release the mouse so it can interact with the menu
         Cursor.lockState = CursorLockMode.None;
