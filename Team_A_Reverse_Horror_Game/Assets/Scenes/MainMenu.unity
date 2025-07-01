@@ -16469,7 +16469,7 @@ GameObject:
   - component: {fileID: 1437975029}
   - component: {fileID: 1437975028}
   m_Layer: 5
-  m_Name: AdditionalControlsText
+  m_Name: SprintText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16491,8 +16491,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000076294, y: 89}
-  m_SizeDelta: {x: 236.0966, y: 44.6918}
+  m_AnchoredPosition: {x: -0.00030616, y: 90}
+  m_SizeDelta: {x: 365.62, y: 49.3482}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1437975028
 MonoBehaviour:
@@ -16514,7 +16514,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Crouch using 'C'
+  m_text: Sprint using 'Left Shift'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b65b01f0bb242074db9c9bb0f02ca765, type: 2}
   m_sharedMaterial: {fileID: 4555013479160736013, guid: b65b01f0bb242074db9c9bb0f02ca765, type: 2}
