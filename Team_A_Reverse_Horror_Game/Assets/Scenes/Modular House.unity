@@ -11211,7 +11211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6623695465969094324, guid: 95848d5631f3ded41b70b7738017ac9f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.741
+      value: 13.837
       objectReference: {fileID: 0}
     - target: {fileID: 6623695465969094324, guid: 95848d5631f3ded41b70b7738017ac9f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -25633,52 +25633,52 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 686775831f684e74d950fe74c3652c76, type: 3}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[0].objectiveReminder
-      value: Close the curtains or gurgle at the child
-      objectReference: {fileID: 0}
-    - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
-      propertyPath: stages.Array.data[1].objectiveReminder
-      value: Deal with the TV
-      objectReference: {fileID: 0}
-    - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
-      propertyPath: stages.Array.data[2].objectiveReminder
-      value: Turn on the nightlight, or turn off the breaker
-      objectReference: {fileID: 0}
-    - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
-      propertyPath: stages.Array.data[3].objectiveReminder
       value: Interact with the Teddy
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
+      propertyPath: stages.Array.data[1].objectiveReminder
+      value: Smash the bottle, or tidy the kitchen
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
+      propertyPath: stages.Array.data[2].objectiveReminder
+      value: Close the curtains or gurgle at the child
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
+      propertyPath: stages.Array.data[3].objectiveReminder
+      value: Deal with the TV
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[4].objectiveReminder
-      value: Turn off the music box, or flip the cross
+      value: Turn on the nightlight, or turn off the breaker
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[5].objectiveReminder
-      value: Smash the bottle, or tidy the kitchen
+      value: Turn off the music box, or flip the cross
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[0].objectiveStartLine
       value: 
-      objectReference: {fileID: 8300000, guid: 7193e9c8f28fc26469052d7d60b6888b, type: 3}
+      objectReference: {fileID: 8300000, guid: 62f500792d58afe4eb833718ab9e4b67, type: 3}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[1].objectiveStartLine
       value: 
-      objectReference: {fileID: 8300000, guid: cf22f05bf9f9f084981f35a98e953ef5, type: 3}
+      objectReference: {fileID: 8300000, guid: a076644d1413f2e40b588202a9b4f9ef, type: 3}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[2].objectiveStartLine
       value: 
-      objectReference: {fileID: 8300000, guid: f7060987a9ea87a409ba6e2f161d2d45, type: 3}
+      objectReference: {fileID: 8300000, guid: 7193e9c8f28fc26469052d7d60b6888b, type: 3}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[3].objectiveStartLine
       value: 
-      objectReference: {fileID: 8300000, guid: 62f500792d58afe4eb833718ab9e4b67, type: 3}
+      objectReference: {fileID: 8300000, guid: cf22f05bf9f9f084981f35a98e953ef5, type: 3}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[4].objectiveStartLine
       value: 
-      objectReference: {fileID: 8300000, guid: 79e7b1c860b5a43418d20b5985693a88, type: 3}
+      objectReference: {fileID: 8300000, guid: f7060987a9ea87a409ba6e2f161d2d45, type: 3}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[5].objectiveStartLine
       value: 
-      objectReference: {fileID: 8300000, guid: a076644d1413f2e40b588202a9b4f9ef, type: 3}
+      objectReference: {fileID: 8300000, guid: 79e7b1c860b5a43418d20b5985693a88, type: 3}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'badFinalStage.interactables.Array.data[0]'
       value: 
@@ -25696,8 +25696,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 797860871}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
-      propertyPath: stages.Array.data[1].interactables.Array.size
+      propertyPath: stages.Array.data[0].interactables.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
+      propertyPath: stages.Array.data[1].interactables.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[2].interactables.Array.size
@@ -25718,7 +25722,7 @@ PrefabInstance:
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[0].interactables.Array.data[0]'
       value: 
-      objectReference: {fileID: 1595080540}
+      objectReference: {fileID: 1894371693}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[0].interactables.Array.data[1]'
       value: 
@@ -25726,43 +25730,43 @@ PrefabInstance:
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[1].interactables.Array.data[0]'
       value: 
-      objectReference: {fileID: 1496119217}
+      objectReference: {fileID: 57632208}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[1].interactables.Array.data[1]'
       value: 
-      objectReference: {fileID: 792376362}
+      objectReference: {fileID: 2748440066106530623}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[2].interactables.Array.data[0]'
       value: 
-      objectReference: {fileID: 2007346193}
+      objectReference: {fileID: 1595080540}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[2].interactables.Array.data[1]'
       value: 
-      objectReference: {fileID: 583076483}
+      objectReference: {fileID: 792376362}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[3].interactables.Array.data[0]'
       value: 
-      objectReference: {fileID: 1894371693}
+      objectReference: {fileID: 1496119217}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[3].interactables.Array.data[1]'
       value: 
-      objectReference: {fileID: 71243097}
+      objectReference: {fileID: 583076483}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[4].interactables.Array.data[0]'
       value: 
-      objectReference: {fileID: 577088531}
+      objectReference: {fileID: 2007346193}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[4].interactables.Array.data[1]'
       value: 
-      objectReference: {fileID: 71243097}
+      objectReference: {fileID: 583076483}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[5].interactables.Array.data[0]'
       value: 
-      objectReference: {fileID: 57632208}
+      objectReference: {fileID: 577088531}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[5].interactables.Array.data[1]'
       value: 
-      objectReference: {fileID: 2748440066106530623}
+      objectReference: {fileID: 71243097}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38136,6 +38140,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teddy Bear
       objectReference: {fileID: 0}
+    - target: {fileID: 3724680491094398903, guid: 11e3913d959e87b40bdc459b9f4c2b05, type: 3}
+      propertyPath: badVoiceline
+      value: 
+      objectReference: {fileID: 8300000, guid: 96a63436e9221a746aada21afabadf42, type: 3}
+    - target: {fileID: 3724680491094398903, guid: 11e3913d959e87b40bdc459b9f4c2b05, type: 3}
+      propertyPath: goodVoiceline
+      value: 
+      objectReference: {fileID: 8300000, guid: aa41d0bbe04d02d448b11ffc68e69a0b, type: 3}
     - target: {fileID: 3724680491094398903, guid: 11e3913d959e87b40bdc459b9f4c2b05, type: 3}
       propertyPath: negativeKarmaValue
       value: 5
