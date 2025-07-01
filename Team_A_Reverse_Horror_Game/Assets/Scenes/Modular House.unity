@@ -25678,7 +25678,7 @@ PrefabInstance:
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[5].objectiveStartLine
       value: 
-      objectReference: {fileID: 8300000, guid: 05b9e2f9201cdcd4bb61dce2af390198, type: 3}
+      objectReference: {fileID: 8300000, guid: a076644d1413f2e40b588202a9b4f9ef, type: 3}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'badFinalStage.interactables.Array.data[0]'
       value: 
