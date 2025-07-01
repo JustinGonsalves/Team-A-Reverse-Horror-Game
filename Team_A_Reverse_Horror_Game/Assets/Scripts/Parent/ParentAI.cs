@@ -83,7 +83,9 @@ public class Enemy : MonoBehaviour
         if (distance <= sightRange && angle <= fovAngle / 2f)
         {
             RaycastHit hit;
-            if (Physics.Raycast(transform.position, direction, out hit, sightRange))
+            Vector3 origin = transform.position + Vector3.up * 1f;
+            Vector3 directionP = (player.position - origin).normalized;
+            if (Physics.Raycast(origin, directionP, out hit, sightRange))
             {
                 if (hit.transform.CompareTag("Player"))
                 {
@@ -169,7 +171,8 @@ public class Enemy : MonoBehaviour
         if (agent != null)
             agent.SetDestination(transform.position); // Stop moving
 
-        Debug.LogWarning("Player spotted!"); // replace or remove later
+        Debug.LogWarning("Player spotted!");
+        SetWalkingAnimation(false);
 
         //Set the game over menu to active and display menu
         gameOverMenu.SetActive(true);
