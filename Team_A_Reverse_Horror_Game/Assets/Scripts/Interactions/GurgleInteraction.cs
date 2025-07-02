@@ -7,12 +7,6 @@ public class GurgleInteraction : Interactable
     public GameObject player;
     public AudioClip gurgleNoise;
     public float karmaValue = 20;
-    private AudioSource playersAudioSource;
-
-    private void Start()
-    {
-        playersAudioSource = player.GetComponent<AudioSource>();
-    }
 
     public override KarmaType GetKarmaType()
     {
@@ -30,7 +24,7 @@ public class GurgleInteraction : Interactable
 
         base.NegativeInteract();
 
-        playersAudioSource.PlayOneShot(gurgleNoise);
+        AudioSource.PlayClipAtPoint(gurgleNoise, transform.position);
 
         selectedKarmaType = KarmaType.Bad;
         karmaValueEffect = karmaValue;
