@@ -839,8 +839,8 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Team_A_Reverse_Horror_Game
-  metroPackageVersion: 
+  metroPackageName: TeamAReverseHorrorGame
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -848,7 +848,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Team_A_Reverse_Horror_Game
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Team_A_Reverse_Horror_Game
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
