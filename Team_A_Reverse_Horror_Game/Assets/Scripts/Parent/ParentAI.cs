@@ -36,6 +36,9 @@ public class Enemy : MonoBehaviour
 
     public bool aiEnabled = false;
 
+    private AudioSource audioSource;
+    public AudioClip walkingClip;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -47,6 +50,14 @@ public class Enemy : MonoBehaviour
         {
             player = playerObject.transform;
             karmaManager = playerObject.GetComponent<KarmaManager>();
+        }
+
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource != null)
+        {
+            audioSource.clip = walkingClip;
+            audioSource.loop = true;
+            audioSource.playOnAwake = false;
         }
     }
 
@@ -207,12 +218,24 @@ public class Enemy : MonoBehaviour
             animator.SetBool("isWalking", walking);
             isWalkingAnim = walking;
         }
+
+        HandleFootsteps(walking);
     }
 
     public void EnableAI()
     {
         aiEnabled = true;
         Debug.Log("AI has been enabled.");
+    }
+
+    private void HandleFootsteps(bool shouldPlay)
+    {
+        if (audioSource == null) return;
+
+        if (shouldPlay && !audioSource.isPlaying)
+            audioSource.Play();
+        else if (!shouldPlay && audioSource.isPlaying)
+            audioSource.Stop();
     }
 
 }
