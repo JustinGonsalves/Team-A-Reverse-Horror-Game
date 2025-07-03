@@ -7,6 +7,7 @@ public class Interactable : MonoBehaviour
     
     protected KarmaType selectedKarmaType = KarmaType.None;
     protected float karmaValueEffect = 0f;
+    protected VignetteEffect vignetteEffect;
 
     Enemy parentAI;
 
@@ -26,6 +27,7 @@ public class Interactable : MonoBehaviour
     private void Start()
     {
         parentAI = FindFirstObjectByType<Enemy>();
+        vignetteEffect = FindFirstObjectByType<VignetteEffect>();
     }
 
 
@@ -48,7 +50,13 @@ public class Interactable : MonoBehaviour
 
         hasBeenInteracted = true;
         // Tells the listener in the objective manager that this has been used
-        OnInteracted?.Invoke(this); 
+        OnInteracted?.Invoke(this);
+
+        if (vignetteEffect != null)
+        {
+            vignetteEffect.PlayBlueVignetteEffect();
+        }
+
 
     }
 
@@ -61,6 +69,11 @@ public class Interactable : MonoBehaviour
         // Tells the listener in the objective manager that this has been used
         OnInteracted?.Invoke(this);
 
+        if (vignetteEffect != null)
+        {
+            vignetteEffect.PlayRedVignetteEffect();
+        }
+        
         if (parentAI != null)
         {
             Debug.LogWarning("Calling StandAtStairs from Interactables.cs!");

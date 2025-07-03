@@ -862,6 +862,10 @@ PrefabInstance:
       propertyPath: karmaValue
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6728288136593809778, guid: 15ff726c9f095c74595327d43b8dac66, type: 3}
+      propertyPath: postProcessVolume
+      value: 
+      objectReference: {fileID: 427018541}
     - target: {fileID: 8862014196605291607, guid: 15ff726c9f095c74595327d43b8dac66, type: 3}
       propertyPath: m_Name
       value: Crucifix
@@ -5432,6 +5436,71 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -47939494353975718, guid: e0147f4678533444ca8209554a9ead22, type: 3}
+--- !u!1 &427018540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 427018542}
+  - component: {fileID: 427018541}
+  - component: {fileID: 427018543}
+  m_Layer: 0
+  m_Name: PPVolume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &427018541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427018540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 10fc4df2da32a41aaa32d77bc913491c, type: 2}
+--- !u!4 &427018542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427018540}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.535563, y: 4.3919625, z: 25.857088}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &427018543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427018540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 745403d98ab7dd14383d7ef82ea76887, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectIntensity: 0.549
+  negEffectDuration: 1.35
+  posEffectDuraction: 2.3
 --- !u!1001 &427438651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14007,7 +14076,7 @@ GameObject:
   - component: {fileID: 963964041}
   - component: {fileID: 963964040}
   m_Layer: 0
-  m_Name: BigLight
+  m_Name: Bedroom Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14106,7 +14175,7 @@ Light:
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
+  m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
@@ -23061,6 +23130,10 @@ PrefabInstance:
       propertyPath: karmaManager
       value: 
       objectReference: {fileID: 1694620340}
+    - target: {fileID: 5387692693426570458, guid: 4b4ce2482eba9cd44bfbd994578c43e9, type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6636211135513202009, guid: 4b4ce2482eba9cd44bfbd994578c43e9, type: 3}
       propertyPath: karmaManager
       value: 
@@ -26296,7 +26369,7 @@ PrefabInstance:
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[1].interactables.Array.data[1]'
       value: 
-      objectReference: {fileID: 792376362}
+      objectReference: {fileID: 71243097}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[2].interactables.Array.data[0]'
       value: 
@@ -26312,7 +26385,7 @@ PrefabInstance:
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[3].interactables.Array.data[1]'
       value: 
-      objectReference: {fileID: 71243097}
+      objectReference: {fileID: 583076483}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[4].interactables.Array.data[0]'
       value: 
@@ -39248,6 +39321,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1386413219211886628, guid: 37babd939c7177c4bb670e8a4c84764a, type: 3}
+      propertyPath: bedroomLight
+      value: 
+      objectReference: {fileID: 963964041}
+    - target: {fileID: 1386413219211886628, guid: 37babd939c7177c4bb670e8a4c84764a, type: 3}
       propertyPath: playersAudioSource
       value: 
       objectReference: {fileID: 1694620341}
@@ -41399,3 +41476,4 @@ SceneRoots:
   - {fileID: 1077102432}
   - {fileID: 8921741365599633564}
   - {fileID: 737597889}
+  - {fileID: 427018542}
