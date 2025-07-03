@@ -5499,8 +5499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   effectIntensity: 0.549
-  negEffectDuration: 1.35
-  posEffectDuraction: 2.3
+  effectDuration: 1.35
 --- !u!1001 &427438651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26284,11 +26283,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[3].objectiveReminder
-      value: Interact with the Teddy
+      value: Turn off the music box, or flip the cross
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[4].objectiveReminder
-      value: Turn off the music box, or flip the cross
+      value: Interact with the Teddy
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[5].objectiveReminder
@@ -26309,15 +26308,15 @@ PrefabInstance:
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[3].objectiveStartLine
       value: 
-      objectReference: {fileID: 8300000, guid: 62f500792d58afe4eb833718ab9e4b67, type: 3}
+      objectReference: {fileID: 8300000, guid: 79e7b1c860b5a43418d20b5985693a88, type: 3}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[4].objectiveStartLine
       value: 
-      objectReference: {fileID: 8300000, guid: 79e7b1c860b5a43418d20b5985693a88, type: 3}
+      objectReference: {fileID: 8300000, guid: 62f500792d58afe4eb833718ab9e4b67, type: 3}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[5].objectiveStartLine
       value: 
-      objectReference: {fileID: 8300000, guid: 05b9e2f9201cdcd4bb61dce2af390198, type: 3}
+      objectReference: {fileID: 8300000, guid: a076644d1413f2e40b588202a9b4f9ef, type: 3}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'badFinalStage.interactables.Array.data[0]'
       value: 
@@ -26335,6 +26334,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 797860871}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
+      propertyPath: stages.Array.data[0].interactables.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[1].interactables.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -26344,11 +26347,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[3].interactables.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[4].interactables.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[5].interactables.Array.size
@@ -26369,7 +26372,7 @@ PrefabInstance:
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[1].interactables.Array.data[1]'
       value: 
-      objectReference: {fileID: 71243097}
+      objectReference: {fileID: 792376362}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[2].interactables.Array.data[0]'
       value: 
@@ -26381,15 +26384,15 @@ PrefabInstance:
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[3].interactables.Array.data[0]'
       value: 
-      objectReference: {fileID: 1894371693}
+      objectReference: {fileID: 577088531}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[3].interactables.Array.data[1]'
       value: 
-      objectReference: {fileID: 583076483}
+      objectReference: {fileID: 71243097}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[4].interactables.Array.data[0]'
       value: 
-      objectReference: {fileID: 577088531}
+      objectReference: {fileID: 1894371693}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: 'stages.Array.data[4].interactables.Array.data[1]'
       value: 
@@ -38801,6 +38804,14 @@ PrefabInstance:
       value: Teddy Bear
       objectReference: {fileID: 0}
     - target: {fileID: 3724680491094398903, guid: 11e3913d959e87b40bdc459b9f4c2b05, type: 3}
+      propertyPath: badVoiceline
+      value: 
+      objectReference: {fileID: 8300000, guid: 96a63436e9221a746aada21afabadf42, type: 3}
+    - target: {fileID: 3724680491094398903, guid: 11e3913d959e87b40bdc459b9f4c2b05, type: 3}
+      propertyPath: goodVoiceline
+      value: 
+      objectReference: {fileID: 8300000, guid: aa41d0bbe04d02d448b11ffc68e69a0b, type: 3}
+    - target: {fileID: 3724680491094398903, guid: 11e3913d959e87b40bdc459b9f4c2b05, type: 3}
       propertyPath: negativeKarmaValue
       value: 5
       objectReference: {fileID: 0}
@@ -41188,7 +41199,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 7
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -41223,7 +41234,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
