@@ -7,8 +7,7 @@ public class VignetteEffect : MonoBehaviour
 {
     [Header("Vignette Effect Settings")]
     public float effectIntensity = 0.549f;
-    public float negEffectDuration = 1.35f;
-    public float posEffectDuraction = 2.3f;
+    public float effectDuration = 1.35f;
 
     private static readonly Color DefaultVignetteColor = Color.black;
     private const float DefaultVignetteIntensity = 0.105f;
@@ -23,12 +22,12 @@ public class VignetteEffect : MonoBehaviour
 
     public void PlayRedVignetteEffect()
     {
-        PlayVignetteEffect(Color.red, effectIntensity, negEffectDuration);
+        PlayVignetteEffect(Color.red, effectIntensity, effectDuration);
     }
 
     public void PlayBlueVignetteEffect()
     {
-        PlayVignetteEffect(Color.blue, effectIntensity, posEffectDuraction);
+        PlayVignetteEffect(Color.blue, effectIntensity, effectDuration);
     }
 
     public void PlayVignetteEffect(Color targetColor, float targetIntensity, float duration)

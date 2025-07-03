@@ -23,11 +23,10 @@ public class Interactable : MonoBehaviour
     public virtual bool SupportsPositiveInteraction => true;
     public virtual bool SupportsNegativeInteraction => true;
 
-
-    private void Start()
+    private void Awake()
     {
-        parentAI = FindFirstObjectByType<Enemy>();
         vignetteEffect = FindFirstObjectByType<VignetteEffect>();
+        parentAI = FindFirstObjectByType<Enemy>();
     }
 
 
