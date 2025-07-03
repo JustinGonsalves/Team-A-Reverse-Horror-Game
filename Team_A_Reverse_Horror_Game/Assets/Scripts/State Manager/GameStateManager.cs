@@ -10,11 +10,19 @@ public class GameStateManager : MonoBehaviour
     public void LoadScene()
     {
         //Access the scene manager to load a scene
-        SceneManager.LoadScene(sceneToLoad);
+        SceneManager.LoadScene(sceneToLoad, LoadSceneMode.Single);
 
-        //Locks the cursor so the player can take control of the character
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        if (sceneToLoad == "MainMenu")
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+        else
+        {
+            //Locks the cursor so the player can take control of the character
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
     }
 
     //Function to load a scene with a delay
