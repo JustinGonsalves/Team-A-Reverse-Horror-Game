@@ -56,7 +56,7 @@ public class InteractableBottle : Interactable
     {
         Bottle bottleScript = GetComponent<Bottle>();
 
-        if (collision.gameObject.CompareTag("Floor"))
+        if (collision.gameObject.CompareTag("WoodFloor"))
         {
             AudioSource.PlayClipAtPoint(smashAudio, transform.position);
             bottleScript.Explode();
