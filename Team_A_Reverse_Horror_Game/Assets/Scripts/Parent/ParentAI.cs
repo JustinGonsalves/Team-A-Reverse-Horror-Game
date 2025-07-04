@@ -190,7 +190,7 @@ public class Enemy : MonoBehaviour
 
         float distToStairs = Vector3.Distance(transform.position, stairWaypoint.position);
 
-        if (distToStairs < 1.5f)
+        if (distToStairs < 0.5f)
         {
             SetWalkingAnimation(false);
             timeSpentAtStairs += Time.deltaTime;
