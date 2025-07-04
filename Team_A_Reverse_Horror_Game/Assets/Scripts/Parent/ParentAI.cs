@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
     public EnemyState state;
 
     public List<Transform> waypoints;
-    private float sightRange = 10f;
+    private float sightRange = 5f;
     private float fovAngle = 140f;
     
     private int currentWaypoint = 0;
@@ -38,6 +38,11 @@ public class Enemy : MonoBehaviour
 
     private AudioSource audioSource;
     public AudioClip walkingClip;
+
+    private bool playerSpotted = false;
+    private float timeSinceSpotted = 0f;
+    private float gracePeriod = 1f; // 1 second delay
+    private bool gameOverTriggered = false;
 
     void Start()
     {
@@ -67,9 +72,31 @@ public class Enemy : MonoBehaviour
 
         PlayerInSight();
 
-        if (canSeePlayer == true)
+        if (canSeePlayer)
         {
+            if (!playerSpotted)
+            {
+                playerSpotted = true;
+                timeSinceSpotted = 0f;
+            }
+            else
+            {
+                timeSinceSpotted += Time.deltaTime;
+
+                if (timeSinceSpotted >= gracePeriod && !gameOverTriggered)
+                {
+                    gameOverTriggered = true;
+                    OnPlayerSpotted();
+                }
+            }
+
             return;
+        }
+        else
+        {
+            // Reset if player is no longer in sight
+            playerSpotted = false;
+            timeSinceSpotted = 0f;
         }
 
         if (standAtStairsTriggered)
@@ -156,31 +183,30 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public void TriggerPatrol()
-    {
-        Debug.Log("Patrol triggered. Restarting route.");
-        atWaypoint = false;
-        currentWaypoint = 0;
-    }
-
     public void StandAtStairs()
     {
         agent.SetDestination(stairWaypoint.position);
         atWaypoint = false;
 
-        SetWalkingAnimation(false);
-
         float distToStairs = Vector3.Distance(transform.position, stairWaypoint.position);
+
         if (distToStairs < 1.5f)
         {
+            SetWalkingAnimation(false);
             timeSpentAtStairs += Time.deltaTime;
+
             if (timeSpentAtStairs >= 10f)
             {
                 standAtStairsTriggered = false;
                 timeSpentAtStairs = 0f;
             }
         }
+        else
+        {
+            SetWalkingAnimation(true); // still walking toward the stairs
+        }
     }
+
 
     private void OnPlayerSpotted()
     {

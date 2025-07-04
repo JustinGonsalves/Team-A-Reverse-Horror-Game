@@ -16,7 +16,9 @@ public class CreakyFloorboards : MonoBehaviour
             {
                 Debug.Log("Stepped on CreakyFloor");
                 AudioSource.PlayClipAtPoint(creakSound, transform.position);
-                enemy.TriggerPatrol();
+
+                Debug.LogWarning("Calling StandAtStairs from Interactables.cs!");
+                enemy.standAtStairsTriggered = true;
             }
         }
     }
