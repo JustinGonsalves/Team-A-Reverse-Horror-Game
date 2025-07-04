@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 19456597}
   - component: {fileID: 19456599}
   - component: {fileID: 19456598}
+  - component: {fileID: 19456600}
   m_Layer: 0
   m_Name: Cutscenes
   m_TagString: Untagged
@@ -169,11 +170,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Events:
     m_Signals:
-    - {fileID: 0}
+    - {fileID: 11400000, guid: a5667aa9c05272d4883cf4d9b77deaca, type: 2}
     - {fileID: 11400000, guid: b1bdde114361d694abe71238b034ad31, type: 2}
     m_Events:
     - m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 19456600}
+          m_TargetAssemblyTypeName: GameStateManager, Assembly-CSharp
+          m_MethodName: EnableCursorForUI
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 19456599}
@@ -200,6 +213,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08d1339891f3cfb489c6319a24d58075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &19456600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19456596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 995263e63852fb945ade8e667969e087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: 
 --- !u!1 &261784379
 GameObject:
   m_ObjectHideFlags: 0
@@ -1386,6 +1412,8 @@ PlayableDirector:
     value: {fileID: 1543405655}
   - key: {fileID: -7820381944585620372, guid: ea23e0642c5b71148b1014f2b6e38dee, type: 2}
     value: {fileID: 1543405656}
+  - key: {fileID: 2582444302623032592, guid: ea23e0642c5b71148b1014f2b6e38dee, type: 2}
+    value: {fileID: 19456598}
   m_ExposedReferences:
     m_References:
     - a1b1439175b01c244a8704bddd2a363b: {fileID: 2088273474}
@@ -1559,6 +1587,10 @@ PrefabInstance:
     - target: {fileID: 1177415897912769693, guid: 56e9859020d9a3f4a993f15750edebc9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 3522078172197480573, guid: 56e9859020d9a3f4a993f15750edebc9, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4434631276730772348, guid: 56e9859020d9a3f4a993f15750edebc9, type: 3}
       propertyPath: m_Name

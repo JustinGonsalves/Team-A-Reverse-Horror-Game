@@ -22828,6 +22828,18 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: -3.51
       objectReference: {fileID: 0}
+    - target: {fileID: 5200540284507550895, guid: 193620401d561f24ab714e6517913572, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5200540284507550895, guid: 193620401d561f24ab714e6517913572, type: 3}
+      propertyPath: m_SpotAngle
+      value: 150.2693
+      objectReference: {fileID: 0}
+    - target: {fileID: 5200540284507550895, guid: 193620401d561f24ab714e6517913572, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 140.89064
+      objectReference: {fileID: 0}
     - target: {fileID: 5230010675538273988, guid: 193620401d561f24ab714e6517913572, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3896905

@@ -133,7 +133,6 @@ public class Enemy : MonoBehaviour
                 if (hit.transform.CompareTag("Player"))
                 {
                     canSeePlayer = true;
-                    OnPlayerSpotted();
                 }
 
             }
