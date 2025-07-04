@@ -41,7 +41,7 @@ public class Enemy : MonoBehaviour
 
     private bool playerSpotted = false;
     private float timeSinceSpotted = 0f;
-    private float gracePeriod = 1f; // 1 second delay
+    public float gracePeriod = 1f; // 1 second delay
     private bool gameOverTriggered = false;
 
     void Start()
