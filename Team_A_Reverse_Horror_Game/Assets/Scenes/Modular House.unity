@@ -5157,7 +5157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5261235882166334515, guid: 44af88ee9fc28e043adf0e6fb2befd88, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.79
+      value: 3.501
       objectReference: {fileID: 0}
     - target: {fileID: 5261235882166334515, guid: 44af88ee9fc28e043adf0e6fb2befd88, type: 3}
       propertyPath: m_LocalPosition.y
@@ -31705,9 +31705,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 607541165}
-  m_Father: {fileID: 596932836}
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -40842,6 +40841,7 @@ MonoBehaviour:
   gameOverMenu: {fileID: 1305054468}
   aiEnabled: 0
   walkingClip: {fileID: 8300000, guid: 41f37fa9c49e0ea41999677cc01d675a, type: 3}
+  gracePeriod: 2
 --- !u!82 &8992042013826868617
 AudioSource:
   m_ObjectHideFlags: 0
@@ -41153,3 +41153,4 @@ SceneRoots:
   - {fileID: 8921741365599633564}
   - {fileID: 737597889}
   - {fileID: 427018542}
+  - {fileID: 2117078462}
