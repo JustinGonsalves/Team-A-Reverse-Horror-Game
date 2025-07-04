@@ -25659,7 +25659,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 686775831f684e74d950fe74c3652c76, type: 3}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[0].objectiveReminder
-      value: Close the curtains or gurgle at the child
+      value: Gurgle at the child, or close the curtains
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[1].objectiveReminder
@@ -25671,15 +25671,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[3].objectiveReminder
-      value: Turn off the music box, or flip the cross
+      value: Turn off the music box, or flip their cross
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[4].objectiveReminder
-      value: Interact with the Teddy
+      value: Deal with the Teddy Bear
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[5].objectiveReminder
-      value: Smash the bottle, or tidy the kitchen
+      value: Smash the bottle, or tidy their kitchen
       objectReference: {fileID: 0}
     - target: {fileID: 3184691490555389813, guid: 7148eb564709f334986d4a5a80cd2ca4, type: 3}
       propertyPath: stages.Array.data[0].objectiveStartLine
